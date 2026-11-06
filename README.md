@@ -17,6 +17,14 @@ docker compose exec db sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SEL
 docker compose run --rm gdal ogrinfo --version
 ```
 
+## Carga del Marco Geoestadístico
+
+Descargar `25_sinaloa.zip` de la ficha del INEGI *Marco Geoestadístico, diciembre 2022* (UPC 889463770541) y dejarlo en `data/raw/` sin descomprimir. Luego:
+
+```sh
+./etl/cargar_marco.sh
+```
+
 ## Fuentes
 
 INEGI, Marco Geoestadístico 2022; IMPLAN Guasave, Cartografía de sindicaturas.
