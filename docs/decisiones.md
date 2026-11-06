@@ -65,3 +65,30 @@ Tamaño: 79,036,726 bytes. SHA-256: `57d4242eebb9366e70a6f34ee8e0f2e39eaeb686e1d
 **Hallazgo.** La tesis dice que 15 localidades rurales de Guasave rebasan su AGEB. El catálogo del INEGI `localidades_rurales_que_rebasan_AGEB.csv` del zip lista **19** para Guasave (claves de localidad 0043, 0085, 0095, 0106, 0107, 0111, 0115, 0120, 0168, 0251, 0281, 0291, 0358, 0370, 0480, 0605, 0714, 0912, 0963). Con un cruce geométrico entre `localidad` y `ageb_rural`, contando solo los polígonos que entran más de 1 m en una segunda AGEB, resultan **12**. Las 7 restantes del catálogo tocan una segunda AGEB con áreas de 0 a 181 m², dentro de la tolerancia de 1 m que advierte el INEGI.
 
 **Pendiente.** Confirmar con el autor de la tesis de dónde sale la cifra de 15. No afecta la metodología: la regla 3 obtiene el AGEB por cruce espacial y nunca de los atributos de la localidad.
+
+## 2026-11-05 — Transcripción de las tablas del IMPLAN
+
+**Decisión.** `data/manual/implan_localidades.csv` se genera con `etl/transcribir_implan.py` a partir de `data/manual/implan/implan/*.txt`, en lugar de capturarlo a mano. Los PDF del IMPLAN son de texto (generados con Word), y los TXT son idénticos byte a byte a la salida de `pdftotext -layout` de cada PDF (comprobado con `diff`).
+- Por cada unidad, el script compara la suma de habitantes con el total impreso en la tabla y falla si no cuadra o si hay líneas que no puede leer.
+- Dos celdas ocupan dos líneas en el PDF y se completan en el script, en el diccionario `CORRECCIONES` (verificadas con `pdftotext -raw`): Benito Juárez fila 1 (rango "Sindicatura y Comisaría") y San Rafael fila 1 (nombre "San Rafael (General Miguel Valle Dávalos)").
+- Además de las columnas del plan (`unidad`, `localidad`, `rango`, `poblacion`), se agrega `num_implan`, el número de fila del original, para poder revisar la transcripción contra el PDF.
+- Los nombres de localidad se conservan tal cual aparecen en el IMPLAN, incluidos "Ninguno [...]" y los nombres repetidos.
+
+**Resultado.** 548 localidades en 13 unidades; las 13 sumas cuadran con los totales impresos (289,370 habitantes en total). Bamoa: 18 localidades y 7,963 habitantes, como dice la tesis. La numeración original salta algunos números (Alcaldía Central: 30 y 34; Bamoa: 12; El Burrión: 9; San Rafael: 16). Como los totales cuadran sin esas filas, se interpretan como saltos de numeración en el original, no como filas perdidas.
+
+**Alternativa descartada.** Captura manual: no es reproducible y es más propensa a errores.
+
+## 2026-11-05 — Emparejamiento IMPLAN–INEGI
+
+**Decisión.** `etl/emparejar_implan.py`:
+- Normalización solo para comparar: minúsculas, sin acentos, puntuación convertida en espacios y sin el prefijo "Ejido".
+- Orden: coincidencia exacta normalizada en `l` de Guasave → exacta en `lpr` de Guasave → aproximada contra `l` + `lpr`.
+- Coincidencia aproximada con `difflib.SequenceMatcher` (biblioteca estándar de Python), con puntaje de 0 a 100. **Umbral: 80.** Los casos aproximados no se aceptan solos: todos van a `revision_emparejamiento.csv` con sus 3 mejores candidatos.
+- También van a revisión los nombres con más de un candidato exacto y las claves del INEGI que quedarían asignadas a dos o más filas del IMPLAN.
+- Para facilitar la revisión, cada candidato lleva su distancia en km a la cabecera de la unidad (la fila 1 del IMPLAN, si se emparejó exactamente).
+
+**Motivo.** El plan propone `rapidfuzz` como ejemplo; no está instalado y `difflib` resuelve lo mismo sin agregar una dependencia. El umbral solo decide si se propone un candidato; la decisión final es manual.
+
+**Alternativa descartada.** `rapidfuzz` (agregaría una dependencia); aceptar automáticamente las coincidencias aproximadas por encima del umbral.
+
+**Prueba de control (Bamoa).** La tesis dice que 10 de 18 coinciden por nombre exacto con la capa `l`. Resultado: 9 nombres de Bamoa tienen coincidencia exacta en `l`, de los cuales 7 quedan resueltos y 2 van a revisión (Choipa aparece también en La Trinidad; "Chino de los López" choca con "Ejido Chino de los López" al quitar el prefijo). Las otras 9 están en `lpr`. Las 18 localidades de Bamoa corresponden a 10 claves de `l` solo si se cuentan las dos variantes de Chino de los López (250110111 y 250110112). No se ajustó nada para llegar a 10; pendiente de confirmar con la tesis.
