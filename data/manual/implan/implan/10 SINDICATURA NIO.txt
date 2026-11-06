@@ -1,0 +1,40 @@
+                                             SINDICATURA DE NÍO
+                                                                                             NÚMERO DE
+                      LOCALIDAD                   RANGO                 PLANO
+                                                                                             HABITANTES
+1    Nío                                        Sindicatura           CATASTRAL                     2,848
+2    Caimanero                                  Comisaría          IMAGEN SATELITAL                 1,545
+3    El Cuitabón                                Comunidad          IMAGEN SATELITAL                  575
+4    Las Palmitas                               Comunidad          IMAGEN SATELITAL                  128
+5    Ladrilleras de Ocoro                       Comunidad          IMAGEN SATELITAL                 1,498
+6    Las Juntitas de Valdez                     Comunidad          IMAGEN SATELITAL                  491
+7    Ranchito de Caimanero (El infiernito)      Comunidad          IMAGEN SATELITAL                  203
+8    Gambino                                    Comisaría          IMAGEN SATELITAL                 1,090
+9    Ejido Chino de los Lopéz                   Comunidad          IMAGEN SATELITAL                  366
+10   Pueblo Viejo                               Comisaría          IMAGEN SATELITAL                 1,609
+11   Ranchito de Castro                         Comunidad          IMAGEN SATELITAL                 1,241
+12   Plan del Río                               Comunidad          IMAGEN SATELITAL                  561
+13   La Pelti                                   Comunidad          IMAGEN SATELITAL                   81
+14   Cabreritas                                 Comunidad          IMAGEN SATELITAL                   50
+15   San Sebastián Número Dos                   Comunidad          IMAGEN SATELITAL                  669
+16   El Varal (San Sebastián Número 1)          Comisaría     CATASTRAL E IMAGEN SATELITAL          2,684
+17   Las Choyitas                               Comunidad          IMAGEN SATELITAL                   50
+18   Caimanero                                  Comunidad          IMAGEN SATELITAL                   11
+19   La Cuchilla                                Comunidad          IMAGEN SATELITAL                   69
+20   Las Playitas                               Comunidad          IMAGEN SATELITAL                  126
+21   Ninguno [Antonio Castro]                   Comunidad          IMAGEN SATELITAL                       3
+22   Ninguno [Jesús Melendrez Castro]           Comunidad          IMAGEN SATELITAL                       2
+23   El Arroyo                                  Comunidad          IMAGEN SATELITAL                   31
+24   El Cercón                                  Comunidad          IMAGEN SATELITAL                       8
+25   Lázaro Cárdenas del Río                    Comunidad          IMAGEN SATELITAL                   51
+26   Rancho JM                                  Comunidad          IMAGEN SATELITAL                       1
+27   Las Higueritas                             Comunidad          IMAGEN SATELITAL                       9
+28   Ninguno [Los García]                       Comunidad          IMAGEN SATELITAL                   48
+29   Ninguno [María Luz Gerardo]                Comunidad          IMAGEN SATELITAL                   13
+30   Ninguno [Erasmo Dagnino Báez]              Comunidad          IMAGEN SATELITAL                       3
+31   Ninguno [Rosario Barajas García]           Comunidad          IMAGEN SATELITAL                       5
+32   Ninguno [Froilán Espinoza Cruz]            Comunidad          IMAGEN SATELITAL                       2
+33   El Choyal                                  Comunidad          IMAGEN SATELITAL                       5
+34   Ganaderos del Río                          Comunidad          IMAGEN SATELITAL                       2
+                                                                                                  16,078
+

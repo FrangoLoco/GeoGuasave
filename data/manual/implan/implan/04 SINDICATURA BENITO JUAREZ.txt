@@ -1,0 +1,80 @@
+                                   SINDICATURA DE BENITO JUÁREZ
+                                                                                         NÚMERO DE
+                    LOCALIDAD                RANGO                   PLANO               HABITANTES
+                                          Sindicatura y
+ 1 Gabriel Leyva Solano (Benito Juárez)                   CATASTRAL E IMAGEN SATELITAL          25,157
+                                           Comisaría
+ 2 Ejido Figueroa                         Comunidad            IMAGEN SATELITAL                   929
+ 3 24 De Febrero                          Comunidad            IMAGEN SATELITAL                  1,698
+ 4 El Huitussi                             Comisaría           IMAGEN SATELITAL                  1,988
+ 5 El Caracol                             Comunidad            IMAGEN SATELITAL                   902
+ 6 El Coloradito                          Comunidad            IMAGEN SATELITAL                   371
+ 7 General Emiliano Zapata                Comunidad            IMAGEN SATELITAL                       82
+ 8 Los Hornos Número 2                    Comunidad            IMAGEN SATELITAL                   278
+ 9 Ejido Callejón de Tamazula             Comunidad            IMAGEN SATELITAL                   291
+10 San Fernando                            Comisaría           IMAGEN SATELITAL                   739
+11 Roberto Barrios                        Comunidad            IMAGEN SATELITAL                   601
+12 Flor de Mayo                           Comunidad            IMAGEN SATELITAL                   293
+13 San Juan                               Comunidad            IMAGEN SATELITAL                        3
+14 Los Laureles                           Comunidad            IMAGEN SATELITAL                        7
+15 Mendivil                               Comunidad            IMAGEN SATELITAL                       12
+16 La Entrada Vieja                       Comunidad            IMAGEN SATELITAL                   283
+17 Cinco de mayo (Agua Blanca)            Comunidad            IMAGEN SATELITAL                   557
+18 Cuatro Milpas                          Comunidad            IMAGEN SATELITAL                        4
+19 Ejido Chorohui                         Comunidad            IMAGEN SATELITAL                       72
+20 Ejido la Entrada (El Poblado)          Comunidad            IMAGEN SATELITAL                   905
+21 Las Isabeles                           Comunidad            IMAGEN SATELITAL                        5
+22 Las Parritas                           Comunidad            IMAGEN SATELITAL                   734
+23 Agrícola Valle Grande                  Comunidad            IMAGEN SATELITAL                        3
+24 Campo el Vergel                        Comunidad            IMAGEN SATELITAL                        4
+25 Los Arbolitos                          Comunidad            IMAGEN SATELITAL                     1
+26 Santa Cruz                             Comunidad            IMAGEN SATELITAL                     3
+27 La Once                                Comunidad            IMAGEN SATELITAL                     2
+28 Casas Grandes                          Comunidad            IMAGEN SATELITAL                     2
+29 Ninguno [Alejandro Chávez]             Comunidad            IMAGEN SATELITAL                     3
+30 Campo Figueroa                         Comunidad            IMAGEN SATELITAL                    14
+31 Campo Gastélum                         Comunidad            IMAGEN SATELITAL                     2
+32 Las Bugambilias                        Comunidad            IMAGEN SATELITAL                     3
+33 Campo la Pizarra                       Comunidad            IMAGEN SATELITAL                     2
+34 Sacramento                             Comunidad            IMAGEN SATELITAL                     7
+35 Campo Santa Martha                     Comunidad            IMAGEN SATELITAL                     1
+36 22-15 [Campo Pesquero]                 Comunidad            IMAGEN SATELITAL                   125
+37 Ninguno [Radaméz Bórquez]              Comunidad            IMAGEN SATELITAL                     2
+38 El Quelele                              Comunidad   IMAGEN SATELITAL        6
+39 El Yaqui                                Comunidad   IMAGEN SATELITAL        4
+40 Campo Tololo                            Comunidad   IMAGEN SATELITAL        1
+41 La Diecisiete                           Comunidad   IMAGEN SATELITAL        8
+42 Campo la Palma                          Comunidad   IMAGEN SATELITAL        4
+43 El Khalil [Villa]                       Comunidad   IMAGEN SATELITAL        1
+44 Campo Japonés [Campo Diecisiete]        Comunidad   IMAGEN SATELITAL        1
+45 Ninguno [Empaque Agrícola Alex]         Comunidad   IMAGEN SATELITAL       12
+46 Ninguno [Humberto Escalante]            Comunidad   IMAGEN SATELITAL        1
+47 El Sifón                                Comunidad   IMAGEN SATELITAL        4
+48 Ninguno [Juan Domínguez]                Comunidad   IMAGEN SATELITAL        2
+49 Ninguno                                 Comunidad   IMAGEN SATELITAL        1
+50 La Coyotera                             Comunidad   IMAGEN SATELITAL        1
+51 La Treinta                              Comunidad   IMAGEN SATELITAL        4
+52 Ninguno [Hugo Carrillo]                 Comunidad   IMAGEN SATELITAL        4
+53 Ninguno                                 Comunidad   IMAGEN SATELITAL        2
+54 Diluguía [Agrícola]                     Comunidad   IMAGEN SATELITAL        2
+55 Campo la Once                           Comunidad   IMAGEN SATELITAL        3
+56 Chipotles Brunos                        Comunidad   IMAGEN SATELITAL        3
+57 El Milagro                              Comunidad   IMAGEN SATELITAL        1
+58 Ninguno [Ramón Castro]                  Comunidad   IMAGEN SATELITAL        2
+59 Villa San José [La Costeña]             Comunidad   IMAGEN SATELITAL    1,194
+60 Ninguno [Cornelio Leyva]                Comunidad   IMAGEN SATELITAL        1
+61 Ninguno [Campo de Anda Mata]            Comunidad   IMAGEN SATELITAL        4
+62 Ninguno [José Alberto Urías Peñuelas]   Comunidad   IMAGEN SATELITAL        3
+63 Ninguno [Juan Rodríguez]                Comunidad   IMAGEN SATELITAL        2
+64 Rancho Nuevo                            Comunidad   IMAGEN SATELITAL        8
+65 Ninguno                                 Comunidad   IMAGEN SATELITAL        2
+66 Ninguno [Fernando Urías]                Comunidad   IMAGEN SATELITAL        3
+67 El Bombeo                               Comunidad   IMAGEN SATELITAL        6
+68 Ninguno [Prajedes]                      Comunidad   IMAGEN SATELITAL        7
+69 Ninguno [Guadalupe Aguilar Quintero]    Comunidad   IMAGEN SATELITAL        5
+70 Ninguno [Los Félix]                     Comunidad   IMAGEN SATELITAL        3
+71 Santa Elena                             Comunidad   IMAGEN SATELITAL        5
+72 Ninguno [José Abraham Lichter]          Comunidad   IMAGEN SATELITAL        1
+73 Agrícola Franjamín                      Comunidad   IMAGEN SATELITAL        2
+                                                                          37,398
+

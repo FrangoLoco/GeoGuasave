@@ -1,0 +1,23 @@
+                                   SINDICATURA DE BAMOA
+                                                                                 NÚMERO DE
+                  LOCALIDAD           RANGO                 PLANO                HABITANTES
+1    Bamoa                          Sindicatura      CATASTRAL E I.SATELIT.             2,926
+2    Ranchito de Zavala              Comunidad         IMAGEN SATELITAL                  724
+3    Orba (Infiernito)               Comisaría    CATASTRAL E IMAGEN SATELITAL          1,332
+4    Cruz Blanca                     Comisaría         IMAGEN SATELITAL                  981
+5    Choipa                          Comisaría         IMAGEN SATELITAL                  420
+6    Norotillos                      Comunidad         IMAGEN SATELITAL                  699
+7    Tahuilana (El Chorizo)          Comunidad         IMAGEN SATELITAL                   66
+8    Herculano de la Rocha           Comunidad         IMAGEN SATELITAL                  534
+9    Norotío (El Gato)               Comunidad         IMAGEN SATELITAL                  184
+10   La Abundancia                   Comunidad         IMAGEN SATELITAL                       3
+11   Los Gavilanes                   Comunidad         IMAGEN SATELITAL                       4
+13   San Paulo [Empaque]             Comunidad         IMAGEN SATELITAL                       4
+14   Los Tejones                     Comunidad         IMAGEN SATELITAL                       4
+15   Crucero de Bamoa                Comunidad         IMAGEN SATELITAL                   56
+16   Chino de los López              Comunidad         IMAGEN SATELITAL                       5
+17   Ninguno [Ramón Flores Piña]     Comunidad         IMAGEN SATELITAL                       7
+18   San Martín                      Comunidad         IMAGEN SATELITAL                   12
+19   Empaque Contreras               Comunidad         IMAGEN SATELITAL                       2
+                                                                                       7,963
+

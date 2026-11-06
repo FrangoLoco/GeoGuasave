@@ -1,0 +1,43 @@
+                                   SINDICATURA DE JUAN JOSÉ RÍOS
+                  LOCALIDAD                    RANGO            PLANO           NÚMERO DE
+                                                                                HABITANTES
+1    Juan José Ríos                          Sindicatura   CATASTRAL E I.SAT.         22,421
+2    Bachoco                                 Comisaría     CATASTRAL E I.SAT.          3,103
+3    Guayparime                              Comunidad     IMAGEN SATELITAL              105
+4    Babujaqui                               Comunidad     IMAGEN SATELITAL              176
+5    Campo Sabas (Cadena)                    Comunidad     IMAGEN SATELITAL                   5
+6    Ejido Campo Treinta y ocho              Comisaría     IMAGEN SATELITAL              244
+7    Héroes Mexicanos                        Comunidad     IMAGEN SATELITAL              542
+8    Campo 38 (treinta y ochito)             Comunidad     IMAGEN SATELITAL              335
+9    Santa Veneranda Núm. 2                  Comunidad     IMAGEN SATELITAL                   4
+10 Campo Las Margaritas                      Comunidad     IMAGEN SATELITAL                   3
+11 Los Juncos (La Huerta)                    Comunidad     IMAGEN SATELITAL                   9
+12 Canal Alto 1                              Comunidad     IMAGEN SATELITAL                   5
+13 Canal Alto 2                              Comunidad     IMAGEN SATELITAL                  22
+14 San Gabriel                               Comunidad     IMAGEN SATELITAL                   2
+15 Los Juncos                                Comunidad     IMAGEN SATELITAL                   2
+16 Ninguno [Los González]                    Comunidad     IMAGEN SATELITAL                   2
+17 El Rocío                                  Comunidad     IMAGEN SATELITAL                   2
+18 Agroproductores Cadena                    Comunidad     IMAGEN SATELITAL                   1
+19   Rancho de los Ortega                    Comunidad     IMAGEN SATELITAL                   5
+20   Sergio León [Campo]                     Comunidad     IMAGEN SATELITAL                   1
+21   La Trescientos                          Comunidad     IMAGEN SATELITAL                   1
+22   Vihnos                                  Comunidad     IMAGEN SATELITAL                   2
+23   Campo Murrieta                          Comunidad     IMAGEN SATELITAL                   3
+24   Las Margaritas Dos                      Comunidad     IMAGEN SATELITAL                  21
+25   Campos las Palmas                       Comunidad     IMAGEN SATELITAL                   1
+26   Rufino Félix [Campo]                    Comunidad     IMAGEN SATELITAL                   6
+27   Ninguno                                 Comunidad     IMAGEN SATELITAL                   4
+28   Kilómetro 45                            Comunidad     IMAGEN SATELITAL                   5
+29   Ninguno [Agrícola]                      Comunidad     IMAGEN SATELITAL                   3
+30   Cota y Cota                             Comunidad     IMAGEN SATELITAL                   2
+31   El Aparecido                            Comunidad     IMAGEN SATELITAL                   6
+32   Bugambilias                             Comunidad     IMAGEN SATELITAL                   3
+33 Ninguno                                   Comunidad     IMAGEN SATELITAL                   1
+34 Casal                                     Comunidad     IMAGEN SATELITAL                   2
+35   San Judas                          Comunidad   IMAGEN SATELITAL        3
+36   Ninguno [Epitacio Vences Guzmán]   Comunidad   IMAGEN SATELITAL        6
+37   Ninguno                            Comunidad   IMAGEN SATELITAL        4
+38   Ninguno                            Comunidad   IMAGEN SATELITAL        2
+                                                                       27,064
+

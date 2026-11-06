@@ -1,0 +1,35 @@
+                             SINDICATURA DE ADOLFO RUIZ CORTINES
+                                                                                 NÚMERO DE
+                    LOCALIDAD              RANGO               PLANO             HABITANTES
+1    Adolfo Ruiz Cortines                Sindicatura   CATASTRAL E I.SATELITAL         14,623
+2    Ejido El Campesino                  Comunidad       IMAGEN SATELITAL                 877
+3    Cerro Cabezón                        Comisaría    CATASTRAL E I.SATELITAL          2,734
+4    Ejido Miguel Alemán                  Comisaría    CATASTRAL E I.SATELITAL            689
+5    Ejido Jesús María                   Comunidad     CATASTRAL E I.SATELITAL            282
+6    Ejido Corerepe                       Comisaría    CATASTRAL E I.SATELITAL          3,461
+7    Ejido Miguel Hidalgo                Comunidad       IMAGEN SATELITAL                 302
+8    Ejido el Huitussito                 Comunidad       IMAGEN SATELITAL                 872
+9    Corerepe (Huerta)                   Comunidad       IMAGEN SATELITAL                      4
+10   Ninguno [Empresa Longoria]          Comunidad       IMAGEN SATELITAL                      3
+11   El Paraíso                          Comunidad       IMAGEN SATELITAL                      1
+12   El Mixteco [Agrícola]               Comunidad       IMAGEN SATELITAL                      4
+13   Getsemaní                           Comunidad       IMAGEN SATELITAL                      5
+14   Campo Álamos                        Comunidad       IMAGEN SATELITAL                      3
+15   Campo Torres                        Comunidad       IMAGEN SATELITAL                      2
+16   El Rosario                          Comunidad       IMAGEN SATELITAL                      3
+17   San Cristóbal                       Comunidad       IMAGEN SATELITAL                      2
+18   Santa Elena                         Comunidad       IMAGEN SATELITAL                      2
+19   El Girasol                          Comunidad       IMAGEN SATELITAL                      5
+20   Campo Don Emilio                    Comunidad       IMAGEN SATELITAL                      5
+21   Valle del Fuerte [Algodonera]       Comunidad       IMAGEN SATELITAL                      5
+22   Serrano                             Comunidad       IMAGEN SATELITAL                      5
+23   Adriana                             Comunidad       IMAGEN SATELITAL                      5
+24   Cadena                              Comunidad       IMAGEN SATELITAL                      4
+25   El Paraíso (La Chirimilla)          Comunidad       IMAGEN SATELITAL                     24
+26   Ninguno [Aerofumigaciones Valdez]   Comunidad       IMAGEN SATELITAL                      1
+27   Terranova                           Comunidad       IMAGEN SATELITAL                      2
+28   La Chilera                          Comunidad       IMAGEN SATELITAL                      1
+29   SEMATE [Granja Bovina]              Comunidad       IMAGEN SATELITAL                      1
+30   Ranchito las Palmas                 Comunidad       IMAGEN SATELITAL                      3
+                                                                                       23,930
+

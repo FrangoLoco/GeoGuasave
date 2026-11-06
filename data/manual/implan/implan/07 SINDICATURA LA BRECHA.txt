@@ -1,0 +1,24 @@
+                                       SINDICATURA DE LA BRECHA
+                                                                                          NÚMERO DE
+                    LOCALIDAD                  RANGO                 PLANO                HABITANTES
+1    La Brecha                               Sindicatura   CATASTRAL E IMAGEN SATELITAL          1,892
+2    San José de la Brecha                   Comunidad          IMAGEN SATELITAL                  880
+3    El Perihuete                            Comunidad          IMAGEN SATELITAL                       4
+4    Casa Blanca                              Comisaría         IMAGEN SATELITAL                 1,448
+5    Callejones de Tamazula                  Comunidad          IMAGEN SATELITAL                  661
+
+6    Las Colonias (Colonia Ángel Flores)      Comisaría         IMAGEN SATELITAL                  516
+7    Valle de Huyaqui (Los Solares)           Comisaría         IMAGEN SATELITAL                  208
+8    San Pascual                             Comunidad          IMAGEN SATELITAL                   97
+9    Los Ciruelos                            Comunidad          IMAGEN SATELITAL                       1
+10   Las Playas (La Palma)                   Comunidad          IMAGEN SATELITAL                  528
+11   El Bacatete (San Pascual)               Comunidad          IMAGEN SATELITAL                   24
+12   La Rosa Morada                          Comunidad          IMAGEN SATELITAL                    2
+13   Buenos Aires                            Comunidad          IMAGEN SATELITAL                    3
+14   Campo Cuba                              Comunidad          IMAGEN SATELITAL                    3
+15   Pochotíos                               Comunidad          IMAGEN SATELITAL                    7
+16   Campo Inzunza Romero                    Comunidad          IMAGEN SATELITAL                    4
+17   La Otra Banda                           Comunidad          IMAGEN SATELITAL                    7
+18   Rancho la Palapa                        Comunidad          IMAGEN SATELITAL                    9
+                                                                                                6,294
+

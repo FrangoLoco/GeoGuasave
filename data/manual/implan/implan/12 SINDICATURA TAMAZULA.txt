@@ -1,0 +1,73 @@
+                                            SINDICATURA DE TAMAZULA
+                                                                                       NÚMERO DE
+                          LOCALIDAD                   RANGO            PLANO           HABITANTES
+1    Tamazula                                       Sindicatura   CATASTRAL E I.SAT.          3,029
+2    Santa Elena                                     Comunidad    IMAGEN SATELITAL                  24
+3    Las Pilas                                       Comunidad    IMAGEN SATELITAL              162
+4    El Amole                                        Comisaría    IMAGEN SATELITAL              569
+5    Tres de Mayo (Nombre Feo)                       Comunidad    IMAGEN SATELITAL              220
+6    Cubiri (del Amole)                              Comunidad    IMAGEN SATELITAL              479
+7    El Carrizal                                     Comunidad    IMAGEN SATELITAL                  28
+8    Río Viejo                                       Comunidad    IMAGEN SATELITAL              198
+9    El Realito (El Realito del Amole)               Comunidad    IMAGEN SATELITAL                  34
+10   Buenavista                                      Comisaría    IMAGEN SATELITAL              862
+11   Palos Verdes                                    Comisaría    IMAGEN SATELITAL            1,337
+12   El Papachal                                     Comunidad    IMAGEN SATELITAL              234
+13   Las Higueras (Las Flores)                       Comunidad    IMAGEN SATELITAL              328
+14   El Alto                                         Comunidad    IMAGEN SATELITAL              107
+15   Campo Santa Rosa                                Comunidad    IMAGEN SATELITAL                   3
+16   Las Cañadas Número Uno                          Comunidad    IMAGEN SATELITAL              528
+17   Las Cañadas Viejas                              Comunidad    IMAGEN SATELITAL                  36
+18   Las Culebras                                    Comunidad    IMAGEN SATELITAL              547
+19   Las Flores                                      Comunidad    IMAGEN SATELITAL              273
+20   Carricitos                                      Comunidad    IMAGEN SATELITAL              256
+21   Alamito Caimanero                               Comunidad    IMAGEN SATELITAL              274
+22   Boca del Río                                    Comunidad    IMAGEN SATELITAL              563
+23   Las Glorias                                     Comunidad    IMAGEN SATELITAL                  35
+24   La Pitahaya                                     Comunidad    IMAGEN SATELITAL                  58
+25   Bacatuquira                                     Comunidad    IMAGEN SATELITAL                   5
+26   Campo Berrelleza                                Comunidad    IMAGEN SATELITAL                  16
+27   Rosales                                         Comunidad    IMAGEN SATELITAL                   8
+28   El Progreso                                     Comisaría    IMAGEN SATELITAL            1,087
+29   Las Cañadas Número Dos                          Comunidad    IMAGEN SATELITAL              205
+30   Cubilete Número Dos                             Comunidad    IMAGEN SATELITAL              436
+31   Maximiliano R. López (El Pochote)               Comunidad    IMAGEN SATELITAL              427
+32   Tierra Y Libertad                               Comunidad    IMAGEN SATELITAL              193
+33   Tamazula III                                    Comunidad    IMAGEN SATELITAL                   5
+34   El Crucero                                      Comunidad    IMAGEN SATELITAL              197
+35   El Sacrificio                                   Comisaría    IMAGEN SATELITAL              793
+36   El Tortugo                                      Comunidad    IMAGEN SATELITAL              420
+37   El Cubilete (El Cubilete Número Uno)            Comisaría    IMAGEN SATELITAL            2,625
+38   Campo Jito                                      Comunidad    IMAGEN SATELITAL                  40
+39   El Marcol                                       Comunidad    IMAGEN SATELITAL            1,211
+40   Torihuia                                        Comunidad    IMAGEN SATELITAL                  49
+41   Dorado Número 3 (Doradito)                      Comunidad    IMAGEN SATELITAL              161
+42   La Bebelama                                     Comunidad    IMAGEN SATELITAL              775
+43   La Isleta                                       Comunidad    IMAGEN SATELITAL                  28
+44   Buen Retiro (El Retiro)                         Comunidad    IMAGEN SATELITAL            1,404
+45   Campo Treinta y Uno                             Comunidad    IMAGEN SATELITAL                   4
+46   La Gloria                                       Comunidad    IMAGEN SATELITAL                   2
+47   El Choyal                                       Comunidad    IMAGEN SATELITAL                  17
+48   Campo California                     Comunidad   IMAGEN SATELITAL       6
+49   Campo Chamony                        Comunidad   IMAGEN SATELITAL       4
+50   El Dorado Número Dos                 Comunidad   IMAGEN SATELITAL     162
+51   El Guayabo                           Comunidad   IMAGEN SATELITAL       8
+52   La Higuerita                         Comunidad   IMAGEN SATELITAL       3
+53   Rancho Victoria                      Comunidad   IMAGEN SATELITAL       1
+54   Las Cachanillas [Agrícola]           Comunidad   IMAGEN SATELITAL       4
+55   Campo Zazueta (Campo las Palmas)     Comunidad   IMAGEN SATELITAL       1
+56   Casa María                           Comunidad   IMAGEN SATELITAL       3
+57   El Ranchito                          Comunidad   IMAGEN SATELITAL       5
+58   La Covadonga                         Comunidad   IMAGEN SATELITAL       2
+59   Las Huertas                          Comunidad   IMAGEN SATELITAL      25
+60   Ninguno [Con Bilichi]                Comunidad   IMAGEN SATELITAL       1
+61   El Soto de los López                 Comunidad   IMAGEN SATELITAL       2
+62   Rancho la Primavera                  Comunidad   IMAGEN SATELITAL       3
+63   Vicente Godinez                      Comunidad   IMAGEN SATELITAL       4
+64   Rancho el Palomo                     Comunidad   IMAGEN SATELITAL       2
+65   Doña Barbara                         Comunidad   IMAGEN SATELITAL       4
+66   Ninguno [Eleazar Zamora Domínguez]   Comunidad   IMAGEN SATELITAL       2
+67   La Guazarca [Rancho]                 Comunidad   IMAGEN SATELITAL       13
+68   Cuatro Hermanos                      Comunidad   IMAGEN SATELITAL       11
+                                                                         20,558
+

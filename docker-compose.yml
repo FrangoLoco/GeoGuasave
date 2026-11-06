@@ -1,0 +1,29 @@
+services:
+  db:
+    # PostgreSQL 17.5 + PostGIS 3.5.2, fijada por digest (ver docs/decisiones.md).
+    image: postgis/postgis:17-3.5@sha256:01a6a70e41e6c4467c8f55f6063555ed72db2d6662cd0d571040d42eadaeb6f6
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:?falta POSTGRES_DB en .env}
+      POSTGRES_USER: ${POSTGRES_USER:?falta POSTGRES_USER en .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?falta POSTGRES_PASSWORD en .env}
+    ports:
+      - "127.0.0.1:${DB_PORT:-5432}:5432"
+    volumes:
+      - db_datos:/var/lib/postgresql/data
+      # Reemplaza el init de la imagen: solo se crean las extensiones que usamos.
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      retries: 10
+
+  gdal:
+    # GDAL 3.10.3, fijada por digest. Solo herramientas: docker compose run --rm gdal <comando>
+    image: ghcr.io/osgeo/gdal:ubuntu-small-3.10.3@sha256:dab45abca3ca83695d442018692f4f8a0f41955871c57e6101d7f89a92375caa
+    profiles: ["herramientas"]
+    volumes:
+      - ./data:/data
+    working_dir: /data
+
+volumes:
+  db_datos:

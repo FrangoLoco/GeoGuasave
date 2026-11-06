@@ -1,0 +1,23 @@
+                               SINDICATURA DE LEÓN FONSECA
+                                                                            NÚMERO DE
+                   LOCALIDAD               RANGO            PLANO
+                                                                            HABITANTES
+1    León Fonseca (Estación Verdura)     Sindicatura   CATASTRAL E I.SAT.          2,874
+2    La Palmita                          Comunidad     IMAGEN SATELITAL             126
+3    El tanque                           Comunidad     IMAGEN SATELITAL              41
+4    El Vallado                          Comunidad     IMAGEN SATELITAL              11
+5    Portugues de Gálvez                 Comisaría     CATASTRAL E I.SAT.          1,894
+6    Las Moritas                         Comunidad     IMAGEN SATELITAL             261
+7    La Aceituna                         Comunidad     IMAGEN SATELITAL              10
+8    El Ninguno                          Comunidad     IMAGEN SATELITAL                  8
+9    El Sabino                           Comisaría     IMAGEN SATELITAL            1,364
+10   Carboneras                          Comunidad     IMAGEN SATELITAL             848
+11   El Zopilote                         Comisaría     IMAGEN SATELITAL             726
+12   Las Pilas                           Comunidad     IMAGEN SATELITAL              51
+13   La Huerta                           Comunidad     IMAGEN SATELITAL                  1
+14   Los Mangos                          Comunidad     IMAGEN SATELITAL                  1
+15   Florencio Angulo                    Comunidad     IMAGEN SATELITAL                  4
+16   Campo Valdéz                        Comunidad     IMAGEN SATELITAL                  2
+17   Ninguno [Gloria Carlón]             Comunidad     IMAGEN SATELITAL                  5
+                                                                                   8,227
+

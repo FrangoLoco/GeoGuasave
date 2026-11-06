@@ -1,0 +1,75 @@
+                                          SINDICATURA DE EL BURRIÓN
+                                                                                           NÚMERO DE
+                       LOCALIDAD              RANGO                   PLANO                HABITANTES
+1    El Burrión                             Sindicatura     CATASTRAL E IMAGEN SATELITAL          4,042
+2    La Cuestona                            Comisaría            IMAGEN SATELITAL                  356
+3    La Uva                                 Comunidad            IMAGEN SATELITAL                  228
+4    Chino de los López                     Comunidad            IMAGEN SATELITAL                  273
+5    Cofradia de Tamazula (La Cofradía)     Comunidad            IMAGEN SATELITAL                  936
+6    Las Pitahayitas                        Comunidad            IMAGEN SATELITAL                  273
+7    Cuesta de Arriba                       Comunidad            IMAGEN SATELITAL                  439
+8    La Mojonera                            Comunidad            IMAGEN SATELITAL                   29
+10   Guasavito                              Comisaría            IMAGEN SATELITAL                 1,697
+11   Las Crucecitas                         Comunidad            IMAGEN SATELITAL                  676
+12   Callejones de Guasavito                Comunidad       CATASTRAL E IMAGEN SATELITAL          2,983
+13   El Chinal                              Comunidad            IMAGEN SATELITAL                   15
+14   El Toro                                Comunidad            IMAGEN SATELITAL                       3
+15   Las Joyitas                            Comunidad            IMAGEN SATELITAL                   19
+16   San Pedro Paredes                      Comunidad            IMAGEN SATELITAL                  884
+17   El Colorado                            Comunidad            IMAGEN SATELITAL                   82
+18   Javier Rojo Gómez                      Comisaría            IMAGEN SATELITAL                 1,496
+19   Las Cruces                             Comunidad            IMAGEN SATELITAL                  100
+20   Cuatro Caminos                         Comunidad            IMAGEN SATELITAL                  123
+21   Campo Santa Isabel                     Comunidad            IMAGEN SATELITAL                  126
+22   El Porvenir                            Comunidad            IMAGEN SATELITAL                       2
+23   Campo América                          Comunidad            IMAGEN SATELITAL                       8
+24   La Esmeralda                           Comunidad            IMAGEN SATELITAL                  155
+25   El Pitahayal                           Comisaría       CATASTRAL E IMAGEN SATELITAL          1,168
+26   Vicente Guerrero                       Comunidad            IMAGEN SATELITAL                  708
+27   El Pochote                             Comunidad            IMAGEN SATELITAL                   32
+28   Las Compuertas                         Comunidad            IMAGEN SATELITAL                   29
+29   El Sartenejal                          Comunidad            IMAGEN SATELITAL                   27
+30   El Batallón                            Comunidad            IMAGEN SATELITAL                   17
+31   Campo San Javier                       Comunidad            IMAGEN SATELITAL                       2
+32   Campo del Chepe                        Comunidad            IMAGEN SATELITAL                       2
+33   Campo Gusano                           Comunidad            IMAGEN SATELITAL                       5
+34   San José de Palos Blancos              Comisaría       CATASTRAL E IMAGEN SATELITAL          1,712
+35   Las Américas                           Comunidad            IMAGEN SATELITAL                  767
+36   Campo California                       Comunidad            IMAGEN SATELITAL                  296
+37   Norotios Cuba                          Comunidad            IMAGEN SATELITAL                  143
+38   Terahuito                              Comunidad            IMAGEN SATELITAL                  965
+39   La Curva                               Comunidad            IMAGEN SATELITAL                  178
+40   Campo la Escopeta (El Tirador)         Comunidad            IMAGEN SATELITAL                       3
+41   Ejido el Tecomate                      Comunidad            IMAGEN SATELITAL                  184
+42   El platanito                           Comunidad            IMAGEN SATELITAL                  583
+43   Campo Chamony                          Comunidad            IMAGEN SATELITAL                       2
+44   Las Ladrilleras del Burrión            Comunidad            IMAGEN SATELITAL                  164
+45   Campito Sánchez                        Comunidad            IMAGEN SATELITAL                   14
+46   Agrícola los Alazanes                  Comunidad            IMAGEN SATELITAL                       2
+47   Campo Sinaloa                          Comunidad            IMAGEN SATELITAL                   28
+48   Campo San Cristóbal                    Comunidad            IMAGEN SATELITAL                       2
+49   Nío Dos                                Comunidad            IMAGEN SATELITAL                   82
+50   La Huerta                              Comunidad            IMAGEN SATELITAL                       4
+51   Campo Casa Blanca                      Comunidad            IMAGEN SATELITAL                       3
+52   La Tristeza                            Comunidad            IMAGEN SATELITAL                    2
+53   El Varali                              Comunidad            IMAGEN SATELITAL                  130
+54   Campo Yolanda                     Comunidad   IMAGEN SATELITAL        5
+55   Campo el Chino (Don Julián)       Comunidad   IMAGEN SATELITAL        3
+56   Sabanillas del Burrión            Comunidad   IMAGEN SATELITAL       90
+57   El Bajío                          Comunidad   IMAGEN SATELITAL       29
+58   Los Manguitos (Recursos Viejos)   Comunidad   IMAGEN SATELITAL       20
+59   Gran Agrícola los Jefes           Comunidad   IMAGEN SATELITAL        5
+60   El Cercón                         Comunidad   IMAGEN SATELITAL        2
+61   Campo el Mayo                     Comunidad   IMAGEN SATELITAL        4
+62   Kilómetro Ciento Cuarenta y Uno   Comunidad   IMAGEN SATELITAL        7
+63   Campo los Pinitos                 Comunidad   IMAGEN SATELITAL        4
+64   Agrícola Gaby (El Capi)           Comunidad   IMAGEN SATELITAL        4
+65   El Güily                          Comunidad   IMAGEN SATELITAL        4
+66   Campo el Socoyote                 Comunidad   IMAGEN SATELITAL        2
+67   El Vergel                         Comunidad   IMAGEN SATELITAL        1
+68   Víctor Angulo [Rancho]            Comunidad   IMAGEN SATELITAL        4
+69   Ninguno [Jaime Armenta]           Comunidad   IMAGEN SATELITAL        1
+70   El Olvido                         Comunidad   IMAGEN SATELITAL        5
+71   Agrícola Santa Alicia             Comunidad   IMAGEN SATELITAL        1
+                                                                      22,390
+

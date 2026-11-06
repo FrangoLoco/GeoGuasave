@@ -1,0 +1,16 @@
+                             SINDICATURA DE ESTACIÓN BAMOA
+                                                                             NÚMERO DE
+                     LOCALIDAD                RANGO            PLANO
+                                                                             HABITANTES
+1    Estación Bamoa (Campo Wilson)          Sindicatura   IMAGEN SATELITAL         5,481
+2    Estación Capomas                       Comisaría     IMAGEN SATELITAL         1,202
+3    Ricardo Flores Magon (La Aceituna)     Comunidad     IMAGEN SATELITAL           77
+4    San Marcial                            Comunidad     IMAGEN SATELITAL          155
+5    San Francisco de Capomos (El Charro)   Comisaría     IMAGEN SATELITAL          195
+6    El Reparo                              Comunidad     IMAGEN SATELITAL          115
+7    Choipa Dos                             Comunidad     IMAGEN SATELITAL          131
+8    San Francisquito de Capomos            Comunidad     IMAGEN SATELITAL           15
+ 9   La Cuerda                              Comunidad     IMAGEN SATELITAL          332
+10   San Francisco de Capomos Viejos        Comunidad     IMAGEN SATELITAL           42
+                                                                                  7,745
+

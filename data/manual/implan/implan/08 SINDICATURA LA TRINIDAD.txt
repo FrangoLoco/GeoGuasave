@@ -1,0 +1,54 @@
+                                  SINDICATURA DE LA TRINIDAD
+                                                                                  NÚMER
+                         LOCALIDAD               RANGO              PLANO          O DE
+
+1    La Trinidad                               Sindicatura       CATASTRAL         4,023
+2    La Noria                                   Comunidad      IMAGEN SATELITAL    1,099
+3    El Toruno                                  Comunidad      IMAGEN SATELITAL     277
+4    Las Moras                                  Comisaría      IMAGEN SATELITAL    1,915
+5    Ranchito de Inzunza                        Comunidad      IMAGEN SATELITAL     701
+6    La Escalera                                Comunidad      IMAGEN SATELITAL     580
+7    Las Pitahayas                              Comunidad      IMAGEN SATELITAL      19
+8    Las Juntas de Chamicari                    Comisaría      IMAGEN SATELITAL     572
+9    Las Quemazones                             Comunidad      IMAGEN SATELITAL    1,391
+10   Los Hornos Numero 1 (Salsipuedes)          Comisaría      IMAGEN SATELITAL     484
+11   Santa Teresa de los Olivos                 Comunidad      IMAGEN SATELITAL       6
+12   Ejido Abelardo L. Rodriguez                Comunidad      IMAGEN SATELITAL     421
+13   Cuatro Caminos                             Comunidad      IMAGEN SATELITAL       4
+14   Camagüey (Campo Bórquez)                   Comunidad      IMAGEN SATELITAL      22
+15   Campo Rojo                                 Comunidad      IMAGEN SATELITAL       5
+16   El Dulce                                   Comunidad      IMAGEN SATELITAL       4
+17   La Maroma                                  Comunidad      IMAGEN SATELITAL       4
+18   Choipa                                     Comunidad      IMAGEN SATELITAL      18
+19   Ninguno [Germán Bojórquez]                 Comunidad      IMAGEN SATELITAL       1
+20   Las Águilas                                Comunidad      IMAGEN SATELITAL       5
+21   Las Palmas                                 Comunidad      IMAGEN SATELITAL       1
+22   Rocha                                      Comunidad      IMAGEN SATELITAL       5
+23   Las Palmas                                 Comunidad      IMAGEN SATELITAL       4
+24   Rancho Palafox                             Comunidad      IMAGEN SATELITAL       5
+25   El Amolito                                 Comunidad      IMAGEN SATELITAL      63
+26   Ejido los Pinitos                          Comunidad      IMAGEN SATELITAL     314
+27   Ninguno [Martin Lugo]                      Comunidad      IMAGEN SATELITAL       2
+28   Vallejo                                    Comunidad      IMAGEN SATELITAL       5
+29   Campo Real                                 Comunidad      IMAGEN SATELITAL       2
+30   La Familia                                 Comunidad      IMAGEN SATELITAL      45
+31   Ninguno [Granja]                           Comunidad      IMAGEN SATELITAL       3
+32   Ninguno [Erik García]                      Comunidad      IMAGEN SATELITAL       1
+33   El Arroyo de Ocoroni [Tino Acosta]         Comunidad      IMAGEN SATELITAL       2
+34   La Bomba                                   Comunidad      IMAGEN SATELITAL      11
+35   Rancho San Antonio                         Comunidad      IMAGEN SATELITAL       4
+36   Frayre                                     Comunidad      IMAGEN SATELITAL       3
+37   Los García                                 Comunidad      IMAGEN SATELITAL       5
+38   Tepaturi                                   Comunidad      IMAGEN SATELITAL       3
+39   Ninguno [Dolores]                          Comunidad      IMAGEN SATELITAL       3
+40   Ninguno [Graciela Melendres]               Comunidad      IMAGEN SATELITAL       1
+41   El Cerco                       Comunidad   IMAGEN SATELITAL      27
+42   Ninguno [Guadalupe Espinoza]   Comunidad   IMAGEN SATELITAL        4
+43   Ninguno [Refugio Ochoa]        Comunidad   IMAGEN SATELITAL        6
+44   La Escondida                   Comunidad   IMAGEN SATELITAL        1
+45   Ninguno [Forja Produce]        Comunidad   IMAGEN SATELITAL        3
+46   Ninguno [Ignacio Urías]        Comunidad   IMAGEN SATELITAL        1
+47   Palos Verdes                   Comunidad   IMAGEN SATELITAL        7
+48   El Comodín                     Comunidad   IMAGEN SATELITAL        2
+                                                                   12,084
+
