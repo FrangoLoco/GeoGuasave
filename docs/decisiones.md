@@ -176,3 +176,45 @@ Tamaño: 79,036,726 bytes. SHA-256: `57d4242eebb9366e70a6f34ee8e0f2e39eaeb686e1d
 - **Prueba 3.** El punto alejado se toma de una malla de 1 km: el primero a más de 1 km de toda localidad.
 
 **Alternativa descartada.** pgTAP (otra extensión en la imagen) o pytest (dependencias en la máquina).
+
+## 2026-11-06 — Configuración de la prueba preliminar de backend
+
+**Decisión.** Hay dos prototipos mínimos de `GET /reverse` en `bench/`, uno con FastAPI y otro con Node.js. Ambos llaman a `geo.reverse_geocode` con un pool de 10 conexiones y devuelven tal cual el texto JSON de la función. Se miden con el mismo script de k6 (`bench/k6/reverse.js`, 50 usuarios virtuales, 1 minuto) y `bench/correr.sh` hace las 3 repeticiones.
+- **FastAPI:** Python 3.12.16 (`python:3.12-slim`, fijada por digest), FastAPI 0.115.6, `uvicorn[standard]` 0.34.0 (uvloop y httptools) y asyncpg 0.30.0.
+- **Node.js:** Node 22.23.4 (`node:22-slim`, fijada por digest), Fastify 5.2.0 y pg 8.13.1, con `package-lock.json`.
+- **Framework de Node.** La tesis solo menciona Node.js y cita su documentación. Se usa Fastify por ser el análogo más cercano a FastAPI: validación de parámetros por esquema y OpenAPI mediante plugins, que la API final necesita. Ambos prototipos responden 422 con parámetros inválidos y con puntos fuera de Sinaloa.
+- **Condiciones iguales.** Un proceso por prototipo, sin registro por solicitud. En cada corrida solo está levantado un prototipo, y se recrea desde cero. El orden se alterna (FastAPI–Node, Node–FastAPI, FastAPI–Node). k6 1.0.0 (fijada por digest) corre en un contenedor de la misma red de Compose.
+- **Puntos de consulta.** `bench/puntos.json` tiene 1,000 coordenadas al azar dentro de Guasave (`ST_GeneratePoints` con semilla 2026). Cada iteración toma el siguiente punto en orden, así que ambos prototipos reciben la misma secuencia.
+- **Máquina.** AMD Ryzen 5 5600U (12 hilos), 14 GB de RAM, Docker 29.9.3, Compose 5.7.0. Es la máquina de desarrollo, no el servidor de la corrida oficial.
+
+**Motivo.** Comparar los dos backends en igualdad de condiciones: misma función SQL, mismo pool, mismo número de procesos y misma carga. Devolver el texto de la base sin volver a serializarlo deja la diferencia en el framework, el driver y el ciclo de eventos.
+
+**Alternativa descartada.**
+- Express: más común, pero sin validación por esquema integrada.
+- `node:http` sin framework: la API final necesitaría reconstruir a mano la validación y OpenAPI.
+- Varios workers por prototipo: agregaría otra variable a la comparación.
+
+## 2026-11-06 — Resultado de la prueba preliminar de backend
+
+**Resultado** (`./bench/correr.sh`; resúmenes de k6 en `bench/resultados/`). 50 usuarios virtuales durante 1 minuto por corrida, sin solicitudes fallidas en ninguna:
+
+| Backend | Rep. | p95 (ms) | Mediana (ms) | Solicitudes/s | Solicitudes |
+|---|---|---|---|---|---|
+| FastAPI | 1 | 25.51 | 14.88 | 3,261.9 | 195,748 |
+| FastAPI | 2 | 27.79 | 16.40 | 2,954.4 | 177,290 |
+| FastAPI | 3 | 28.27 | 16.62 | 2,918.4 | 175,132 |
+| **FastAPI** | **media** | **27.19** | | **3,044.9** | |
+| Node.js | 1 | 10.99 | 9.09 | 5,310.5 | 318,669 |
+| Node.js | 2 | 10.73 | 8.85 | 5,458.1 | 327,525 |
+| Node.js | 3 | 11.21 | 9.28 | 5,206.5 | 312,429 |
+| **Node.js** | **media** | **10.97** | | **5,325.0** | |
+
+**Notas.**
+- Hubo un primer intento que se detuvo: k6 no tenía permiso para escribir en `bench/resultados/`. Su única corrida completa (FastAPI, p95 24.39 ms, 3,385.2 solicitudes/s) no se cuenta, porque no quedó guardada. Desde entonces k6 corre con el usuario de la máquina.
+- Durante la prueba había contenedores de otro proyecto (Supabase) corriendo en la misma máquina. El orden alternado reparte ese ruido entre ambos backends.
+
+**Decisión (2026-11-06).** El usuario elige **Node.js (Fastify)** para la API final.
+
+**Motivo.** En las tres repeticiones Node.js tuvo menor p95 (media de 10.97 ms contra 27.19 ms) y más solicitudes por segundo (5,325.0 contra 3,044.9), además de menos variación entre repeticiones.
+
+**Alternativa descartada.** FastAPI.
