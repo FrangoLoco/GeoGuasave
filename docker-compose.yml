@@ -17,6 +17,24 @@ services:
       interval: 5s
       retries: 10
 
+  # API de GeoGuasave (Node.js + Fastify). Requiere los datos cargados: ./iniciar.sh
+  api:
+    build: ./api
+    environment:
+      # Variables estándar de libpq, que lee el cliente pg.
+      PGHOST: db
+      PGDATABASE: ${POSTGRES_DB}
+      PGUSER: ${POSTGRES_USER}
+      PGPASSWORD: ${POSTGRES_PASSWORD}
+      LPR_MAX_DIST_M: ${LPR_MAX_DIST_M:-500}
+      POOL: "10"
+    ports:
+      - "127.0.0.1:${API_PORT:-8000}:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
   gdal:
     # GDAL 3.10.3, fijada por digest. Solo herramientas: docker compose run --rm gdal <comando>
     image: ghcr.io/osgeo/gdal:ubuntu-small-3.10.3@sha256:dab45abca3ca83695d442018692f4f8a0f41955871c57e6101d7f89a92375caa

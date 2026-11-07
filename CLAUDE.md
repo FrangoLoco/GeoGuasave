@@ -32,7 +32,7 @@ El plan completo está en `docs/PLAN.md`: fases, contrato de la API, reglas de a
 - PostgreSQL con PostGIS en Docker, con versión de imagen fija.
 - GDAL en un contenedor para importar shapefiles; no se instala GDAL en la máquina.
 - La lógica de geocodificación vive en una función SQL (`geo.reverse_geocode`), para que cualquier backend la reutilice y la comparación entre backends sea justa.
-- Backend: se decide en la Fase 4 con una prueba preliminar entre FastAPI y Node.js.
+- Backend: Node.js con Fastify (`api/`), elegido en la Fase 4 con la prueba preliminar contra FastAPI (`bench/`).
 - Pruebas de carga con k6 en contenedor (imagen `grafana/k6`).
 - Los secretos (por ejemplo, la clave de Google Maps) van solo en `.env`, que nunca se sube. `.env.example` sí se sube.
 
@@ -51,7 +51,9 @@ El plan completo está en `docs/PLAN.md`: fases, contrato de la API, reglas de a
 - Validar con Bamoa: `./etl/validar_bamoa.sh`
 - Cargar la función de geocodificación: `docker compose exec -T db sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB"' < db/sql/reverse_geocode.sql`
 - Correr las pruebas (también recarga la función): `./tests/correr.sh`
-- Levantar la API: pendiente (Fase 4)
+- Levantar todo desde cero con los datos cargados (requiere `.env` y el zip): `./iniciar.sh`
+- Pruebas de la API: `docker compose run --rm api npm test`
+- Prueba preliminar de backend (k6): `./bench/correr.sh`
 
 ## Idioma
 

@@ -218,3 +218,22 @@ Tamaño: 79,036,726 bytes. SHA-256: `57d4242eebb9366e70a6f34ee8e0f2e39eaeb686e1d
 **Motivo.** En las tres repeticiones Node.js tuvo menor p95 (media de 10.97 ms contra 27.19 ms) y más solicitudes por segundo (5,325.0 contra 3,044.9), además de menos variación entre repeticiones.
 
 **Alternativa descartada.** FastAPI.
+
+## 2026-11-06 — API final (Node.js + Fastify)
+
+**Decisión.** La API vive en `api/` (`src/app.js` y `src/server.js`). Corre en Node 22.23.4 (`node:22-slim`, fijada por digest) con usuario sin privilegios y `HEALTHCHECK` contra `/health`.
+- **Dependencias** (exactas, con `package-lock.json`): fastify 5.12.7, @fastify/cors 10.1.0, @fastify/swagger 9.9.2, @fastify/swagger-ui 6.1.2 y pg 8.23.1. `npm audit --omit=dev`: 0 vulnerabilidades.
+- **Contrato.** `GET /reverse` devuelve lo de `geo.reverse_geocode` más `atribucion`, con un esquema de respuesta que también documenta OpenAPI (`/docs`, `/docs/json`). Toda respuesta lleva la atribución, incluidos los errores y `/health`.
+- **Errores.** 422 con `{error, detalle, atribucion}`: `parametros_invalidos` (latitud fuera de [−90, 90], longitud fuera de [−180, 180], valor no numérico o parámetro faltante) y `fuera_de_sinaloa` (la función devuelve `NULL`). 404 y 500 con el mismo formato.
+- **`/health`.** Comprueba que la base responda y que existan `geo.reverse_geocode` y `geo.sindicatura_poligono`. Si falta algo responde 503 (`sin_datos` o `error`).
+- **CORS** abierto (`origin: *`).
+- **`LPR_MAX_DIST_M`** desde el entorno (500 por omisión). Si no es un número positivo, la API no arranca.
+- **Registro.** Una línea JSON por solicitud (método, URL, estado y `ms`), en lugar de las dos de Fastify. Se desactivan con `LogController`, porque Fastify 5.12 marca `disableRequestLogging` como deprecada.
+- **Pruebas** (`api/test/api.test.js`, con `node:test` integrado en Node): 10 pruebas contra la base real (contrato, igualdad con la función, 422, otro municipio, `LPR_MAX_DIST_M` a 250 y 500 m, `/health`, CORS, OpenAPI y registro).
+- **Arranque.** `./iniciar.sh` levanta todo desde cero con los datos cargados (base, Marco, sindicaturas, función y API). La API se publica en `127.0.0.1:${API_PORT}`. Se comprobó con una copia limpia de los archivos del repositorio, otro nombre de proyecto y otros puertos, siguiendo solo el README: 22 s, `curl` con el contrato completo, 10 de 10 pruebas de la API y 8 de 8 de la función.
+
+**Motivo.**
+- Versiones. Las versiones de la prueba preliminar (fastify 5.2.0, @fastify/swagger-ui 5.2.0) tenían avisos de seguridad altos: validación evadible y recorrido de rutas en `@fastify/static`. Se eligieron las versiones más recientes que los corrigen y tienen al menos dos semanas publicadas. Los prototipos de `bench/` conservan las versiones que se midieron.
+- `node:test` evita agregar un framework de pruebas.
+
+**Alternativa descartada.** fastify 5.12.8 (publicada el 2026-11-02, con menos de dos semanas); @fastify/swagger-ui 5.2.6 (sigue dependiendo de una `@fastify/static` vulnerable).
