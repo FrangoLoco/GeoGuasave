@@ -38,6 +38,9 @@ BEGIN
 
     EXECUTE format('CREATE INDEX IF NOT EXISTS %1$I ON geo.%2$I USING gist (geom)',
                    t || '_geom_gist', t);
+    -- Búsquedas por clave (p. ej. el ámbito de la localidad en geo.reverse_geocode).
+    EXECUTE format('CREATE INDEX IF NOT EXISTS %1$I ON geo.%2$I (cvegeo)',
+                   t || '_cvegeo', t);
     EXECUTE format('ANALYZE geo.%I', t);
   END LOOP;
 END $$;

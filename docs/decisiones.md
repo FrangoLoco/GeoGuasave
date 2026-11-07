@@ -152,3 +152,27 @@ Tamaño: 79,036,726 bytes. SHA-256: `57d4242eebb9366e70a6f34ee8e0f2e39eaeb686e1d
 | IoU | 0.6439 |
 
 **Sensibilidad.** Al desplazar el polígono del IMPLAN una distancia igual al RMS de la georreferencia (172.2 m) en 8 direcciones, la IoU queda entre 0.6270 y 0.6557.
+
+## 2026-11-06 — Función geo.reverse_geocode
+
+**Decisión.** `db/sql/reverse_geocode.sql` define `geo.reverse_geocode(lon, lat, lpr_max_m DEFAULT 500)` en PL/pgSQL (`STABLE PARALLEL SAFE`).
+- **Salida.** Devuelve `json` con los campos del contrato en su orden (`municipio`, `fuera_de_guasave`, `sindicatura`, `localidad`, `ageb`, `metodo`, `distancia_m`); la atribución la agrega la API. Devuelve `NULL` si las coordenadas no son válidas (nulas, longitud fuera de ±180 o latitud fuera de ±90) o si el punto está fuera de Sinaloa; la API responde 422 en ambos casos.
+- **Tolerancia y desempate en todas las reglas.** Se usa la tolerancia de 1 m (`ST_DWithin(geom, p, 1)`) y el desempate del plan (menor distancia, luego menor área, luego clave) también para el municipio, el polígono de Voronoi y el AGEB, no solo para la localidad. En la regla 1.3 el área no aplica, porque son puntos.
+- **Localidades solo de Guasave** (`cve_mun = '011'`): la función solo busca localidad para puntos dentro de Guasave, y así toda localidad devuelta tiene sindicatura.
+- **AGEB urbana a 1 m o menos gana sobre la rural**, conforme a la regla 3 con la tolerancia general.
+- **`ambito`:** `U` si la localidad está en `l` con ámbito "Urbana"; `R` en otro caso (`l` "Rural" o solo en `lpr`, que son localidades rurales puntuales).
+- **`distancia_m`:** redondeada a 0.1 m.
+- **Índices.** `etl/post_carga.sql` ahora crea un índice btree sobre `cvegeo` en las siete capas. La prueba 8 detectó un barrido secuencial de `geo.localidad` al buscar el ámbito por clave. Se volvió a correr `./etl/cargar_marco.sh` y `./etl/cargar_sindicaturas.sh`, y las tablas de sindicaturas dieron los mismos hashes que antes.
+
+**Motivo.** Un solo criterio de tolerancia y desempate en todas las capas hace la función determinista frente a los huecos y traslapes de hasta 1 m que advierte el INEGI. `json` conserva el orden de las claves del contrato.
+
+**Alternativa descartada.** Devolver un tipo compuesto (cada backend tendría que armar el JSON); buscar localidades de municipios vecinos (quedarían sin sindicatura).
+
+## 2026-11-06 — Pruebas de la Fase 3
+
+**Decisión.** Las pruebas son SQL (`tests/test_reverse_geocode.sql`) y las corre `tests/correr.sh`, que primero carga la versión de la función que está en el repositorio. No se agrega un framework (pgTAP): cada prueba deja una fila ok/FALLA y el script termina con error si alguna falla. La prueba 8 usa `auto_explain` con `log_nested_statements` para ver los planes de las consultas internas de la función.
+- **Prueba 1.** Las 201 localidades poligonales devuelven su propia localidad en `ST_PointOnSurface`. No hubo excepciones; la lista explícita queda vacía.
+- **Prueba 2.** Desplazamiento de 50 m al norte. Se excluyen los puntos que caen a 1 m o menos de un polígono y los que salen del municipio (3 localidades junto al límite: 250111135, 250111271 y 250111287). En 6 casos otra localidad puntual queda más cerca que la propia (de 37.5 a 49.9 m); ahí la prueba espera la más cercana, que es lo que dicta la regla 1.3. Se probaron 492 de 690.
+- **Prueba 3.** El punto alejado se toma de una malla de 1 km: el primero a más de 1 km de toda localidad.
+
+**Alternativa descartada.** pgTAP (otra extensión en la imagen) o pytest (dependencias en la máquina).
