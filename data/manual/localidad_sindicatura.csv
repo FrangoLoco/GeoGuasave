@@ -1,28 +1,38 @@
 cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
+250110001,Guasave,Ciudad de Guasave,Alcaldía Central,manual,58.3
 250110037,Emilio Portes Gil (Agua Blanca),Emilio portes Gil (Agua Blanca),Alcaldía Central,exacto,100.0
 250110284,Utatave (Mautillos),Utatave (Mautillos),Alcaldía Central,exacto,100.0
 250110166,El Mezquital,El Mezquital,Alcaldía Central,exacto,100.0
 250111075,Valle Verde,Valle Verde,Alcaldía Central,exacto,100.0
+250110899,La Virgencita (Lindavista),La Virgensita (Linda Vista),Alcaldía Central,aproximado,93.9
 250110141,Las Guásimas,Las Guásimas,Alcaldía Central,exacto,100.0
 250110912,Agua Blancona,Agua Blancona,Alcaldía Central,exacto,100.0
 250110232,San Fernandito,San Fernandito,Alcaldía Central,exacto,100.0
+250110786,Las Moritas,Las Moritas,Alcaldía Central,manual,100.0
 250110229,San Antonio,San Antonio,Alcaldía Central,exacto,100.0
 250110457,El Mezquitón,El Mezquiton,Alcaldía Central,exacto,100.0
 250110115,La Chuparrosa,La Chuparrosa,Alcaldía Central,exacto,100.0
 250110143,Los Guayacanes,Los Guayacanes,Alcaldía Central,exacto,100.0
 250110655,Agua Escondida,Agua Escondida,Alcaldía Central,exacto,100.0
 250110491,Campo Bórquez,Campo Bórquez,Alcaldía Central,exacto,100.0
+250110962,Las Compuertas,Las Compuertas,Alcaldía Central,manual,100.0
 250110206,La Sabanilla [Campo Preciado],La Sabanilla (Campo Preciado),Alcaldía Central,exacto,100.0
+250110923,Campo Chamony,Campo Chamony,Alcaldía Central,manual,100.0
 250111142,Campo la Suiza,Campo La Suiza,Alcaldía Central,exacto,100.0
+250110956,El Campito,El Campito,Alcaldía Central,manual,100.0
 250110825,La Rosita,La Rosita,Alcaldía Central,exacto,100.0
+250110637,San Carlos,San Carlos,Alcaldía Central,manual,100.0
 250110807,Campo el Porvenir,Campo El Porvenir,Alcaldía Central,exacto,100.0
+250110954,Canal 21,Canal 21,Alcaldía Central,manual,100.0
 250110759,San José de Guayparime,San José de Guayparime,Alcaldía Central,exacto,100.0
 250110283,Los Ángeles,Los Ángeles,Alcaldía Central,exacto,100.0
 250110714,Sector la Cruz,Sector la Cruz,Alcaldía Central,exacto,100.0
 250111151,Campo San José,Campo San José,Alcaldía Central,exacto,100.0
 250110877,El Tepache,El Tepache,Alcaldía Central,exacto,100.0
 250110249,San Pedro Guasave (El Ranchito),San Pedro Guasave (El Ranchito),Alcaldía Central,exacto,100.0
+250110113,Chorohui,Chorohui,Alcaldía Central,manual,100.0
 250110602,Campo Dimas,Campo Dimas,Alcaldía Central,exacto,100.0
+250110236,San Gabriel,San Gabriel,Alcaldía Central,manual,100.0
 250111396,Tecomate,Tecomate,Alcaldía Central,exacto,100.0
 250111082,Campo Tajín,Campo Tajín,Alcaldía Central,exacto,100.0
 250110734,Campo Crucero [Campo Díaz],Campo Crucero (Campo Díaz),Alcaldía Central,exacto,100.0
@@ -30,11 +40,14 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110271,Tapachula,Tapachula,Alcaldía Central,exacto,100.0
 250110320,Palos Dulces,Palos Dulces,Alcaldía Central,exacto,100.0
 250110732,Tapachula (Los Chapos),Tapachula (Los Chapos),Alcaldía Central,exacto,100.0
+250110151,Jesús María,Jesús María,Alcaldía Central,manual,100.0
 250110755,La Guamuchilera,La Guamuchilera,Alcaldía Central,exacto,100.0
 250110279,Las Tortugas (La 300),Las Tortugas (La 300),Alcaldía Central,exacto,100.0
 250110120,El Dorado Número Uno,El Dorado Número Uno,Alcaldía Central,exacto,100.0
+250110629,El Porvenir,El Porvenir,Alcaldía Central,manual,100.0
 250110466,La Línea,La Línea,Alcaldía Central,exacto,100.0
 250110740,Los Ébanos,Los Ébanos,Alcaldía Central,exacto,100.0
+250111312,Campo Filipinas,Campos Filipinas,Alcaldía Central,manual,96.8
 250111091,Ninguno [Huerta],Ninguno [Huerta],Alcaldía Central,exacto,100.0
 250111109,La Cuchillita,La Cuchillita,Alcaldía Central,exacto,100.0
 250111128,Campo Yory,Campo Yory,Alcaldía Central,exacto,100.0
@@ -44,8 +57,10 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250111141,Campo la Provincia,Campo la Provincia,Alcaldía Central,exacto,100.0
 250111147,Sodi [Productora Agrícola],Sodi [Productora Agrícola],Alcaldía Central,exacto,100.0
 250111152,Campo San José de Guayparime,Campo San José de Guayparime,Alcaldía Central,exacto,100.0
+250111156,Canal 21,Canal 21,Alcaldía Central,manual,100.0
 250111178,La Providencia (Guayparime),La Providencia (Guayparime),Alcaldía Central,exacto,100.0
 250111205,Avilés [Rancho],Avilés [Rancho],Alcaldía Central,exacto,100.0
+250111209,El Gatillo,El Gatillo,Alcaldía Central,manual,100.0
 250111216,Campo Salivas,Campo Salivas,Alcaldía Central,exacto,100.0
 250111239,Agua Blancona (Agua Blanca),Agua Blancona (Agua Blanca),Alcaldía Central,exacto,100.0
 250111240,Agua Blanca,Agua Blanca,Alcaldía Central,exacto,100.0
@@ -55,6 +70,7 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250111292,Casa de la Comisión,Casa de la Comisión,Alcaldía Central,exacto,100.0
 250111293,Ninguno [Arturo Germán Vázquez],Ninguno [Arturo Germán Vázquez],Alcaldía Central,exacto,100.0
 250111309,Ninguno [Rosalio Camacho Medina],Ninguno [Rosalio Camacho Medina],Alcaldía Central,exacto,100.0
+250110747,Campo Filipinas,Campo Filipinas,Alcaldía Central,manual,100.0
 250111332,El 23,El 23,Alcaldía Central,exacto,100.0
 250111367,La Bomba Borqueña,La Bomba Borqueña,Alcaldía Central,exacto,100.0
 250111368,Los Añiles,Los Añiles,Alcaldía Central,exacto,100.0
@@ -81,9 +97,13 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110049,Bachoco,Bachoco,Juan José Ríos,exacto,100.0
 250110430,Guayparime,Guayparime,Juan José Ríos,exacto,100.0
 250110332,Babujaqui,Babujaqui,Juan José Ríos,exacto,100.0
+250110873,Campo Cadena,Campo Sabas (Cadena),Juan José Ríos,aproximado,80.0
 250111032,Campo Treinta y Ocho,Ejido Campo Treinta y ocho,Juan José Ríos,exacto,100.0
 250110299,Héroes Mexicanos,Héroes Mexicanos,Juan José Ríos,exacto,100.0
+250110074,Ejido Treinta y Ochito,Campo 38 (treinta y ochito),Juan José Ríos,manual,78.0
 250110778,Campo las Margaritas,Campo Las Margaritas,Juan José Ríos,exacto,100.0
+250110973,La Huerta (Los Juncos),Los Juncos (La Huerta),Juan José Ríos,manual,50.0
+250111104,Canal Alto,Canal Alto 2,Juan José Ríos,aproximado,90.9
 250110152,Los Juncos,Los Juncos,Juan José Ríos,exacto,100.0
 250110715,Ninguno [Los González],Ninguno [Los González],Juan José Ríos,exacto,100.0
 250110822,El Rocío,El Rocío,Juan José Ríos,exacto,100.0
@@ -94,6 +114,7 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250111114,Vihnos,Vihnos,Juan José Ríos,exacto,100.0
 250111115,Campo Murrieta,Campo Murrieta,Juan José Ríos,exacto,100.0
 250111134,Las Margaritas Dos,Las Margaritas Dos,Juan José Ríos,exacto,100.0
+250111144,Campo las Palmas,Campos las Palmas,Juan José Ríos,aproximado,97.0
 250111149,Rufino Félix [Campo],Rufino Félix [Campo],Juan José Ríos,exacto,100.0
 250111160,Kilómetro 45,Kilómetro 45,Juan José Ríos,exacto,100.0
 250111167,Ninguno [Agrícola],Ninguno [Agrícola],Juan José Ríos,exacto,100.0
@@ -107,6 +128,7 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110216,Ranchito de Zavala,Ranchito de Zavala,Bamoa,exacto,100.0
 250110181,Orba (Infiernito),Orba (Infiernito),Bamoa,exacto,100.0
 250110097,Cruz Blanca,Cruz Blanca,Bamoa,exacto,100.0
+250110312,Choipa,Choipa,Bamoa,manual,100.0
 250111031,Norotillos,Norotillos,Bamoa,exacto,100.0
 250110998,Tahuilana (El Chorizo),Tahuilana (El Chorizo),Bamoa,exacto,100.0
 250110301,Herculano de la Rocha,Herculano de la Rocha,Bamoa,exacto,100.0
@@ -126,6 +148,7 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110695,El Caracol,El Caracol,Benito Juárez,exacto,100.0
 250110707,El Coloradito,El Coloradito,Benito Juárez,exacto,100.0
 250110741,General Emiliano Zapata,General Emiliano Zapata,Benito Juárez,exacto,100.0
+250110380,Los Hornos Número Dos,Los Hornos Número 2,Benito Juárez,aproximado,90.0
 250111162,Ejido Callejón de Tamazula,Ejido Callejón de Tamazula,Benito Juárez,exacto,100.0
 250110233,San Fernando,San Fernando,Benito Juárez,exacto,100.0
 250110220,Roberto Barrios,Roberto Barrios,Benito Juárez,exacto,100.0
@@ -136,14 +159,18 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110480,La Entrada Vieja,La Entrada Vieja,Benito Juárez,exacto,100.0
 250110088,Cinco de Mayo (Agua Blanca),Cinco de mayo (Agua Blanca),Benito Juárez,exacto,100.0
 250110101,Cuatro Milpas,Cuatro Milpas,Benito Juárez,exacto,100.0
+250110114,Ejido Chorohui,Ejido Chorohui,Benito Juárez,manual,100.0
 250110124,Ejido la Entrada (El Poblado),Ejido la Entrada (El Poblado),Benito Juárez,exacto,100.0
+250110150,Las Isabeles,Las Isabeles,Benito Juárez,manual,100.0
 250110191,Las Parritas,Las Parritas,Benito Juárez,exacto,100.0
 250110256,Agrícola Valle Grande,Agrícola Valle Grande,Benito Juárez,exacto,100.0
 250110371,Campo el Vergel,Campo el Vergel,Benito Juárez,exacto,100.0
 250110373,Los Arbolitos,Los Arbolitos,Benito Juárez,exacto,100.0
 250110505,Santa Cruz,Santa Cruz,Benito Juárez,exacto,100.0
+250110525,La Once,La Once,Benito Juárez,manual,100.0
 250110701,Casas Grandes,Casas Grandes,Benito Juárez,exacto,100.0
 250110729,Ninguno [Alejandro Chávez],Ninguno [Alejandro Chávez],Benito Juárez,exacto,100.0
+250110746,Campo Figueroa,Campo Figueroa,Benito Juárez,manual,100.0
 250110749,Campo Gastélum,Campo Gastélum,Benito Juárez,exacto,100.0
 250110785,Las Bugambilias,Las Bugambilias,Benito Juárez,exacto,100.0
 250110820,Campo la Pizarra,Campo la Pizarra,Benito Juárez,exacto,100.0
@@ -181,11 +208,13 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250111480,Ninguno [Prajedes],Ninguno [Prajedes],Benito Juárez,exacto,100.0
 250111481,Ninguno [Guadalupe Aguilar Quintero],Ninguno [Guadalupe Aguilar Quintero],Benito Juárez,exacto,100.0
 250111500,Ninguno [Los Félix],Ninguno [Los Félix],Benito Juárez,exacto,100.0
+250111101,Santa Elena,Santa Elena,Benito Juárez,manual,100.0
 250111164,Ninguno [José Abraham Lichter],Ninguno [José Abraham Lichter],Benito Juárez,exacto,100.0
 250111511,Agrícola Franjamín,Agrícola Franjamín,Benito Juárez,exacto,100.0
 250110064,El Burrión,El Burrión,El Burrión,exacto,100.0
 250110107,La Cuestona,La Cuestona,El Burrión,exacto,100.0
 250110887,La Uva,La Uva,El Burrión,exacto,100.0
+250110111,Chino de los López,Chino de los López,El Burrión,manual,100.0
 250110089,Cofradía de Tamazula (La Cofradía),Cofradia de Tamazula (La Cofradía),El Burrión,exacto,100.0
 250110196,Las Pitahayitas,Las Pitahayitas,El Burrión,exacto,100.0
 250110106,Cuesta de Arriba,Cuesta de Arriba,El Burrión,exacto,100.0
@@ -200,6 +229,7 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110477,El Colorado,El Colorado,El Burrión,exacto,100.0
 250110475,Javier Rojo Gómez,Javier Rojo Gómez,El Burrión,exacto,100.0
 250110096,Las Cruces,Las Cruces,El Burrión,exacto,100.0
+250110906,Cuatro Caminos,Cuatro Caminos,El Burrión,manual,100.0
 250110862,Campo Santa Isabel,Campo Santa Isabel,El Burrión,exacto,100.0
 250110678,Campo América,Campo América,El Burrión,exacto,100.0
 250111378,La Esmeralda,La Esmeralda,El Burrión,exacto,100.0
@@ -208,20 +238,26 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110201,El Pochote,El Pochote,El Burrión,exacto,100.0
 250110544,El Sartenejal,El Sartenejal,El Burrión,exacto,100.0
 250110664,El Batallón,El Batallón,El Burrión,exacto,100.0
+250111327,Campo San Javier,Campo San Javier,El Burrión,manual,100.0
 250110924,Campo del Chepe,Campo del Chepe,El Burrión,exacto,100.0
 250110618,Campo Gusano,Campo Gusano,El Burrión,exacto,100.0
+250110187,San José de Palos Blancos (Palos Blancos),San José de Palos Blancos,El Burrión,manual,78.1
 250110043,Las Américas,Las Américas,El Burrión,exacto,100.0
+250110067,Campo California,Campo California,El Burrión,manual,100.0
 250110980,Norotíos Cuba,Norotios Cuba,El Burrión,exacto,100.0
 250110645,Terahuito,Terahuito,El Burrión,exacto,100.0
+250110725,La Curva,La Curva,El Burrión,manual,100.0
 250110305,Campo la Escopeta (El Tirador),Campo la Escopeta (El Tirador),El Burrión,exacto,100.0
 250110967,Ejido el Tecomate,Ejido el Tecomate,El Burrión,exacto,100.0
 250110627,El Platanito,El platanito,El Burrión,exacto,100.0
+250111247,Campo Chamony,Campo Chamony,El Burrión,manual,100.0
 250110158,Las Ladrilleras del Burrión,Las Ladrilleras del Burrión,El Burrión,exacto,100.0
 250110204,Campito Sánchez,Campito Sánchez,El Burrión,exacto,100.0
 250110231,Agrícola los Alazanes,Agrícola los Alazanes,El Burrión,exacto,100.0
 250110264,Campo Sinaloa,Campo Sinaloa,El Burrión,exacto,100.0
 250110782,Campo San Cristóbal,Campo San Cristóbal,El Burrión,exacto,100.0
 250110788,Nío Dos,Nío Dos,El Burrión,exacto,100.0
+250110836,La Huerta,La Huerta,El Burrión,manual,100.0
 250110856,Campo Casa Blanca,Campo Casa Blanca,El Burrión,exacto,100.0
 250110886,La Tristeza,La Tristeza,El Burrión,exacto,100.0
 250110891,El Varali,El Varali,El Burrión,exacto,100.0
@@ -231,6 +267,7 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250111027,El Bajío,El Bajío,El Burrión,exacto,100.0
 250111119,Los Manguitos (Recursos Viejos),Los Manguitos (Recursos Viejos),El Burrión,exacto,100.0
 250111182,Gran Agrícola los Jefes,Gran Agrícola los Jefes,El Burrión,exacto,100.0
+250111185,El Cercón,El Cercón,El Burrión,manual,100.0
 250111246,Campo el Mayo,Campo el Mayo,El Burrión,exacto,100.0
 250111315,Kilómetro Ciento Cuarenta y Uno,Kilómetro Ciento Cuarenta y Uno,El Burrión,exacto,100.0
 250111322,Campo los Pinitos,Campo los Pinitos,El Burrión,exacto,100.0
@@ -279,6 +316,8 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250111176,Las Pitahayas,Las Pitahayas,La Trinidad,exacto,100.0
 250110153,Las Juntas de Chamicari,Las Juntas de Chamicari,La Trinidad,exacto,100.0
 250110213,Las Quemazones,Las Quemazones,La Trinidad,exacto,100.0
+250110149,Los Hornos Número Uno (Salsipuedes),Los Hornos Numero 1 (Salsipuedes),La Trinidad,aproximado,93.8
+250110868,Santa Teresa de los Olivos (El Pinito),Santa Teresa de los Olivos,La Trinidad,aproximado,83.9
 250110540,Ejido Abelardo L. Rodríguez,Ejido Abelardo L. Rodriguez,La Trinidad,exacto,100.0
 250110614,Camagüey (Campo Bórquez),Camagüey (Campo Bórquez),La Trinidad,exacto,100.0
 250111326,Campo Rojo,Campo Rojo,La Trinidad,exacto,100.0
@@ -293,6 +332,7 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250111067,Vallejo,Vallejo,La Trinidad,exacto,100.0
 250111125,Campo Real,Campo Real,La Trinidad,exacto,100.0
 250111168,La Familia,La Familia,La Trinidad,exacto,100.0
+250111183,Ninguno [Granja],Ninguno [Granja],La Trinidad,manual,100.0
 250111214,Ninguno [Erik García],Ninguno [Erik García],La Trinidad,exacto,100.0
 250111217,El Arroyo de Ocoroni [Tino Acosta],El Arroyo de Ocoroni [Tino Acosta],La Trinidad,exacto,100.0
 250111271,La Bomba,La Bomba,La Trinidad,exacto,100.0
@@ -314,33 +354,40 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110270,El Tanque,El tanque,León Fonseca,exacto,100.0
 250110665,El Vallado,El Vallado,León Fonseca,exacto,100.0
 250110203,Portugués de Gálvez,Portugues de Gálvez,León Fonseca,exacto,100.0
+250110171,Las Moritas,Las Moritas,León Fonseca,manual,100.0
 250110653,La Aceituna,La Aceituna,León Fonseca,exacto,100.0
 250110174,El Ninguno,El Ninguno,León Fonseca,exacto,100.0
 250110226,El Sabino,El Sabino,León Fonseca,exacto,100.0
 250110083,Carboneras,Carboneras,León Fonseca,exacto,100.0
 250110291,El Zopilote,El Zopilote,León Fonseca,exacto,100.0
+250111000,La Huerta,La Huerta,León Fonseca,manual,100.0
 250111220,Los Mangos,Los Mangos,León Fonseca,exacto,100.0
 250111221,Florencio Angulo,Florencio Angulo,León Fonseca,exacto,100.0
 250111478,Campo Valdéz,Campo Valdéz,León Fonseca,exacto,100.0
 250111494,Ninguno [Gloria Carlón],Ninguno [Gloria Carlón],León Fonseca,exacto,100.0
 250110175,Nío,Nío,Nío,exacto,100.0
+250110066,Caimanero,Caimanero,Nío,manual,100.0
 250110108,El Cuitabón,El Cuitabón,Nío,exacto,100.0
 250110185,Las Palmitas,Las Palmitas,Nío,exacto,100.0
 250110358,Ladrilleras de Ocoro,Ladrilleras de Ocoro,Nío,exacto,100.0
 250110154,Las Juntitas de Valdez,Las Juntitas de Valdez,Nío,exacto,100.0
+250110359,Ranchito de Caimanero (Infiernito),Ranchito de Caimanero (El infiernito),Nío,aproximado,95.5
 250110134,Gambino,Gambino,Nío,exacto,100.0
+250110112,Ejido Chino de los López,Ejido Chino de los Lopéz,Nío,manual,100.0
 250110211,Pueblo Viejo,Pueblo Viejo,Nío,exacto,100.0
 250110214,Ranchito de Castro,Ranchito de Castro,Nío,exacto,100.0
 250110985,Plan del Río,Plan del Río,Nío,exacto,100.0
 250110802,La Pelti,La Pelti,Nío,exacto,100.0
 250110673,Cabreritas,Cabreritas,Nío,exacto,100.0
 250110852,San Sebastián Número Dos,San Sebastián Número Dos,Nío,exacto,100.0
+250110364,El Varal (San Sebastián Número Uno),El Varal (San Sebastián Número 1),Nío,aproximado,93.8
 250110733,Las Choyitas,Las Choyitas,Nío,exacto,100.0
 250110720,La Cuchilla,La Cuchilla,Nío,exacto,100.0
 250110806,Las Playitas,Las Playitas,Nío,exacto,100.0
 250111225,Ninguno [Antonio Castro],Ninguno [Antonio Castro],Nío,exacto,100.0
 250111227,Ninguno [Jesús Melendrez Castro],Ninguno [Jesús Melendrez Castro],Nío,exacto,100.0
 250111228,El Arroyo,El Arroyo,Nío,exacto,100.0
+250111243,El Cercón,El Cercón,Nío,manual,100.0
 250111281,Lázaro Cárdenas del Río,Lázaro Cárdenas del Río,Nío,exacto,100.0
 250111331,Rancho JM,Rancho JM,Nío,exacto,100.0
 250111453,Las Higueritas,Las Higueritas,Nío,exacto,100.0
@@ -349,11 +396,13 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250111497,Ninguno [Erasmo Dagnino Báez],Ninguno [Erasmo Dagnino Báez],Nío,exacto,100.0
 250111498,Ninguno [Rosario Barajas García],Ninguno [Rosario Barajas García],Nío,exacto,100.0
 250111499,Ninguno [Froilán Espinoza Cruz],Ninguno [Froilán Espinoza Cruz],Nío,exacto,100.0
+250111226,El Choyal,El Choyal,Nío,manual,100.0
 250111525,Ganaderos del Río,Ganaderos del Río,Nío,exacto,100.0
 250110251,San Rafael (General Miguel Valle Dávalos),San Rafael (General Miguel Valle Dávalos),San Rafael,exacto,100.0
 250110202,El Pochote (Potrerillos),El Pochote (Potrerillos),San Rafael,exacto,100.0
 250110387,Las Cuchillas,Las Cuchillas,San Rafael,exacto,100.0
 250110192,La Pichihuila,La Pichihuila,San Rafael,exacto,100.0
+250110727,Ejido Charco Largo,Ejido Charco Largo,San Rafael,manual,100.0
 250110131,Francisco R. Serrano,Francisco R. Serrano,San Rafael,exacto,100.0
 250110814,15 de Octubre,15 de Octubre,San Rafael,exacto,100.0
 250110060,Las Brisas (Emiliano Zapata),Las Brisas (Emiliano Zapata),San Rafael,exacto,100.0
@@ -362,6 +411,7 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110184,Palmarito de los Angulo,Palmarito De Los Angulo,San Rafael,exacto,100.0
 250110391,Los Tesitos,Los Tesitos,San Rafael,exacto,100.0
 250110687,Campo Quince,Campo Quince,San Rafael,exacto,100.0
+250110728,Charco Largo,Charco Largo,San Rafael,manual,100.0
 250110705,Palos Blancos,Palos Blancos,San Rafael,exacto,100.0
 250110929,Campo de Salvador Llanes,Campo de Salvador Llanes,San Rafael,exacto,100.0
 250110963,Colonia Paul,Colonia Paul,San Rafael,exacto,100.0
@@ -373,6 +423,8 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250111303,Corrales de Roberto Llanes,Corrales de Roberto Llanes,San Rafael,exacto,100.0
 250111517,Ramiro Ortiz,Ramiro Ortiz,San Rafael,exacto,100.0
 250110269,Tamazula,Tamazula,Tamazula,exacto,100.0
+250110255,Santa Elena,Santa Elena,Tamazula,manual,100.0
+250110193,Las Pilas,Las Pilas,Tamazula,manual,100.0
 250110044,El Amole,El Amole,Tamazula,exacto,100.0
 250110176,Tres de Mayo (Nombre Feo),Tres de Mayo (Nombre Feo),Tamazula,exacto,100.0
 250110104,Cubiri del Amole,Cubiri (del Amole),Tamazula,exacto,100.0
@@ -380,6 +432,7 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110219,Río Viejo,Río Viejo,Tamazula,exacto,100.0
 250110218,El Realito (El Realito del Amole),El Realito (El Realito del Amole),Tamazula,exacto,100.0
 250110062,Buenavista,Buenavista,Tamazula,exacto,100.0
+250110188,Palos Verdes,Palos Verdes,Tamazula,manual,100.0
 250110981,El Papachal,El Papachal,Tamazula,exacto,100.0
 250110130,Las Higueras (Las Flores),Las Higueras (Las Flores),Tamazula,exacto,100.0
 250110913,El Alto,El Alto,Tamazula,exacto,100.0
@@ -392,6 +445,7 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110042,Alamito Caimanero,Alamito Caimanero,Tamazula,exacto,100.0
 250110386,Boca del Río,Boca del Río,Tamazula,exacto,100.0
 250110751,Las Glorias,Las Glorias,Tamazula,exacto,100.0
+250110563,La Pitahaya,La Pitahaya,Tamazula,manual,100.0
 250110662,Bacatuquira,Bacatuquira,Tamazula,exacto,100.0
 250110819,Campo Berrelleza,Campo Berrelleza,Tamazula,exacto,100.0
 250110384,Rosales,Rosales,Tamazula,exacto,100.0
@@ -408,17 +462,21 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110932,Campo Jito,Campo Jito,Tamazula,exacto,100.0
 250110777,El Marcol,El Marcol,Tamazula,exacto,100.0
 250110881,Torihuia,Torihuia,Tamazula,exacto,100.0
+250110736,Dorado Número Tres (Doradito),Dorado Número 3 (Doradito),Tamazula,aproximado,90.2
 250110055,La Bebelama,La Bebelama,Tamazula,exacto,100.0
 250111034,La Isleta,La Isleta,Tamazula,exacto,100.0
 250110063,Buen Retiro (El Retiro),Buen Retiro (El Retiro),Tamazula,exacto,100.0
 250110955,Campo Treinta y Uno,Campo Treinta y Uno,Tamazula,exacto,100.0
 250110468,La Gloria,La Gloria,Tamazula,exacto,100.0
+250110382,El Choyal,El Choyal,Tamazula,manual,100.0
 250110119,El Dorado Número Dos,El Dorado Número Dos,Tamazula,exacto,100.0
+250110142,El Guayabo,El Guayabo,Tamazula,manual,100.0
 250110758,La Higuerita,La Higuerita,Tamazula,exacto,100.0
 250110821,Rancho Victoria,Rancho Victoria,Tamazula,exacto,100.0
 250111122,Las Cachanillas [Agrícola],Las Cachanillas [Agrícola],Tamazula,exacto,100.0
 250111155,Campo Zazueta (Campo las Palmas),Campo Zazueta (Campo las Palmas),Tamazula,exacto,100.0
 250111174,Casa María,Casa María,Tamazula,exacto,100.0
+250111181,El Ranchito,El Ranchito,Tamazula,manual,100.0
 250111188,La Covadonga,La Covadonga,Tamazula,exacto,100.0
 250111253,Las Huertas,Las Huertas,Tamazula,exacto,100.0
 250111255,Ninguno [Con Bilichi],Ninguno [Con Bilichi],Tamazula,exacto,100.0
@@ -432,8 +490,12 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250111467,Cuatro Hermanos,Cuatro Hermanos,Tamazula,exacto,100.0
 250110035,Adolfo Ruiz Cortines,Adolfo Ruiz Cortines,Adolfo Ruiz Cortines,exacto,100.0
 250110434,El Campesino,Ejido El Campesino,Adolfo Ruiz Cortines,exacto,100.0
+250110065,El Cerro Cabezón,Cerro Cabezón,Adolfo Ruiz Cortines,aproximado,89.7
 250110168,Miguel Alemán,Ejido Miguel Alemán,Adolfo Ruiz Cortines,exacto,100.0
+250110362,Jesús María,Ejido Jesús María,Adolfo Ruiz Cortines,manual,100.0
+250110093,Corerepe (El Gallo),Ejido Corerepe,Adolfo Ruiz Cortines,manual,64.0
 250110623,Miguel Hidalgo,Ejido Miguel Hidalgo,Adolfo Ruiz Cortines,exacto,100.0
+250110300,El Huitussi y Anexos (El Huitussito),Ejido el Huitussito,Adolfo Ruiz Cortines,manual,55.3
 250111274,Corerepe [Huerta],Corerepe (Huerta),Adolfo Ruiz Cortines,exacto,100.0
 250110122,Ninguno [Empresa Longoria],Ninguno [Empresa Longoria],Adolfo Ruiz Cortines,exacto,100.0
 250110190,El Paraíso,El Paraíso,Adolfo Ruiz Cortines,exacto,100.0
@@ -443,6 +505,7 @@ cvegeo,nombre_inegi,nombre_implan,unidad,metodo_match,puntaje
 250110647,Campo Torres,Campo Torres,Adolfo Ruiz Cortines,exacto,100.0
 250110824,El Rosario,El Rosario,Adolfo Ruiz Cortines,exacto,100.0
 250110838,San Cristóbal,San Cristóbal,Adolfo Ruiz Cortines,exacto,100.0
+250110857,Santa Elena,Santa Elena,Adolfo Ruiz Cortines,manual,100.0
 250110874,El Girasol,El Girasol,Adolfo Ruiz Cortines,exacto,100.0
 250110875,Campo Don Emilio,Campo Don Emilio,Adolfo Ruiz Cortines,exacto,100.0
 250111021,Valle del Fuerte [Algodonera],Valle del Fuerte [Algodonera],Adolfo Ruiz Cortines,exacto,100.0

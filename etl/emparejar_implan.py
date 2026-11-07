@@ -15,6 +15,11 @@ geo.localidad_puntual). Salidas:
   data/manual/localidad_sindicatura.csv     emparejamientos resueltos
   data/manual/revision_emparejamiento.csv   casos para revisión manual
 
+Las decisiones ya capturadas en la revisión (columnas cvegeo_elegido y nota)
+se conservan al volver a correr el script y se incorporan a la salida:
+"aproximado" si se eligió el primer candidato de un caso aproximado, "manual"
+en cualquier otro caso; "ninguna" deja la fila sin clave.
+
 Uso: python3 etl/emparejar_implan.py   (con la base levantada)
 """
 import csv
@@ -124,13 +129,45 @@ def main():
         cab = cabecera.get(r["row"]["unidad"])
         return round(math.dist(cab, (c["x"], c["y"])) / 1000, 1) if cab else ""
 
+    # Decisiones de la revisión manual, por (unidad, num_implan).
+    previas = {}
+    if REVISION.exists():
+        for d in csv.DictReader(REVISION.open(encoding="utf-8")):
+            previas[(d["unidad"], d["num_implan"])] = (d["cvegeo_elegido"].strip(), d["nota"])
+    nombre_inegi = {}
+    for c in sorted(inegi, key=lambda c: c["fuente"] != "l"):  # el nombre de l tiene prioridad
+        nombre_inegi.setdefault(c["cvegeo"], c["nomgeo"])
+
+    for r in resultados:
+        if r["metodo"]:
+            continue
+        row = r["row"]
+        # Los candidatos exactos múltiples pueden ser más de 3; se listan los 3 más cercanos a la cabecera.
+        r["cands"] = sorted(r["cands"], key=lambda t: (-t[1], dist_km(r, t[0]) if cabecera.get(row["unidad"]) else 0))
+        r["cands_revision"] = r["cands"]
+        r["elegido"], r["nota"] = previas.get((row["unidad"], row["num_implan"]), ("", ""))
+        e = r["elegido"]
+        if e in ("", "ninguna"):
+            continue
+        if e not in nombre_inegi:
+            raise SystemExit(f"{row['unidad']} fila {row['num_implan']}: la clave {e} no es una localidad de Guasave")
+        primero = r["motivo"] == "aproximado" and e == r["cands"][0][0]["cvegeo"]
+        r["metodo"] = "aproximado" if primero else "manual"
+        r["cands"] = [({"cvegeo": e, "nomgeo": nombre_inegi[e]},
+                       puntaje(normalizar(row["localidad"]), normalizar(nombre_inegi[e])))]
+
+    usos = Counter(r["cands"][0][0]["cvegeo"] for r in resultados if r["metodo"])
+    repetidas = {k: v for k, v in usos.items() if v > 1}
+    if repetidas:
+        raise SystemExit(f"Claves asignadas a más de una fila del IMPLAN: {repetidas}")
+
     with SALIDA.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["cvegeo", "nombre_inegi", "nombre_implan", "unidad", "metodo_match", "puntaje"])
         for r in resultados:
-            if r["metodo"] == "exacto":
+            if r["metodo"]:
                 c, p = r["cands"][0]
-                w.writerow([c["cvegeo"], c["nomgeo"], r["row"]["localidad"], r["row"]["unidad"], "exacto", p])
+                w.writerow([c["cvegeo"], c["nomgeo"], r["row"]["localidad"], r["row"]["unidad"], r["metodo"], p])
 
     with REVISION.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -139,19 +176,19 @@ def main():
             cab += [f"cand{i}_cvegeo", f"cand{i}_nombre", f"cand{i}_puntaje", f"cand{i}_km_cabecera"]
         w.writerow(cab + ["cvegeo_elegido", "nota"])
         for r in resultados:
-            if r["metodo"]:
+            if r["metodo"] == "exacto":
                 continue
             row = r["row"]
             fila = [row["unidad"], row["num_implan"], row["localidad"], row["rango"], row["poblacion"], r["motivo"]]
-            # Los candidatos exactos múltiples pueden ser más de 3; se listan los 3 más cercanos a la cabecera.
-            cands = sorted(r["cands"], key=lambda t: (-t[1], dist_km(r, t[0]) if cabecera.get(row["unidad"]) else 0))
-            for c, p in cands[:3]:
+            for c, p in r["cands_revision"][:3]:
                 fila += [c["cvegeo"], c["nomgeo"], p, dist_km(r, c)]
             fila += [""] * (6 + 4 * 3 - len(fila))
-            w.writerow(fila + ["", ""])
+            w.writerow(fila + [r["elegido"], r["nota"]])
 
     # Resumen
-    print(f"{'unidad':<24}{'filas':>6}{'exacto l':>9}{'exacto lpr':>11}{'aprox':>7}{'sin coinc':>10}{'ambiguo':>9}")
+    print("Columnas aprox/sin coinc/ambiguo = casos de revisión aún sin decisión.")
+    print(f"{'unidad':<24}{'filas':>6}{'exacto l':>9}{'exacto lpr':>11}{'aproximado':>11}{'manual':>7}{'ninguna':>8}"
+          f"{'aprox':>7}{'sin coinc':>10}{'ambiguo':>9}")
     tot = Counter()
     for unidad in dict.fromkeys(r["row"]["unidad"] for r in resultados):
         rs = [r for r in resultados if r["row"]["unidad"] == unidad]
@@ -159,6 +196,8 @@ def main():
         for r in rs:
             if r["metodo"] == "exacto":
                 k["exacto " + r["fuente"]] += 1
+            elif r.get("elegido"):
+                k[r["metodo"] or "ninguna"] += 1
             elif r["motivo"] == "aproximado":
                 k["aprox"] += 1
             elif r["motivo"] == "sin coincidencia":
@@ -166,8 +205,11 @@ def main():
             else:
                 k["ambiguo"] += 1
         tot += k
-        print(f"{unidad:<24}{len(rs):>6}{k['exacto l']:>9}{k['exacto lpr']:>11}{k['aprox']:>7}{k['sin']:>10}{k['ambiguo']:>9}")
-    print(f"{'TOTAL':<24}{len(resultados):>6}{tot['exacto l']:>9}{tot['exacto lpr']:>11}{tot['aprox']:>7}{tot['sin']:>10}{tot['ambiguo']:>9}")
+        print(f"{unidad:<24}{len(rs):>6}{k['exacto l']:>9}{k['exacto lpr']:>11}{k['aproximado']:>11}{k['manual']:>7}"
+              f"{k['ninguna']:>8}{k['aprox']:>7}{k['sin']:>10}{k['ambiguo']:>9}")
+    k = tot
+    print(f"{'TOTAL':<24}{len(resultados):>6}{k['exacto l']:>9}{k['exacto lpr']:>11}{k['aproximado']:>11}{k['manual']:>7}"
+          f"{k['ninguna']:>8}{k['aprox']:>7}{k['sin']:>10}{k['ambiguo']:>9}")
     print(f"Escritos {SALIDA.relative_to(RAIZ)} y {REVISION.relative_to(RAIZ)}")
 
 

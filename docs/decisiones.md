@@ -92,3 +92,34 @@ Tamaño: 79,036,726 bytes. SHA-256: `57d4242eebb9366e70a6f34ee8e0f2e39eaeb686e1d
 **Alternativa descartada.** `rapidfuzz` (agregaría una dependencia); aceptar automáticamente las coincidencias aproximadas por encima del umbral.
 
 **Prueba de control (Bamoa).** La tesis dice que 10 de 18 coinciden por nombre exacto con la capa `l`. Resultado: 9 nombres de Bamoa tienen coincidencia exacta en `l`, de los cuales 7 quedan resueltos y 2 van a revisión (Choipa aparece también en La Trinidad; "Chino de los López" choca con "Ejido Chino de los López" al quitar el prefijo). Las otras 9 están en `lpr`. Las 18 localidades de Bamoa corresponden a 10 claves de `l` solo si se cuentan las dos variantes de Chino de los López (250110111 y 250110112). No se ajustó nada para llegar a 10; pendiente de confirmar con la tesis.
+
+## 2026-11-06 — Revisión manual del emparejamiento
+
+**Decisión.** Se resolvieron los 92 casos de `data/manual/revision_emparejamiento.csv`: 63 con clave elegida y 29 sin clave (`ninguna`), con el motivo en la columna `nota`. Los 16 casos marcados `[dudoso]` se aceptan como están, salvo Chino de los López.
+- `250110112` "Ejido Chino de los López" se asigna a **Nío fila 9** ("Ejido Chino de los Lopéz", 366 hab., 5.4 km de la cabecera de Nío), no a Bamoa fila 16 ("Chino de los López", 5 hab., 7.0 km de la cabecera de Bamoa). Bamoa fila 16 queda sin clave. `250110111` "Chino de los López" es de El Burrión fila 4 (273 hab., 5.0 km de su cabecera).
+- `etl/emparejar_implan.py` ahora conserva las columnas `cvegeo_elegido` y `nota` al volver a correr (antes las borraba) y agrega esas decisiones a `localidad_sindicatura.csv`: `aproximado` si se eligió el primer candidato de un caso aproximado, `manual` en cualquier otro caso. Falla si una clave elegida no es una localidad de Guasave o si una clave queda en dos filas del IMPLAN.
+
+**Motivo.** Por nombre, población y distancia, `250110112` corresponde a Nío. Asignarla a Bamoa solo servía para acercarse a la cifra de la tesis, y no se ajustan datos para llegar a ella.
+
+**Resultado.** 548 filas del IMPLAN: 456 exactas, 11 aproximadas, 52 manuales y 29 sin clave. En total, 519 claves, sin repetidas. Prueba de control de Bamoa: 8 claves en `l` (7 exactas más Choipa), contra 10 en la tesis. Se registra como discrepancia con la tesis.
+
+**Alternativa descartada.** Asignar `250110112` a Bamoa fila 16 (9 claves en `l`, todavía no 10).
+
+## 2026-11-06 — Polígonos de sindicatura por Voronoi
+
+**Decisión.** `etl/cargar_sindicaturas.sh` carga `localidad_sindicatura.csv` y corre `db/sql/sindicaturas.sql`, que crea `geo.sindicatura_poligono` (13 polígonos) y `geo.localidad_sindicatura` (las 707 localidades del INEGI en Guasave, de `l` ∪ `lpr`, con su sindicatura y `origen`). Todo ocurre en una transacción y es idempotente: dos corridas dan el mismo hash.
+- Generadores como en el plan: vértices de los bordes de `l`, `pe` y `pem` con `ST_Segmentize` a 50 m, más los puntos `lpr`, solo de localidades emparejadas con el IMPLAN. Las celdas se extienden 1 km más allá del rectángulo del municipio, se unen por sindicatura y se recortan con el polígono municipal.
+- **Generadores compartidos.** 16 vértices son comunes a localidades vecinas de dos sindicaturas: Guasave / Callejones de Guasavito (Alcaldía Central / El Burrión, 6), Cruz Blanca / Gambino (Bamoa / Nío, 9) y La Cuerda / San Sebastián Número Dos (Estación Bamoa / Nío, 1). Se excluyen de los generadores, y la frontera entre ambas queda definida por los vértices vecinos.
+- **Sindicatura de las 188 localidades sin IMPLAN** (`origen = 'voronoi'`): la del polígono más cercano a su punto representativo (`ST_PointOnSurface` de `l`, o el punto `lpr`). Si el punto está dentro, la distancia es 0. Si queda en un borde, gana el nombre en orden ascendente. Así se cubren puntos fuera del municipio, como El Zopilote. En la API, la regla 2 usa el polígono que contiene el punto consultado, no esta tabla.
+
+**Motivo.** Un vértice compartido no puede generar una celda para dos sindicaturas, y elegir una de ellas sería arbitrario. El efecto se limita a la vecindad de esos vértices, donde además la API asigna primero por el polígono de la localidad (regla 1).
+
+**Resultado.** 13 polígonos válidos; la suma de áreas es igual al área municipal (2,910.15 km², diferencia 0.000000 %), con 0 m² de huecos y 0 m² de traslapes. Tres sindicaturas tienen varias partes: Adolfo Ruiz Cortines (3), Alcaldía Central (2) y Estación Bamoa (3). Son enclaves alrededor de localidades del IMPLAN que quedan dentro del territorio de otra sindicatura, salvo una parte de 0.38 m² de Adolfo Ruiz Cortines, residuo del recorte por debajo de la tolerancia de 1 m.
+
+**Alternativa descartada.** Asignar el vértice compartido a una sola sindicatura por orden alfabético.
+
+## 2026-11-06 — Script de validación con Bamoa
+
+**Decisión.** `etl/validar_bamoa.sh` carga `data/manual/bamoa_implan.geojson` en `geo.bamoa_implan` con ogr2ogr, reproyectado a EPSG:6372 desde el SRS que declare el archivo, y reporta intersección / área IMPLAN, intersección / área Voronoi e IoU. Si el archivo no existe, termina con un mensaje. Se probó con el propio polígono de Voronoi exportado a EPSG:4326 (resultado 1.0 en los tres índices) y luego se borró la prueba.
+
+**Pendiente.** Digitalizar `bamoa_implan.geojson` en QGIS.

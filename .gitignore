@@ -2,3 +2,4 @@ data/raw/
 data/eval_raw/
 .env
 Tesis/
+__pycache__/
