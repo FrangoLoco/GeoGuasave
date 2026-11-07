@@ -286,3 +286,62 @@ Tamaño: 79,036,726 bytes. SHA-256: `57d4242eebb9366e70a6f34ee8e0f2e39eaeb686e1d
 | Sindicatura de la tabla del IMPLAN / pendiente de los mapas | 226 / 174 |
 
 **Pendiente.** Digitalizar los 13 mapas del IMPLAN y llenar la sindicatura de los 174 puntos marcados `pendiente_mapa_implan`.
+
+## 2026-11-06 — Digitalización de las 13 sindicaturas del IMPLAN
+
+**Decisión.** `etl/digitalizar_sindicaturas.py` (contenedor GDAL) genera `data/manual/sindicaturas_implan.geojson`. La configuración de cada mapa está en `data/manual/implan/mapas/digitalizacion.json`.
+- **Mapas.** Los 26 mapas "micro" y "macro" de la [Cartografía de sindicaturas del IMPLAN](https://guasave.gob.mx/implan/cartografia-de-sindicaturas/), descargados el 2026-11-06 y guardados en `data/manual/implan/mapas/` con su nombre original. El SHA-256 se verifica antes de procesar cada uno. Se usan los 13 "micro"; los "macro" tienen el polígono tapado por marcadores y etiquetas.
+- **Georreferencia.** Transformación afín con localidades marcadas en el mapa como puntos de control, cuya posición se lee a mano y el script afina al centroide de la mancha del marcador. Cada una se asocia a su punto `lpr`, o a `ST_PointOnSurface` de `l`. Se descarta de uno en uno el punto con residuo mayor a 500 m, porque son marcadores mal identificados (por ejemplo, "Los Hornos" en La Trinidad quedó a 1.7 km).
+- **Segmentación.** Discriminante lineal de Fisher sobre ln(R/G), ln(B/G) e intensidad, entrenado con recuadros de muestra dentro y fuera del polígono. Luego un filtro de mayoría, una apertura morfológica opcional para cortar fugas por carreteras y zonas de color parecido, y un cierre morfológico para rellenar marcadores y etiquetas. Cada mapa se revisó sobreponiendo el contorno a la imagen. Se ajustaron muestras, exclusiones y apertura donde había fugas: Benito Juárez, León Fonseca (una laguna), San Rafael, Tamazula (mar y humedales) y Adolfo Ruiz Cortines.
+- **Alcaldía Central se trazó a mano.** El verde translúcido sobre cultivos verdes no se separa por color, ni siquiera con rasgos de textura local. Se leyeron 7 vértices sobre el borde visible, con ayuda de una imagen del cociente de color suavizado, y se guardaron en `trazo`. La punta norte queda 28 px (~240 m) fuera del encuadre y se extrapoló como la intersección de los dos bordes rectos.
+
+**Resultado.**
+
+| Sindicatura | Puntos de control (usados / leídos) | RMS (m) | Área (km²) | Localidades de su tabla dentro |
+|---|---|---|---|---|
+| Adolfo Ruiz Cortines | 7 / 8 | 180.9 | 249.78 | 27 de 30 |
+| Alcaldía Central (trazo) | 12 / 18 | 189.8 | 165.39 | 92 de 94 |
+| Bamoa | 11 / 11 | 161.2 | 66.79 | 17 de 17 |
+| Benito Juárez | 6 / 7 | 198.8 | 466.99 | 67 de 70 |
+| El Burrión | 12 / 12 | 183.9 | 221.04 | 66 de 68 |
+| Estación Bamoa | 6 / 6 | 118.6 | 102.49 | 9 de 10 |
+| Juan José Ríos | 7 / 8 | 282.4 | 218.68 | 29 de 31 |
+| La Brecha | 8 / 9 | 193.9 | 278.24 | 18 de 18 |
+| La Trinidad | 10 / 11 | 193.8 | 156.56 | 40 de 42 |
+| León Fonseca | 10 / 11 | 206.8 | 81.32 | 16 de 16 |
+| Nío | 11 / 13 | 188.8 | 100.81 | 33 de 33 |
+| San Rafael | 12 / 14 | 159.7 | 140.22 | 24 de 24 |
+| Tamazula | 10 / 13 | 247.9 | 402.65 | 53 de 66 |
+
+- **Validación independiente.** 488 de las 519 localidades de las tablas del IMPLAN (94 %) caen dentro del polígono digitalizado de su propia sindicatura.
+- **Cobertura del municipio (2,910.2 km²).**
+  - Los 13 polígonos cubren 2,517.4 km², el 86.5 %.
+  - Quedan 392.8 km² sin cubrir, sobre todo la bahía y la costa del suroeste, que ningún mapa del IMPLAN incluye.
+  - 50.1 km² quedan fuera del municipio.
+  - Hay 83.6 km² de traslapes entre sindicaturas. El mayor es Adolfo Ruiz Cortines / Benito Juárez, con 45.5 km², y dentro hay localidades de ambas tablas (3 y 7): es un traslape del propio IMPLAN, no un error de digitalización.
+
+**Limitaciones.**
+- Los polígonos de Estación Bamoa (por el sur) y Tamazula (por el norte) tocan el borde de su imagen "micro" y pueden estar cortados. En los "macro" el polígono está tapado.
+- Bamoa ya tenía su propia digitalización (`etl/digitalizar_bamoa.py`: 66.45 km², RMS 172.2 m), con la que se calculó la validación del commit 78559b3. La nueva da 66.79 km². Pendiente: decidir si `validar_bamoa.sh` usa la nueva.
+
+**Alternativa descartada.** Trazar todo a mano en QGIS (no es reproducible); usar el Voronoi como referencia (es circular).
+
+## 2026-11-06 — Sindicatura de referencia en traslapes y huecos del IMPLAN (decisiones del usuario)
+
+**Decisión.** En `eval/muestra/generar_muestra.sql`, para los puntos cuya localidad de referencia no está en las tablas del IMPLAN:
+- Si caen en un solo polígono del IMPLAN digitalizado: esa sindicatura (`implan_mapa`).
+- Si caen en dos o más polígonos: se guardan todas, separadas por `|`, y **cualquiera cuenta como acierto** (`implan_mapa_traslape`).
+- Si no caen en ninguno: sindicatura `NULL`, y **solo se evalúa el municipio** (`sin_cobertura_implan`).
+
+**Resultado.**
+
+| Fuente de la sindicatura de referencia | Puntos |
+|---|---|
+| `implan_tabla` | 226 |
+| `implan_mapa` | 150 |
+| `implan_mapa_traslape` | 6 |
+| `sin_cobertura_implan` | 18 |
+
+De los 18 sin cobertura, 13 están en la zona costera del suroeste, la mayoría en el AGEB rural 250110979, y 5 a menos de 600 m de algún polígono. Las coordenadas, las localidades y las 226 referencias de la tabla no cambiaron.
+
+**Alternativa descartada.** Para los traslapes: excluir el punto de la evaluación de sindicatura, o elegir por centroide más cercano. Para los huecos: asignar el polígono más cercano, siempre o a 250 m o menos.

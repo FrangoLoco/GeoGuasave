@@ -55,6 +55,7 @@ El plan completo está en `docs/PLAN.md`: fases, contrato de la API, reglas de a
 - Pruebas de la API: `docker compose run --rm api npm test`
 - Prueba preliminar de backend (k6): `./bench/correr.sh`
 - Cargar los números exteriores 2023 (requiere `data/raw/794551086223_ss.zip`): `./etl/cargar_numeros_exteriores.sh`
+- Digitalizar las 13 sindicaturas del IMPLAN: `docker compose run --rm -q -v "$PWD/etl:/etl:ro" gdal python3 /etl/digitalizar_sindicaturas.py > data/manual/sindicaturas_implan.geojson` (con `-u "$(id -u):$(id -g)" -e REVISION=/rev -v <carpeta>:/rev` deja imágenes de revisión)
 - Generar la muestra de puntos de control: `./eval/muestra/generar_muestra.sh`
 
 ## Idioma

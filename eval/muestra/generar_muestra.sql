@@ -78,18 +78,34 @@ LEFT JOIN LATERAL (
   WHERE m.localidad_ne IS NULL AND ST_Intersects(c.geom, m.geom)
   ORDER BY c.capa, ST_Area(c.geom), c.cvegeo LIMIT 1) p ON true;
 
--- Sindicatura de referencia: la de la tabla del IMPLAN si la localidad aparece en ella;
--- si no, la del polígono del IMPLAN digitalizado (pendiente hasta que existan los 13).
+-- Sindicatura de referencia (decisiones del usuario, docs/decisiones.md):
+--   implan_tabla:       la localidad de referencia aparece en las tablas del IMPLAN.
+--   implan_mapa:        si no, el polígono del IMPLAN digitalizado que contiene el punto
+--                       (geo.sindicatura_implan, de data/manual/sindicaturas_implan.geojson).
+--   implan_mapa_traslape: el punto cae en dos o más polígonos del IMPLAN; se guardan todas,
+--                       separadas por "|", y cualquiera cuenta como acierto.
+--   sin_cobertura_implan: no cae en ningún polígono del IMPLAN; sindicatura NULL y solo se
+--                       evalúa el municipio.
 COPY (
+  WITH mapa AS (
+    SELECT r.estrato, r.k, string_agg(s.sindicatura, '|' ORDER BY s.sindicatura) AS sindicaturas, count(s.*) AS n
+    FROM referencia r
+    LEFT JOIN geo.sindicatura_implan s
+      ON ST_Intersects(s.geom, ST_Transform(ST_SetSRID(ST_MakePoint(r.lon, r.lat), 4326), 6372))
+    GROUP BY 1, 2)
   SELECT row_number() OVER (ORDER BY CASE r.estrato WHEN 'numero_exterior' THEN 1 WHEN 'rural' THEN 2 ELSE 3 END, r.k) AS id,
          r.estrato, r.lat, r.lon,
          '25011' AS municipio_cvegeo, 'Guasave' AS municipio,
-         ls.sindicatura,
-         CASE WHEN ls.sindicatura IS NOT NULL THEN 'implan_tabla' ELSE 'pendiente_mapa_implan' END AS sindicatura_fuente,
+         coalesce(ls.sindicatura, ma.sindicaturas) AS sindicatura,
+         CASE WHEN ls.sindicatura IS NOT NULL THEN 'implan_tabla'
+              WHEN ma.n = 1 THEN 'implan_mapa'
+              WHEN ma.n > 1 THEN 'implan_mapa_traslape'
+              ELSE 'sin_cobertura_implan' END AS sindicatura_fuente,
          r.localidad_cvegeo, li.nombre_inegi AS localidad,
          CASE WHEN r.localidad_cvegeo IS NULL THEN NULL
               WHEN (SELECT ambito FROM geo.localidad WHERE cvegeo = r.localidad_cvegeo) = 'Urbana' THEN 'U' ELSE 'R' END AS localidad_ambito
   FROM referencia r
+  JOIN mapa ma USING (estrato, k)
   LEFT JOIN geo.localidad_sindicatura li ON li.cvegeo = r.localidad_cvegeo
   LEFT JOIN geo.localidad_sindicatura ls ON ls.cvegeo = r.localidad_cvegeo AND ls.origen = 'implan'
   ORDER BY 1
