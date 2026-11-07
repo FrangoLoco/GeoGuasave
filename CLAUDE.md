@@ -54,6 +54,8 @@ El plan completo está en `docs/PLAN.md`: fases, contrato de la API, reglas de a
 - Levantar todo desde cero con los datos cargados (requiere `.env` y el zip): `./iniciar.sh`
 - Pruebas de la API: `docker compose run --rm api npm test`
 - Prueba preliminar de backend (k6): `./bench/correr.sh`
+- Cargar los números exteriores 2023 (requiere `data/raw/794551086223_ss.zip`): `./etl/cargar_numeros_exteriores.sh`
+- Generar la muestra de puntos de control: `./eval/muestra/generar_muestra.sh`
 
 ## Idioma
 

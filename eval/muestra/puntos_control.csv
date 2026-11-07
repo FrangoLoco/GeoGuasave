@@ -1,0 +1,401 @@
+id,estrato,lat,lon,municipio_cvegeo,municipio,sindicatura,sindicatura_fuente,localidad_cvegeo,localidad,localidad_ambito
+1,numero_exterior,25.483713,-108.370398,25011,Guasave,El Burrión,implan_tabla,250110352,Vicente Guerrero,R
+2,numero_exterior,25.709749,-108.726928,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110035,Adolfo Ruiz Cortines,U
+3,numero_exterior,25.587925,-108.474268,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+4,numero_exterior,25.533204,-108.220262,25011,Guasave,San Rafael,implan_tabla,250110131,Francisco R. Serrano,R
+5,numero_exterior,25.565988,-108.466638,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+6,numero_exterior,25.712940,-108.404735,25011,Guasave,León Fonseca,implan_tabla,250110171,Las Moritas,R
+7,numero_exterior,25.579187,-108.471452,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+8,numero_exterior,25.755682,-108.828909,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+9,numero_exterior,25.708888,-108.731077,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110035,Adolfo Ruiz Cortines,U
+10,numero_exterior,25.657884,-108.642459,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+11,numero_exterior,25.756962,-108.827569,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+12,numero_exterior,25.698054,-108.719309,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110035,Adolfo Ruiz Cortines,U
+13,numero_exterior,25.550489,-108.490333,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+14,numero_exterior,25.656301,-108.610291,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+15,numero_exterior,25.585280,-108.477078,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+16,numero_exterior,25.662933,-108.640908,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+17,numero_exterior,25.564642,-108.489890,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+18,numero_exterior,25.745927,-108.821123,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+19,numero_exterior,25.632894,-108.311264,25011,Guasave,Bamoa,implan_tabla,250110312,Choipa,R
+20,numero_exterior,25.661324,-108.609814,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+21,numero_exterior,25.658579,-108.381471,25011,Guasave,Nío,implan_tabla,250110134,Gambino,R
+22,numero_exterior,25.619624,-108.624992,25011,Guasave,Benito Juárez,implan_tabla,250110191,Las Parritas,R
+23,numero_exterior,25.495969,-108.377266,25011,Guasave,El Burrión,implan_tabla,250110475,Javier Rojo Gómez,R
+24,numero_exterior,25.561324,-108.491401,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+25,numero_exterior,25.366019,-108.420514,25011,Guasave,La Brecha,implan_tabla,250110059,La Brecha,R
+26,numero_exterior,25.567522,-108.858276,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110065,El Cerro Cabezón,U
+27,numero_exterior,25.585290,-108.521407,25011,Guasave,Alcaldía Central,implan_tabla,250110759,San José de Guayparime,R
+28,numero_exterior,25.664255,-108.635517,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+29,numero_exterior,25.680812,-108.657664,25011,Guasave,Benito Juárez,implan_tabla,250110520,Ejido Figueroa,R
+30,numero_exterior,25.764101,-108.827775,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+31,numero_exterior,25.489324,-108.241936,25011,Guasave,San Rafael,implan_tabla,250110060,Las Brisas (Emiliano Zapata),R
+32,numero_exterior,25.724623,-108.348639,25011,Guasave,León Fonseca,implan_tabla,250110161,León Fonseca (Estación Verdura),U
+33,numero_exterior,25.635736,-108.583227,25011,Guasave,Benito Juárez,implan_tabla,250110088,Cinco de Mayo (Agua Blanca),R
+34,numero_exterior,25.471588,-108.559440,25011,Guasave,Tamazula,implan_tabla,250110062,Buenavista,R
+35,numero_exterior,25.554816,-108.466208,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+36,numero_exterior,25.706579,-108.315644,25011,Guasave,Estación Bamoa,implan_tabla,250110051,Estación Bamoa (Campo Wilson),U
+37,numero_exterior,25.704878,-108.725596,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110035,Adolfo Ruiz Cortines,U
+38,numero_exterior,25.590674,-108.472586,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+39,numero_exterior,25.677720,-108.653813,25011,Guasave,Benito Juárez,implan_tabla,250110520,Ejido Figueroa,R
+40,numero_exterior,25.755659,-108.830896,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+41,numero_exterior,25.567070,-108.462303,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+42,numero_exterior,25.624635,-108.403067,25011,Guasave,Nío,implan_tabla,250110175,Nío,U
+43,numero_exterior,25.366006,-108.422857,25011,Guasave,La Brecha,implan_tabla,250110059,La Brecha,R
+44,numero_exterior,25.565125,-108.488566,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+45,numero_exterior,25.536675,-108.457062,25011,Guasave,Alcaldía Central,implan_tabla,250110249,San Pedro Guasave (El Ranchito),R
+46,numero_exterior,25.749390,-108.818956,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+47,numero_exterior,25.532713,-108.455854,25011,Guasave,Alcaldía Central,implan_tabla,250110249,San Pedro Guasave (El Ranchito),R
+48,numero_exterior,25.760748,-108.817753,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+49,numero_exterior,25.491837,-108.309531,25011,Guasave,San Rafael,implan_tabla,250110251,San Rafael (General Miguel Valle Dávalos),R
+50,numero_exterior,25.591369,-108.470806,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+51,numero_exterior,25.584315,-108.464532,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+52,numero_exterior,25.565228,-108.486901,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+53,numero_exterior,25.755103,-108.824106,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+54,numero_exterior,25.490817,-108.301541,25011,Guasave,San Rafael,implan_tabla,250110251,San Rafael (General Miguel Valle Dávalos),R
+55,numero_exterior,25.540611,-108.408245,25011,Guasave,El Burrión,implan_tabla,250110064,El Burrión,U
+56,numero_exterior,25.491707,-108.375627,25011,Guasave,El Burrión,implan_tabla,250110475,Javier Rojo Gómez,R
+57,numero_exterior,25.488638,-108.247101,25011,Guasave,San Rafael,implan_tabla,250110060,Las Brisas (Emiliano Zapata),R
+58,numero_exterior,25.559851,-108.483744,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+59,numero_exterior,25.470350,-108.370918,25011,Guasave,El Burrión,implan_tabla,250110194,El Pitahayal,R
+60,numero_exterior,25.558137,-108.494229,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+61,numero_exterior,25.628950,-108.396774,25011,Guasave,Nío,implan_tabla,250110175,Nío,U
+62,numero_exterior,25.601268,-108.223824,25011,Guasave,Estación Bamoa,implan_tabla,250110081,Estación Capomas,R
+63,numero_exterior,25.551322,-108.485961,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+64,numero_exterior,25.760933,-108.829099,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+65,numero_exterior,25.549842,-108.460303,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+66,numero_exterior,25.564597,-108.470910,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+67,numero_exterior,25.561508,-108.456840,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+68,numero_exterior,25.683807,-108.425813,25011,Guasave,La Trinidad,implan_tabla,250110153,Las Juntas de Chamicari,R
+69,numero_exterior,25.379239,-108.454387,25011,Guasave,Tamazula,implan_tabla,250110188,Palos Verdes,R
+70,numero_exterior,25.647499,-108.646856,25011,Guasave,Benito Juárez,implan_tabla,250111020,24 de Febrero,R
+71,numero_exterior,25.588558,-108.471440,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+72,numero_exterior,25.548834,-108.493449,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+73,numero_exterior,25.563336,-108.491392,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+74,numero_exterior,25.492221,-108.375089,25011,Guasave,El Burrión,implan_tabla,250110475,Javier Rojo Gómez,R
+75,numero_exterior,25.628424,-108.723173,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110093,Corerepe (El Gallo),U
+76,numero_exterior,25.662520,-108.618537,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+77,numero_exterior,25.656110,-108.611624,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+78,numero_exterior,25.711567,-108.730395,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110035,Adolfo Ruiz Cortines,U
+79,numero_exterior,25.604664,-108.480268,25011,Guasave,Alcaldía Central,implan_tabla,250110283,Los Ángeles,U
+80,numero_exterior,25.628669,-108.724442,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110093,Corerepe (El Gallo),U
+81,numero_exterior,25.600159,-108.222843,25011,Guasave,Estación Bamoa,implan_tabla,250110081,Estación Capomas,R
+82,numero_exterior,25.558656,-108.480919,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+83,numero_exterior,25.760075,-108.824058,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+84,numero_exterior,25.556651,-108.492580,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+85,numero_exterior,25.657169,-108.640382,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+86,numero_exterior,25.384878,-108.539978,25011,Guasave,Tamazula,implan_tabla,250110562,Las Flores,R
+87,numero_exterior,25.697504,-108.720834,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110035,Adolfo Ruiz Cortines,U
+88,numero_exterior,25.620710,-108.711034,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110093,Corerepe (El Gallo),U
+89,numero_exterior,25.597874,-108.580762,25011,Guasave,Benito Juárez,implan_tabla,250110124,Ejido la Entrada (El Poblado),R
+90,numero_exterior,25.634252,-108.582203,25011,Guasave,Benito Juárez,implan_tabla,250110088,Cinco de Mayo (Agua Blanca),R
+91,numero_exterior,25.618515,-108.711002,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110093,Corerepe (El Gallo),U
+92,numero_exterior,25.534487,-108.213975,25011,Guasave,San Rafael,implan_tabla,250110131,Francisco R. Serrano,R
+93,numero_exterior,25.605008,-108.444515,25011,Guasave,Nío,implan_tabla,250110066,Caimanero,R
+94,numero_exterior,25.705437,-108.307047,25011,Guasave,Estación Bamoa,implan_tabla,250110051,Estación Bamoa (Campo Wilson),U
+95,numero_exterior,25.533706,-108.453364,25011,Guasave,Alcaldía Central,implan_tabla,250110249,San Pedro Guasave (El Ranchito),R
+96,numero_exterior,25.697855,-108.724048,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110035,Adolfo Ruiz Cortines,U
+97,numero_exterior,25.539822,-108.404704,25011,Guasave,El Burrión,implan_tabla,250110064,El Burrión,U
+98,numero_exterior,25.600780,-108.445119,25011,Guasave,Nío,implan_tabla,250110066,Caimanero,R
+99,numero_exterior,25.665260,-108.639695,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+100,numero_exterior,25.573625,-108.482372,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+101,numero_exterior,25.570759,-108.485857,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+102,numero_exterior,25.667515,-108.616030,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+103,numero_exterior,25.599040,-108.480053,25011,Guasave,Alcaldía Central,implan_tabla,250110283,Los Ángeles,U
+104,numero_exterior,25.661278,-108.614125,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+105,numero_exterior,25.703334,-108.721079,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110035,Adolfo Ruiz Cortines,U
+106,numero_exterior,25.558781,-108.494706,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+107,numero_exterior,25.587113,-108.455106,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+108,numero_exterior,25.428846,-108.592301,25011,Guasave,Tamazula,implan_tabla,250110209,El Progreso,R
+109,numero_exterior,25.554092,-108.472306,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+110,numero_exterior,25.552462,-108.486759,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+111,numero_exterior,25.661201,-108.635987,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+112,numero_exterior,25.648685,-108.650775,25011,Guasave,Benito Juárez,implan_tabla,250111020,24 de Febrero,R
+113,numero_exterior,25.640186,-108.423985,25011,Guasave,Nío,implan_tabla,250110364,El Varal (San Sebastián Número Uno),R
+114,numero_exterior,25.554912,-108.492438,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+115,numero_exterior,25.653814,-108.634585,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+116,numero_exterior,25.715851,-108.303912,25011,Guasave,Estación Bamoa,implan_tabla,250110051,Estación Bamoa (Campo Wilson),U
+117,numero_exterior,25.745482,-108.820278,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+118,numero_exterior,25.661425,-108.634990,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+119,numero_exterior,25.469215,-108.369275,25011,Guasave,El Burrión,implan_tabla,250110194,El Pitahayal,R
+120,numero_exterior,25.556210,-108.491962,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+121,numero_exterior,25.596926,-108.219916,25011,Guasave,Estación Bamoa,implan_tabla,250110081,Estación Capomas,R
+122,numero_exterior,25.471460,-108.370427,25011,Guasave,El Burrión,implan_tabla,250110194,El Pitahayal,R
+123,numero_exterior,25.710117,-108.314543,25011,Guasave,Estación Bamoa,implan_tabla,250110051,Estación Bamoa (Campo Wilson),U
+124,numero_exterior,25.758589,-108.823076,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+125,numero_exterior,25.557038,-108.486508,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+126,numero_exterior,25.550293,-108.459447,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+127,numero_exterior,25.752392,-108.811409,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+128,numero_exterior,25.705419,-108.351989,25011,Guasave,Bamoa,implan_tabla,250110052,Bamoa,U
+129,numero_exterior,25.569782,-108.484906,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+130,numero_exterior,25.645049,-108.691154,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110300,El Huitussi y Anexos (El Huitussito),R
+131,numero_exterior,25.755803,-108.829287,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+132,numero_exterior,25.479881,-108.521893,25011,Guasave,Tamazula,implan_tabla,250110102,El Cubilete (El Cubilete Número Uno),U
+133,numero_exterior,25.703162,-108.309343,25011,Guasave,Estación Bamoa,implan_tabla,250110051,Estación Bamoa (Campo Wilson),U
+134,numero_exterior,25.754819,-108.831021,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+135,numero_exterior,25.650513,-108.405697,25011,Guasave,Nío,implan_tabla,250110364,El Varal (San Sebastián Número Uno),R
+136,numero_exterior,25.560343,-108.487237,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+137,numero_exterior,25.631025,-108.713645,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110093,Corerepe (El Gallo),U
+138,numero_exterior,25.561755,-108.484773,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+139,numero_exterior,25.540161,-108.415080,25011,Guasave,El Burrión,implan_tabla,250110064,El Burrión,U
+140,numero_exterior,25.542071,-108.468101,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+141,numero_exterior,25.696113,-108.810904,25011,Guasave,Juan José Ríos,implan_tabla,250110049,Bachoco,U
+142,numero_exterior,25.759981,-108.816177,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+143,numero_exterior,25.615366,-108.547961,25011,Guasave,Alcaldía Central,implan_tabla,250110284,Utatave (Mautillos),R
+144,numero_exterior,25.558230,-108.468455,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+145,numero_exterior,25.553159,-108.313971,25011,Guasave,El Burrión,implan_tabla,250110627,El Platanito,R
+146,numero_exterior,25.576986,-108.460434,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+147,numero_exterior,25.642571,-108.426486,25011,Guasave,Nío,implan_tabla,250110364,El Varal (San Sebastián Número Uno),R
+148,numero_exterior,25.572144,-108.483168,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+149,numero_exterior,25.577927,-108.476725,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+150,numero_exterior,25.533896,-108.449609,25011,Guasave,Alcaldía Central,implan_tabla,250110249,San Pedro Guasave (El Ranchito),R
+151,numero_exterior,25.754888,-108.805579,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+152,numero_exterior,25.571882,-108.478655,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+153,numero_exterior,25.603712,-108.478360,25011,Guasave,Alcaldía Central,implan_tabla,250110283,Los Ángeles,U
+154,numero_exterior,25.553127,-108.487358,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+155,numero_exterior,25.754566,-108.819353,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+156,numero_exterior,25.763698,-108.830796,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+157,numero_exterior,25.550263,-108.489202,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+158,numero_exterior,25.465764,-108.476878,25011,Guasave,Tamazula,implan_tabla,250110063,Buen Retiro (El Retiro),R
+159,numero_exterior,25.617464,-108.801126,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110168,Miguel Alemán,R
+160,numero_exterior,25.756982,-108.818013,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+161,numero_exterior,25.470208,-108.364241,25011,Guasave,El Burrión,implan_tabla,250110194,El Pitahayal,R
+162,numero_exterior,25.624456,-108.395149,25011,Guasave,Nío,implan_tabla,250110175,Nío,U
+163,numero_exterior,25.491728,-108.747464,25011,Guasave,Benito Juárez,implan_tabla,250110695,El Caracol,R
+164,numero_exterior,25.732311,-108.398462,25011,Guasave,León Fonseca,implan_tabla,250110203,Portugués de Gálvez,R
+165,numero_exterior,25.570497,-108.451916,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+166,numero_exterior,25.710259,-108.721810,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110035,Adolfo Ruiz Cortines,U
+167,numero_exterior,25.707717,-108.343145,25011,Guasave,Bamoa,implan_tabla,250110052,Bamoa,U
+168,numero_exterior,25.646426,-108.650048,25011,Guasave,Benito Juárez,implan_tabla,250111020,24 de Febrero,R
+169,numero_exterior,25.576204,-108.460654,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+170,numero_exterior,25.538830,-108.456912,25011,Guasave,Alcaldía Central,implan_tabla,250110249,San Pedro Guasave (El Ranchito),R
+171,numero_exterior,25.707711,-108.719421,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110035,Adolfo Ruiz Cortines,U
+172,numero_exterior,25.481044,-108.515703,25011,Guasave,Tamazula,implan_tabla,250110102,El Cubilete (El Cubilete Número Uno),U
+173,numero_exterior,25.563381,-108.463004,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+174,numero_exterior,25.573378,-108.483288,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+175,numero_exterior,25.644671,-108.648678,25011,Guasave,Benito Juárez,implan_tabla,250111020,24 de Febrero,R
+176,numero_exterior,25.567847,-108.471887,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+177,numero_exterior,25.634592,-108.582679,25011,Guasave,Benito Juárez,implan_tabla,250110088,Cinco de Mayo (Agua Blanca),R
+178,numero_exterior,25.668876,-108.642145,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+179,numero_exterior,25.592048,-108.519009,25011,Guasave,Alcaldía Central,implan_tabla,250110759,San José de Guayparime,R
+180,numero_exterior,25.506262,-108.716663,25011,Guasave,Benito Juárez,implan_tabla,250110707,El Coloradito,R
+181,numero_exterior,25.654832,-108.610056,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+182,numero_exterior,25.288345,-108.499000,25011,Guasave,Tamazula,implan_tabla,250110386,Boca del Río,R
+183,numero_exterior,25.679446,-108.653400,25011,Guasave,Benito Juárez,implan_tabla,250110520,Ejido Figueroa,R
+184,numero_exterior,25.465852,-108.366068,25011,Guasave,El Burrión,implan_tabla,250110194,El Pitahayal,R
+185,numero_exterior,25.661001,-108.455166,25011,Guasave,La Trinidad,implan_tabla,250110170,Las Moras,R
+186,numero_exterior,25.470158,-108.364151,25011,Guasave,El Burrión,implan_tabla,250110194,El Pitahayal,R
+187,numero_exterior,25.629408,-108.721250,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110093,Corerepe (El Gallo),U
+188,numero_exterior,25.597995,-108.584351,25011,Guasave,Benito Juárez,implan_tabla,250110124,Ejido la Entrada (El Poblado),R
+189,numero_exterior,25.577738,-108.356793,25011,Guasave,El Burrión,implan_tabla,250110967,Ejido el Tecomate,R
+190,numero_exterior,25.586414,-108.471437,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+191,numero_exterior,25.592077,-108.466487,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+192,numero_exterior,25.571207,-108.476184,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+193,numero_exterior,25.342744,-108.438189,25011,Guasave,La Brecha,implan_tabla,250110239,San José de la Brecha,R
+194,numero_exterior,25.556159,-108.485791,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+195,numero_exterior,25.747681,-108.828750,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+196,numero_exterior,25.540780,-108.405451,25011,Guasave,El Burrión,implan_tabla,250110064,El Burrión,U
+197,numero_exterior,25.659395,-108.617094,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+198,numero_exterior,25.557611,-108.457566,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+199,numero_exterior,25.749357,-108.816987,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+200,numero_exterior,25.563137,-108.485804,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+201,rural,25.668325,-108.456423,25011,Guasave,,pendiente_mapa_implan,,,
+202,rural,25.380959,-108.710191,25011,Guasave,,pendiente_mapa_implan,,,
+203,rural,25.676833,-108.750479,25011,Guasave,,pendiente_mapa_implan,,,
+204,rural,25.742012,-108.484917,25011,Guasave,,pendiente_mapa_implan,,,
+205,rural,25.413037,-108.546275,25011,Guasave,,pendiente_mapa_implan,,,
+206,rural,25.522115,-108.543726,25011,Guasave,,pendiente_mapa_implan,,,
+207,rural,25.388226,-108.471424,25011,Guasave,,pendiente_mapa_implan,,,
+208,rural,25.497486,-108.518005,25011,Guasave,,pendiente_mapa_implan,,,
+209,rural,25.464636,-108.326022,25011,Guasave,,pendiente_mapa_implan,,,
+210,rural,25.619844,-108.207068,25011,Guasave,,pendiente_mapa_implan,,,
+211,rural,25.713214,-108.857632,25011,Guasave,,pendiente_mapa_implan,,,
+212,rural,25.537978,-108.333548,25011,Guasave,,pendiente_mapa_implan,,,
+213,rural,25.650140,-108.607146,25011,Guasave,,pendiente_mapa_implan,,,
+214,rural,25.500297,-108.273755,25011,Guasave,,pendiente_mapa_implan,,,
+215,rural,25.520667,-108.881151,25011,Guasave,,pendiente_mapa_implan,,,
+216,rural,25.426304,-108.608319,25011,Guasave,,pendiente_mapa_implan,,,
+217,rural,25.523727,-108.354464,25011,Guasave,,pendiente_mapa_implan,,,
+218,rural,25.491390,-108.886456,25011,Guasave,,pendiente_mapa_implan,,,
+219,rural,25.352869,-108.497138,25011,Guasave,,pendiente_mapa_implan,,,
+220,rural,25.686690,-108.436200,25011,Guasave,,pendiente_mapa_implan,,,
+221,rural,25.390700,-108.414424,25011,Guasave,,pendiente_mapa_implan,,,
+222,rural,25.478765,-108.711225,25011,Guasave,,pendiente_mapa_implan,,,
+223,rural,25.353759,-108.534290,25011,Guasave,,pendiente_mapa_implan,,,
+224,rural,25.455676,-108.543041,25011,Guasave,,pendiente_mapa_implan,,,
+225,rural,25.521799,-108.814247,25011,Guasave,,pendiente_mapa_implan,,,
+226,rural,25.495102,-108.759199,25011,Guasave,,pendiente_mapa_implan,,,
+227,rural,25.736415,-108.456720,25011,Guasave,La Trinidad,implan_tabla,250110281,El Toruno,R
+228,rural,25.449947,-108.411908,25011,Guasave,,pendiente_mapa_implan,,,
+229,rural,25.524535,-108.598141,25011,Guasave,,pendiente_mapa_implan,,,
+230,rural,25.372527,-108.553756,25011,Guasave,,pendiente_mapa_implan,,,
+231,rural,25.412150,-108.841829,25011,Guasave,,pendiente_mapa_implan,,,
+232,rural,25.522655,-108.604172,25011,Guasave,,pendiente_mapa_implan,,,
+233,rural,25.387931,-108.502848,25011,Guasave,,pendiente_mapa_implan,,,
+234,rural,25.731435,-108.424014,25011,Guasave,,pendiente_mapa_implan,,,
+235,rural,25.621302,-108.249891,25011,Guasave,,pendiente_mapa_implan,,,
+236,rural,25.532470,-108.535406,25011,Guasave,,pendiente_mapa_implan,,,
+237,rural,25.299523,-108.393035,25011,Guasave,,pendiente_mapa_implan,,,
+238,rural,25.488475,-108.558373,25011,Guasave,,pendiente_mapa_implan,,,
+239,rural,25.392275,-108.631531,25011,Guasave,,pendiente_mapa_implan,,,
+240,rural,25.368494,-108.615997,25011,Guasave,,pendiente_mapa_implan,,,
+241,rural,25.549374,-108.504705,25011,Guasave,,pendiente_mapa_implan,,,
+242,rural,25.660842,-108.522305,25011,Guasave,,pendiente_mapa_implan,,,
+243,rural,25.703657,-108.452499,25011,Guasave,,pendiente_mapa_implan,,,
+244,rural,25.566210,-108.649830,25011,Guasave,,pendiente_mapa_implan,,,
+245,rural,25.532077,-108.276971,25011,Guasave,,pendiente_mapa_implan,,,
+246,rural,25.333641,-108.397085,25011,Guasave,,pendiente_mapa_implan,,,
+247,rural,25.760809,-108.424085,25011,Guasave,,pendiente_mapa_implan,,,
+248,rural,25.545586,-108.737817,25011,Guasave,,pendiente_mapa_implan,,,
+249,rural,25.415004,-108.565272,25011,Guasave,,pendiente_mapa_implan,,,
+250,rural,25.756078,-108.769529,25011,Guasave,,pendiente_mapa_implan,,,
+251,rural,25.605453,-108.289139,25011,Guasave,,pendiente_mapa_implan,,,
+252,rural,25.705430,-108.528200,25011,Guasave,,pendiente_mapa_implan,,,
+253,rural,25.386597,-108.355589,25011,Guasave,,pendiente_mapa_implan,,,
+254,rural,25.726242,-108.370283,25011,Guasave,,pendiente_mapa_implan,,,
+255,rural,25.465343,-108.445936,25011,Guasave,El Burrión,implan_tabla,250110106,Cuesta de Arriba,R
+256,rural,25.628374,-108.466825,25011,Guasave,,pendiente_mapa_implan,,,
+257,rural,25.343539,-108.453220,25011,Guasave,,pendiente_mapa_implan,,,
+258,rural,25.652813,-108.849686,25011,Guasave,,pendiente_mapa_implan,,,
+259,rural,25.433393,-108.646330,25011,Guasave,,pendiente_mapa_implan,,,
+260,rural,25.370675,-108.315441,25011,Guasave,,pendiente_mapa_implan,,,
+261,rural,25.503243,-108.852826,25011,Guasave,,pendiente_mapa_implan,,,
+262,rural,25.426604,-108.328606,25011,Guasave,,pendiente_mapa_implan,,,
+263,rural,25.651678,-108.823258,25011,Guasave,,pendiente_mapa_implan,,,
+264,rural,25.406945,-108.440744,25011,Guasave,,pendiente_mapa_implan,,,
+265,rural,25.381881,-108.580552,25011,Guasave,,pendiente_mapa_implan,,,
+266,rural,25.436901,-108.593723,25011,Guasave,,pendiente_mapa_implan,,,
+267,rural,25.311750,-108.459795,25011,Guasave,,pendiente_mapa_implan,,,
+268,rural,25.784270,-108.781199,25011,Guasave,,pendiente_mapa_implan,,,
+269,rural,25.695579,-108.587172,25011,Guasave,,pendiente_mapa_implan,,,
+270,rural,25.734214,-108.737035,25011,Guasave,,pendiente_mapa_implan,,,
+271,rural,25.656834,-108.652105,25011,Guasave,,pendiente_mapa_implan,,,
+272,rural,25.468434,-108.656108,25011,Guasave,,pendiente_mapa_implan,,,
+273,rural,25.593492,-108.236139,25011,Guasave,,pendiente_mapa_implan,,,
+274,rural,25.614498,-108.231638,25011,Guasave,,pendiente_mapa_implan,,,
+275,rural,25.690329,-108.691609,25011,Guasave,,pendiente_mapa_implan,,,
+276,rural,25.478716,-108.853749,25011,Guasave,,pendiente_mapa_implan,,,
+277,rural,25.543562,-108.806777,25011,Guasave,,pendiente_mapa_implan,,,
+278,rural,25.441759,-108.710738,25011,Guasave,,pendiente_mapa_implan,,,
+279,rural,25.498100,-108.441323,25011,Guasave,,pendiente_mapa_implan,,,
+280,rural,25.493473,-108.787443,25011,Guasave,,pendiente_mapa_implan,,,
+281,rural,25.646096,-108.465416,25011,Guasave,La Trinidad,implan_tabla,250110816,Ranchito de Inzunza,R
+282,rural,25.443578,-108.331146,25011,Guasave,,pendiente_mapa_implan,,,
+283,rural,25.436458,-108.839494,25011,Guasave,,pendiente_mapa_implan,,,
+284,rural,25.662300,-108.300174,25011,Guasave,,pendiente_mapa_implan,,,
+285,rural,25.488693,-108.483906,25011,Guasave,,pendiente_mapa_implan,,,
+286,rural,25.566063,-108.207901,25011,Guasave,,pendiente_mapa_implan,,,
+287,rural,25.577373,-108.819752,25011,Guasave,,pendiente_mapa_implan,,,
+288,rural,25.639065,-108.643853,25011,Guasave,,pendiente_mapa_implan,,,
+289,rural,25.389689,-108.526305,25011,Guasave,,pendiente_mapa_implan,,,
+290,rural,25.684377,-108.508307,25011,Guasave,,pendiente_mapa_implan,,,
+291,rural,25.714105,-108.444081,25011,Guasave,,pendiente_mapa_implan,,,
+292,rural,25.635495,-108.562228,25011,Guasave,,pendiente_mapa_implan,,,
+293,rural,25.597881,-108.729663,25011,Guasave,,pendiente_mapa_implan,,,
+294,rural,25.475251,-108.272278,25011,Guasave,,pendiente_mapa_implan,,,
+295,rural,25.699320,-108.572576,25011,Guasave,,pendiente_mapa_implan,,,
+296,rural,25.631125,-108.721912,25011,Guasave,,pendiente_mapa_implan,,,
+297,rural,25.539476,-108.472492,25011,Guasave,,pendiente_mapa_implan,,,
+298,rural,25.493228,-108.365791,25011,Guasave,,pendiente_mapa_implan,,,
+299,rural,25.617105,-108.645660,25011,Guasave,,pendiente_mapa_implan,,,
+300,rural,25.726705,-108.302414,25011,Guasave,,pendiente_mapa_implan,,,
+301,rural,25.451124,-108.386948,25011,Guasave,,pendiente_mapa_implan,,,
+302,rural,25.612795,-108.435675,25011,Guasave,,pendiente_mapa_implan,,,
+303,rural,25.540182,-108.628805,25011,Guasave,,pendiente_mapa_implan,,,
+304,rural,25.460382,-108.620387,25011,Guasave,,pendiente_mapa_implan,,,
+305,rural,25.684602,-108.767141,25011,Guasave,,pendiente_mapa_implan,,,
+306,rural,25.390649,-108.719872,25011,Guasave,,pendiente_mapa_implan,,,
+307,rural,25.702898,-108.389245,25011,Guasave,,pendiente_mapa_implan,,,
+308,rural,25.538762,-108.466480,25011,Guasave,,pendiente_mapa_implan,,,
+309,rural,25.559509,-108.640010,25011,Guasave,,pendiente_mapa_implan,,,
+310,rural,25.428147,-108.339647,25011,Guasave,,pendiente_mapa_implan,,,
+311,rural,25.428492,-108.709466,25011,Guasave,,pendiente_mapa_implan,,,
+312,rural,25.605222,-108.551751,25011,Guasave,,pendiente_mapa_implan,,,
+313,rural,25.668374,-108.607666,25011,Guasave,,pendiente_mapa_implan,,,
+314,rural,25.648477,-108.494515,25011,Guasave,,pendiente_mapa_implan,,,
+315,rural,25.505695,-108.261947,25011,Guasave,,pendiente_mapa_implan,,,
+316,rural,25.381418,-108.685943,25011,Guasave,,pendiente_mapa_implan,,,
+317,rural,25.583136,-108.360110,25011,Guasave,,pendiente_mapa_implan,,,
+318,rural,25.545139,-108.255933,25011,Guasave,,pendiente_mapa_implan,,,
+319,rural,25.513390,-108.674715,25011,Guasave,,pendiente_mapa_implan,,,
+320,rural,25.424153,-108.823113,25011,Guasave,,pendiente_mapa_implan,,,
+321,rural,25.500249,-108.734808,25011,Guasave,,pendiente_mapa_implan,,,
+322,rural,25.559025,-108.865779,25011,Guasave,,pendiente_mapa_implan,,,
+323,rural,25.562563,-108.327032,25011,Guasave,,pendiente_mapa_implan,,,
+324,rural,25.701533,-108.365798,25011,Guasave,,pendiente_mapa_implan,,,
+325,rural,25.419690,-108.664891,25011,Guasave,,pendiente_mapa_implan,,,
+326,rural,25.500487,-108.329723,25011,Guasave,,pendiente_mapa_implan,,,
+327,rural,25.546071,-108.546858,25011,Guasave,,pendiente_mapa_implan,,,
+328,rural,25.478981,-108.422420,25011,Guasave,,pendiente_mapa_implan,,,
+329,rural,25.304356,-108.505062,25011,Guasave,,pendiente_mapa_implan,,,
+330,rural,25.492173,-108.392068,25011,Guasave,,pendiente_mapa_implan,,,
+331,rural,25.510850,-108.660689,25011,Guasave,,pendiente_mapa_implan,,,
+332,rural,25.471635,-108.576433,25011,Guasave,,pendiente_mapa_implan,,,
+333,rural,25.692035,-108.826936,25011,Guasave,,pendiente_mapa_implan,,,
+334,rural,25.471886,-108.666160,25011,Guasave,,pendiente_mapa_implan,,,
+335,rural,25.698117,-108.616715,25011,Guasave,,pendiente_mapa_implan,,,
+336,rural,25.643605,-108.542559,25011,Guasave,,pendiente_mapa_implan,,,
+337,rural,25.535515,-108.838617,25011,Guasave,,pendiente_mapa_implan,,,
+338,rural,25.565912,-108.418303,25011,Guasave,,pendiente_mapa_implan,,,
+339,rural,25.692424,-108.327515,25011,Guasave,,pendiente_mapa_implan,,,
+340,rural,25.723256,-108.320900,25011,Guasave,,pendiente_mapa_implan,,,
+341,rural,25.269919,-108.424098,25011,Guasave,,pendiente_mapa_implan,,,
+342,rural,25.588620,-108.693177,25011,Guasave,,pendiente_mapa_implan,,,
+343,rural,25.608502,-108.768750,25011,Guasave,,pendiente_mapa_implan,,,
+344,rural,25.600412,-108.397770,25011,Guasave,,pendiente_mapa_implan,,,
+345,rural,25.322827,-108.480971,25011,Guasave,,pendiente_mapa_implan,,,
+346,rural,25.565431,-108.770930,25011,Guasave,,pendiente_mapa_implan,,,
+347,rural,25.481417,-108.393631,25011,Guasave,,pendiente_mapa_implan,,,
+348,rural,25.623366,-108.531416,25011,Guasave,,pendiente_mapa_implan,,,
+349,rural,25.538111,-108.692849,25011,Guasave,,pendiente_mapa_implan,,,
+350,rural,25.429374,-108.505786,25011,Guasave,Tamazula,implan_tabla,250110142,El Guayabo,R
+351,limite,25.562671,-108.851993,25011,Guasave,,pendiente_mapa_implan,,,
+352,limite,25.764076,-108.828459,25011,Guasave,Juan José Ríos,implan_tabla,250110138,Juan José Ríos,U
+353,limite,25.749023,-108.833463,25011,Guasave,,pendiente_mapa_implan,,,
+354,limite,25.690549,-108.811136,25011,Guasave,,pendiente_mapa_implan,,,
+355,limite,25.626774,-108.707939,25011,Guasave,,pendiente_mapa_implan,,,
+356,limite,25.695499,-108.722254,25011,Guasave,,pendiente_mapa_implan,,,
+357,limite,25.713473,-108.729773,25011,Guasave,Adolfo Ruiz Cortines,implan_tabla,250110035,Adolfo Ruiz Cortines,U
+358,limite,25.656977,-108.627347,25011,Guasave,,pendiente_mapa_implan,,,
+359,limite,25.664010,-108.623145,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+360,limite,25.668432,-108.634993,25011,Guasave,Benito Juárez,implan_tabla,250110132,Gabriel Leyva Solano (Benito Juárez),U
+361,limite,25.523160,-108.611738,25011,Guasave,,pendiente_mapa_implan,,,
+362,limite,25.438215,-108.604316,25011,Guasave,,pendiente_mapa_implan,,,
+363,limite,25.477465,-108.561815,25011,Guasave,Tamazula,implan_tabla,250110062,Buenavista,R
+364,limite,25.540207,-108.555945,25011,Guasave,,pendiente_mapa_implan,,,
+365,limite,25.538634,-108.548552,25011,Guasave,,pendiente_mapa_implan,,,
+366,limite,25.294913,-108.524550,25011,Guasave,,pendiente_mapa_implan,,,
+367,limite,25.474705,-108.517172,25011,Guasave,Tamazula,implan_tabla,250110102,El Cubilete (El Cubilete Número Uno),U
+368,limite,25.581726,-108.521831,25011,Guasave,Alcaldía Central,implan_tabla,250110759,San José de Guayparime,R
+369,limite,25.552885,-108.499655,25011,Guasave,,pendiente_mapa_implan,,,
+370,limite,25.527017,-108.500103,25011,Guasave,,pendiente_mapa_implan,,,
+371,limite,25.570970,-108.451659,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+372,limite,25.600994,-108.449226,25011,Guasave,Nío,implan_tabla,250110358,Ladrilleras de Ocoro,R
+373,limite,25.591962,-108.476984,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+374,limite,25.581480,-108.435418,25011,Guasave,,pendiente_mapa_implan,,,
+375,limite,25.595265,-108.428546,25011,Guasave,Nío,implan_tabla,250110985,Plan del Río,R
+376,limite,25.592381,-108.495714,25011,Guasave,Alcaldía Central,implan_tabla,250110001,Guasave,U
+377,limite,25.538833,-108.447594,25011,Guasave,,pendiente_mapa_implan,,,
+378,limite,25.616587,-108.432361,25011,Guasave,,pendiente_mapa_implan,,,
+379,limite,25.547759,-108.454708,25011,Guasave,,pendiente_mapa_implan,,,
+380,limite,25.519233,-108.434670,25011,Guasave,El Burrión,implan_tabla,250110477,El Colorado,R
+381,limite,25.576096,-108.490694,25011,Guasave,,pendiente_mapa_implan,,,
+382,limite,25.550363,-108.437099,25011,Guasave,El Burrión,implan_tabla,250110140,Guasavito,R
+383,limite,25.568943,-108.448391,25011,Guasave,El Burrión,implan_tabla,250110070,Callejones de Guasavito,U
+384,limite,25.540092,-108.461127,25011,Guasave,Alcaldía Central,implan_tabla,250110249,San Pedro Guasave (El Ranchito),R
+385,limite,25.538098,-108.482533,25011,Guasave,,pendiente_mapa_implan,,,
+386,limite,25.615075,-108.409871,25011,Guasave,,pendiente_mapa_implan,,,
+387,limite,25.574917,-108.448323,25011,Guasave,,pendiente_mapa_implan,,,
+388,limite,25.586320,-108.432339,25011,Guasave,El Burrión,implan_tabla,250110370,Las Crucecitas,R
+389,limite,25.462198,-108.479143,25011,Guasave,,pendiente_mapa_implan,,,
+390,limite,25.734804,-108.486691,25011,Guasave,La Trinidad,implan_tabla,250110282,La Trinidad,U
+391,limite,25.253619,-108.440984,25011,Guasave,,pendiente_mapa_implan,,,
+392,limite,25.500307,-108.464980,25011,Guasave,Alcaldía Central,implan_tabla,250110120,El Dorado Número Uno,R
+393,limite,25.645973,-108.465619,25011,Guasave,La Trinidad,implan_tabla,250110816,Ranchito de Inzunza,R
+394,limite,25.381392,-108.461646,25011,Guasave,,pendiente_mapa_implan,,,
+395,limite,25.446803,-108.458194,25011,Guasave,Tamazula,implan_tabla,250110269,Tamazula,U
+396,limite,25.526188,-108.460558,25011,Guasave,,pendiente_mapa_implan,,,
+397,limite,25.485491,-108.450969,25011,Guasave,,pendiente_mapa_implan,,,
+398,limite,25.657962,-108.460679,25011,Guasave,,pendiente_mapa_implan,,,
+399,limite,25.464741,-108.444430,25011,Guasave,El Burrión,implan_tabla,250110106,Cuesta de Arriba,R
+400,limite,25.394076,-108.439022,25011,Guasave,,pendiente_mapa_implan,,,

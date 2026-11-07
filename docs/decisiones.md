@@ -237,3 +237,52 @@ Tamaño: 79,036,726 bytes. SHA-256: `57d4242eebb9366e70a6f34ee8e0f2e39eaeb686e1d
 - `node:test` evita agregar un framework de pruebas.
 
 **Alternativa descartada.** fastify 5.12.8 (publicada el 2026-11-02, con menos de dos semanas); @fastify/swagger-ui 5.2.6 (sigue dependiendo de una `@fastify/static` vulnerable).
+
+## 2026-11-06 — Números exteriores 2023
+
+**Decisión.** `etl/cargar_numeros_exteriores.sh` carga en `geo.numero_exterior` la capa `ne` de `data/raw/794551086223_ss.zip`: *Información vectorial de localidades amanzanadas y números exteriores 2023*, UPC 794551086223, SHA-256 `acdf3995184e7351ef78cfd720c0047db12e513b662455ab6b6567962b638ab0`, 854,919,485 bytes. Los campos se conservan tal cual, en minúsculas. El SRS se asigna como EPSG:6372, verificado con `gdalsrsinfo -e`. Se crean índices GiST y sobre `cvegeo`.
+
+**Hallazgos.**
+- El zip trae solo Guasave (109 carpetas de localidad amanzanada, todas `25011`), no todo Sinaloa como suponía el plan.
+- La capa `ne` sí trae `CVEGEO`, la clave de manzana de 16 caracteres; el diccionario la describe como "Clave Geoestadística de Manzana". Sus primeros 9 caracteres dan la localidad.
+- **Resultado de la carga:**
+  - 80,048 números exteriores, todos con `CVEGEO` de 16 caracteres y prefijo `25011`.
+  - Las 109 localidades tienen polígono en la capa `l` del Marco 2022 y sindicatura en las tablas del IMPLAN.
+  - 59,484 puntos están en localidades urbanas y 20,564 en rurales.
+  - Todos caen dentro del polígono `l` de su propia localidad.
+  - Uno queda fuera del municipio: El Zopilote, `2501102910964026`.
+- Las capas `l`, `a`, `m`, `fm` y `v` del producto provienen del Marco Geoestadístico 2022, según su `contenido.txt`.
+
+## 2026-11-06 — Referencias de la muestra de puntos de control (decisiones del usuario)
+
+**Decisión.**
+1. **Localidad de referencia** en los estratos rural y límite: el polígono `l`, `pe` o `pem` que contiene el punto, sin tolerancia. `l` va primero, luego la menor área y luego la clave, como en las reglas 1.1 y 1.2. Si no cae en ninguno, es `null`.
+2. **Sindicatura de referencia:**
+   - Si la localidad de referencia aparece en las tablas del IMPLAN, la de esa tabla (`sindicatura_fuente = implan_tabla`).
+   - Si no, la del polígono de sindicatura **digitalizado de los mapas del IMPLAN** (las 13 sindicaturas), no la del Voronoi.
+
+**Motivo.** Fuera de las localidades urbanas quedan 2,858 km² y los polígonos rurales `l` cubren solo 42.8 km². Por eso casi todos los puntos rurales no caen en ninguna localidad. Usar el Voronoi como referencia compararía a GeoGuasave contra su propia construcción.
+
+**Alternativa descartada.** El Voronoi como referencia, aclarando en la tesis que mide consistencia y no exactitud; sindicatura `null` en puntos sin localidad, evaluando solo el municipio; solo la capa `l` para la localidad de referencia.
+
+## 2026-11-06 — Generación de la muestra de puntos de control
+
+**Decisión.** `eval/muestra/generar_muestra.sh` corre `eval/muestra/generar_muestra.sql` y escribe `eval/muestra/puntos_control.csv`. Dos corridas dan el mismo archivo.
+- **numero_exterior (200).** Orden pseudoaleatorio con la semilla: `md5('2026:' || coordenada)`. No depende del orden físico de la tabla. Se descartan coordenadas repetidas y puntos fuera de Guasave.
+- **rural (150).** `ST_GeneratePoints(municipio − localidades urbanas, 300, 2026)`.
+- **limite (50).** `ST_GeneratePoints(franja de 100 m a cada lado de los límites de los 201 polígonos l de Guasave ∩ municipio, 100, 2026)`.
+- Se generan candidatos de sobra. Las coordenadas se redondean a 6 decimales (~0.1 m) y se toman los primeros de cada estrato que, ya redondeados, siguen dentro de Guasave, cumplen la condición de su estrato y no repiten coordenada. Las referencias se calculan sobre el punto redondeado.
+
+**Resultado.**
+
+| Criterio | Valor |
+|---|---|
+| Puntos (numero_exterior, rural, limite) | 400 (200, 150, 50) |
+| Coordenadas repetidas | 0 |
+| Dentro de Guasave (comprobado aparte en PostGIS) | 400 de 400 |
+| numero_exterior en localidades urbanas / rurales (dato para H2) | 134 / 66 |
+| rural con localidad / sin localidad | 4 / 146 |
+| limite con localidad / sin localidad | 22 / 28 |
+| Sindicatura de la tabla del IMPLAN / pendiente de los mapas | 226 / 174 |
+
+**Pendiente.** Digitalizar los 13 mapas del IMPLAN y llenar la sindicatura de los 174 puntos marcados `pendiente_mapa_implan`.
