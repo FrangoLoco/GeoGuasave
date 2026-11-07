@@ -47,7 +47,8 @@ El plan completo está en `docs/PLAN.md`: fases, contrato de la API, reglas de a
 - Emparejar IMPLAN–INEGI (conserva la revisión manual): `python3 etl/emparejar_implan.py`
 - Generar sindicaturas y Voronoi: `./etl/cargar_sindicaturas.sh`
 - Verificar sindicaturas: `docker compose exec -T db sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB"' < etl/verificar_sindicaturas.sql`
-- Validar con Bamoa (requiere `data/manual/bamoa_implan.geojson`): `./etl/validar_bamoa.sh`
+- Digitalizar Bamoa del mapa del IMPLAN: `docker compose run --rm -q -v "$PWD/etl:/etl:ro" gdal python3 /etl/digitalizar_bamoa.py > data/manual/bamoa_implan.geojson`
+- Validar con Bamoa: `./etl/validar_bamoa.sh`
 - Correr las pruebas: pendiente (Fase 3)
 - Levantar la API: pendiente (Fase 4)
 

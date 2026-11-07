@@ -123,3 +123,32 @@ Tamaño: 79,036,726 bytes. SHA-256: `57d4242eebb9366e70a6f34ee8e0f2e39eaeb686e1d
 **Decisión.** `etl/validar_bamoa.sh` carga `data/manual/bamoa_implan.geojson` en `geo.bamoa_implan` con ogr2ogr, reproyectado a EPSG:6372 desde el SRS que declare el archivo, y reporta intersección / área IMPLAN, intersección / área Voronoi e IoU. Si el archivo no existe, termina con un mensaje. Se probó con el propio polígono de Voronoi exportado a EPSG:4326 (resultado 1.0 en los tres índices) y luego se borró la prueba.
 
 **Pendiente.** Digitalizar `bamoa_implan.geojson` en QGIS.
+
+## 2026-11-06 — Digitalización del polígono de Bamoa del IMPLAN
+
+**Decisión.** `data/manual/bamoa_implan.geojson` se genera con `etl/digitalizar_bamoa.py`, que corre en el contenedor GDAL (numpy y GDAL 3.10.3, imagen fijada por digest). No se traza a mano en QGIS.
+- **Fuente.** Mapa "micro" de Bamoa en la página [Cartografía de sindicaturas del IMPLAN](https://guasave.gob.mx/implan/cartografia-de-sindicaturas/): `03 SIND. BAMOA MICRO.pdf`, descargado el 2026-11-06 y guardado en `data/manual/implan/mapas/` (SHA-256 `948b62adaf5b06867041f182f78948ace2092cde03c7a3a798a76b156fb78487`). Es una captura de Google Earth de 1920 × 1080 px con la "EXTENSION TERRITORIAL BAMOA" en verde translúcido y 11 localidades marcadas. El PDF de la tabla de Bamoa no trae mapa.
+- **Georreferencia.** Transformación afín por mínimos cuadrados con los 11 marcadores. A cada uno le corresponde su punto `lpr` del INEGI, o `ST_PointOnSurface` de `l` en el caso de Bamoa, que no tiene `lpr`. El centro de cada marcador es el centroide de su color. **RMS 172.2 m, residuo máximo 273.9 m** (Norotillos), 16.3 × 15.7 m/px. Un ajuste de similitud con los mismos puntos da un RMS de 187.2 m.
+- **Segmentación.** Píxeles con B/G < 0.6 y G − B > 35 (dentro: B/G ≈ 0.35; fuera: ≈ 0.85), filtro de mayoría de 9 × 9 y cierre morfológico de 31 px para rellenar las muescas de los marcadores y etiquetas dibujados sobre el borde. Después se vectoriza con `gdal.Polygonize`, se toma el polígono mayor sin huecos y se simplifica a 1 px (290 vértices, 66.45 km²). Área según el tamaño del cierre: sin cierre 64.73 km², 21 px 66.40, 31 px 66.45 y 41 px 66.51.
+- Se revisó a ojo sobreponiendo el contorno al mapa original. Dos corridas dan el mismo archivo byte a byte.
+
+**Motivo.** La segmentación por color es reproducible desde un script y sigue el borde del mapa con más fidelidad que un trazo manual. El cierre de 31 px cubre el diámetro de los marcadores del borde (~28 px), y el área varía 0.17 % entre 21 y 41 px.
+
+**Alternativa descartada.**
+- Georreferenciar con la línea negra de límite municipal del mapa: se comparó con `geo.municipio` y no coincide con el límite del INEGI 2022, del que se separa hasta ~1 km al sureste.
+- Trazar a mano en QGIS: no es reproducible.
+
+## 2026-11-06 — Resultado de la validación con Bamoa
+
+**Resultado** (`./etl/validar_bamoa.sh`):
+
+| | Valor |
+|---|---|
+| Área IMPLAN (digitalizada) | 66.45 km² |
+| Área Voronoi | 73.79 km² |
+| Intersección | 54.93 km² |
+| Intersección / área IMPLAN | 0.8266 |
+| Intersección / área Voronoi | 0.7444 |
+| IoU | 0.6439 |
+
+**Sensibilidad.** Al desplazar el polígono del IMPLAN una distancia igual al RMS de la georreferencia (172.2 m) en 8 direcciones, la IoU queda entre 0.6270 y 0.6557.

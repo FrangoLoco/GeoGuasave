@@ -3,14 +3,14 @@
 # (data/manual/bamoa_implan.geojson) con el polígono de Voronoi de Bamoa.
 # Reporta intersección / área IMPLAN, intersección / área Voronoi e
 # intersección / unión (IoU).
-# Uso, desde la raíz del repositorio y después de ./etl/cargar_sindicaturas.sh:
+# El GeoJSON lo genera etl/digitalizar_bamoa.py. Uso, desde la raíz y después de ./etl/cargar_sindicaturas.sh:
 #   ./etl/validar_bamoa.sh
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
 ARCHIVO=data/manual/bamoa_implan.geojson
 if [ ! -f "$ARCHIVO" ]; then
-  echo "Falta $ARCHIVO (se digitaliza en QGIS a partir del mapa del IMPLAN)." >&2
+  echo "Falta $ARCHIVO (se genera con etl/digitalizar_bamoa.py; ver CLAUDE.md)." >&2
   exit 1
 fi
 
@@ -32,4 +32,14 @@ SELECT round((implan / 1e6)::numeric, 2) AS implan_km2,
        round((inter / voronoi)::numeric, 4) AS inter_sobre_voronoi,
        round((inter / union_)::numeric, 4) AS iou
 FROM a;
+
+-- Sensibilidad a la georreferencia: IoU con el polígono del IMPLAN desplazado
+-- una distancia igual al RMS de su georreferencia (rms_m) en 8 direcciones.
+WITH i AS (SELECT ST_Union(ST_MakeValid(geom)) AS geom, max(rms_m) AS rms FROM geo.bamoa_implan),
+     v AS (SELECT geom FROM geo.sindicatura_poligono WHERE sindicatura = 'Bamoa'),
+     d AS (SELECT ST_Translate(i.geom, i.rms * cos(radians(t)), i.rms * sin(radians(t))) AS geom, i.rms
+           FROM i, generate_series(0, 315, 45) t),
+     u AS (SELECT d.rms, ST_Area(ST_Intersection(d.geom, v.geom)) / ST_Area(ST_Union(d.geom, v.geom)) AS iou FROM d, v)
+SELECT rms AS desplazamiento_m, round(min(iou)::numeric, 4) AS iou_min, round(max(iou)::numeric, 4) AS iou_max
+FROM u GROUP BY rms;
 SQL
