@@ -345,3 +345,24 @@ Tamaño: 79,036,726 bytes. SHA-256: `57d4242eebb9366e70a6f34ee8e0f2e39eaeb686e1d
 De los 18 sin cobertura, 13 están en la zona costera del suroeste, la mayoría en el AGEB rural 250110979, y 5 a menos de 600 m de algún polígono. Las coordenadas, las localidades y las 226 referencias de la tabla no cambiaron.
 
 **Alternativa descartada.** Para los traslapes: excluir el punto de la evaluación de sindicatura, o elegir por centroide más cercano. Para los huecos: asignar el polígono más cercano, siempre o a 250 m o menos.
+
+## 2026-11-07 — La validación con Bamoa usa la digitalización de las 13 sindicaturas (decisión del usuario)
+
+**Decisión.** `etl/validar_bamoa.sh` toma ahora el polígono de Bamoa de `data/manual/sindicaturas_implan.geojson` (generado con `etl/digitalizar_sindicaturas.py`). Se borraron `etl/digitalizar_bamoa.py` y `data/manual/bamoa_implan.geojson`; siguen en el historial de git (commit 694f1c0 y anteriores). Así toda la cartografía del IMPLAN sale de una sola digitalización.
+
+**Resultado** (`./etl/validar_bamoa.sh`), comparado con la digitalización anterior:
+
+| | Anterior | Nueva |
+|---|---|---|
+| Área IMPLAN (digitalizada) | 66.45 km² | 66.79 km² |
+| Área Voronoi | 73.79 km² | 73.79 km² |
+| Intersección | 54.93 km² | 55.10 km² |
+| Intersección / área IMPLAN | 0.8266 | 0.8250 |
+| Intersección / área Voronoi | 0.7444 | 0.7467 |
+| IoU | 0.6439 | 0.6446 |
+| RMS de la georreferencia | 172.2 m | 161.2 m |
+| IoU con desplazamiento de un RMS (8 direcciones) | 0.6270–0.6557 | 0.6288–0.6550 |
+
+La diferencia en IoU es de 0.0007, muy por debajo del rango que produce la georreferencia.
+
+**Alternativa descartada.** Conservar la digitalización propia de Bamoa: daba casi el mismo resultado, pero dejaba dos versiones del mismo polígono.

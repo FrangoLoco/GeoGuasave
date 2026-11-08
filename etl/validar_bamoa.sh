@@ -1,22 +1,23 @@
 #!/usr/bin/env bash
 # Fase 2, paso 5: compara el polígono de Bamoa digitalizado del mapa del IMPLAN
-# (data/manual/bamoa_implan.geojson) con el polígono de Voronoi de Bamoa.
+# (la entidad Bamoa de data/manual/sindicaturas_implan.geojson) con el polígono
+# de Voronoi de Bamoa.
 # Reporta intersección / área IMPLAN, intersección / área Voronoi e
 # intersección / unión (IoU).
-# El GeoJSON lo genera etl/digitalizar_bamoa.py. Uso, desde la raíz y después de ./etl/cargar_sindicaturas.sh:
+# El GeoJSON lo genera etl/digitalizar_sindicaturas.py. Uso, desde la raíz y después de ./etl/cargar_sindicaturas.sh:
 #   ./etl/validar_bamoa.sh
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-ARCHIVO=data/manual/bamoa_implan.geojson
+ARCHIVO=data/manual/sindicaturas_implan.geojson
 if [ ! -f "$ARCHIVO" ]; then
-  echo "Falta $ARCHIVO (se genera con etl/digitalizar_bamoa.py; ver CLAUDE.md)." >&2
+  echo "Falta $ARCHIVO (se genera con etl/digitalizar_sindicaturas.py; ver CLAUDE.md)." >&2
   exit 1
 fi
 
 # El GeoJSON se reproyecta a EPSG:6372 desde el SRS que declare (4326 por omisión).
-docker compose run --rm -q gdal ogr2ogr -f PostgreSQL PG:"" "/data/manual/bamoa_implan.geojson" \
-  -nln geo.bamoa_implan -overwrite -t_srs EPSG:6372 -nlt PROMOTE_TO_MULTI \
+docker compose run --rm -q gdal ogr2ogr -f PostgreSQL PG:"" "/$ARCHIVO" \
+  -where "sindicatura = 'Bamoa'" -nln geo.bamoa_implan -overwrite -t_srs EPSG:6372 -nlt PROMOTE_TO_MULTI \
   -lco GEOMETRY_NAME=geom -lco FID=id
 
 docker compose exec -T db sh -c 'psql -v ON_ERROR_STOP=1 -U "$POSTGRES_USER" -d "$POSTGRES_DB"' <<'SQL'
@@ -35,7 +36,7 @@ FROM a;
 
 -- Sensibilidad a la georreferencia: IoU con el polígono del IMPLAN desplazado
 -- una distancia igual al RMS de su georreferencia (rms_m) en 8 direcciones.
-WITH i AS (SELECT ST_Union(ST_MakeValid(geom)) AS geom, max(rms_m) AS rms FROM geo.bamoa_implan),
+WITH i AS (SELECT ST_Union(ST_MakeValid(geom)) AS geom, max(rms_m[1]) AS rms FROM geo.bamoa_implan),
      v AS (SELECT geom FROM geo.sindicatura_poligono WHERE sindicatura = 'Bamoa'),
      d AS (SELECT ST_Translate(i.geom, i.rms * cos(radians(t)), i.rms * sin(radians(t))) AS geom, i.rms
            FROM i, generate_series(0, 315, 45) t),
