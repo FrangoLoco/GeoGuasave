@@ -405,3 +405,32 @@ La diferencia en IoU es de 0.0007, muy por debajo del rango que produce la georr
 **Motivo.** Google refleja una división municipal posterior a la referencia. Contarlo como error castigaría una respuesta que hoy es correcta, y contarlo como acierto contradiría la referencia oficial que usa el estudio.
 
 **Alternativa descartada.** Contarlos como error, que es lo literal según el INEGI 2022, o como acierto.
+
+## 2026-11-09 — Cálculo de la precisión (Instrumento 1, paso 3)
+
+**Decisión.** `eval/muestra/calcular_precision.py` calcula:
+- **Tasas** por nivel y grupo (todos, cada estrato y el ámbito U/R/sin localidad de la localidad de referencia), con intervalo de Wilson al 95 %. El ámbito se agrega para H2.
+- **McNemar exacta pareada:** binomial bilateral sobre los pares discordantes.
+- **IC 95 % de la diferencia pareada:** el método 10 de Newcombe (1998, *Stat. Med.* 17:2635–2650). Combina los intervalos de Wilson de cada proporción con phi, y el numerador de phi se corrige a max(ad − bc − n/2, 0) cuando ad > bc. El script verifica su implementación contra 6 intervalos de la tabla III del artículo antes de calcular.
+- **No inferioridad (H1):** con `--margen M` reporta si el límite inferior de la diferencia frente a Google es mayor que −M. El margen sigue pendiente; lo define el usuario con su asesor.
+
+**Motivo.** El método 10 es el que el artículo recomienda por su cobertura y porque no rebasa [−1, 1]. Wald falla con tasas cercanas a 100 %, que es el caso de GeoGuasave.
+
+**Alternativa descartada.** El intervalo de Wald (método 1 de Newcombe) y el método 8, que es el mismo sin la corrección de phi.
+
+**Resultado** (2026-11-09; el detalle está en `eval/resultados/`):
+
+| Nivel | n | GeoGuasave | Google | Nominatim |
+|---|---|---|---|---|
+| Municipio (sin los 37 de Juan José Ríos) | 363 | 100.0 % | 100.0 % | 99.5 % |
+| Sindicatura | 382 | 95.5 % | 89.5 % | 83.5 % |
+| Localidad | 226 | 100.0 % | 98.7 % | 83.2 % |
+
+| Nivel | Comparación | Solo GeoGuasave / solo el otro | p exacta | Diferencia (IC 95 %) |
+|---|---|---|---|---|
+| Sindicatura | contra Google | 23 / 0 | 2.4e-07 | 6.0 % (3.7 %, 8.8 %) |
+| Sindicatura | contra Nominatim | 48 / 2 | 2.3e-12 | 12.0 % (8.7 %, 15.8 %) |
+| Localidad | contra Google | 3 / 0 | 0.25 | 1.3 % (−0.6 %, 3.8 %) |
+| Localidad | contra Nominatim | 38 / 0 | 7.3e-12 | 16.8 % (12.2 %, 22.2 %) |
+
+Las 3 propuestas dudosas de la revisión (puntos 241, 369, 233 y 210) no tienen localidad de referencia. Solo afectan el nivel sindicatura, donde hoy cuentan como acierto: como máximo 3 de Google y 1 de Nominatim.
