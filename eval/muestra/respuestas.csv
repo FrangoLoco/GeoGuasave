@@ -1,0 +1,1201 @@
+id,servicio,campo,nombre_devuelto,municipio_devuelto,localidad_cvegeo,metodo,sindicatura
+1,geoguasave,,Vicente Guerrero,Guasave,250110352,clave,El Burrión
+1,google,locality,Vicente Guerrero,Guasave,250110352,exacto,El Burrión
+1,nominatim,village,Vicente Guerrero,Guasave,250110352,exacto,El Burrión
+2,geoguasave,,Adolfo Ruiz Cortines,Guasave,250110035,clave,Adolfo Ruiz Cortines
+2,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+2,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+3,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+3,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+3,nominatim,hamlet,La Florida,Guasave,250111169,exacto,
+4,geoguasave,,Francisco R. Serrano,Guasave,250110131,clave,San Rafael
+4,google,locality,Francisco R. Serrano,Guasave,250110131,exacto,San Rafael
+4,nominatim,,,Guasave,,sin_nombre,
+5,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+5,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+5,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+6,geoguasave,,Las Moritas,Guasave,250110171,clave,León Fonseca
+6,google,locality,Las Moritas,Guasave,250110171,manual,León Fonseca
+6,nominatim,village,Las Moritas,Guasave,250110171,manual,León Fonseca
+7,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+7,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+7,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+8,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+8,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+8,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+9,geoguasave,,Adolfo Ruiz Cortines,Guasave,250110035,clave,Adolfo Ruiz Cortines
+9,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+9,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+10,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+10,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+10,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+11,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+11,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+11,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+12,geoguasave,,Adolfo Ruiz Cortines,Guasave,250110035,clave,Adolfo Ruiz Cortines
+12,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+12,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+13,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+13,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+13,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+14,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+14,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+14,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+15,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+15,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+15,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+16,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+16,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+16,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+17,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+17,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+17,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+18,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+18,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+18,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+19,geoguasave,,Choipa,Guasave,250110312,clave,Bamoa
+19,google,locality,Choipa,Guasave,250110312,manual,Bamoa
+19,nominatim,hamlet,Herculano de la Rocha,Guasave,250110301,exacto,Bamoa
+20,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+20,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+20,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+21,geoguasave,,Gambino,Guasave,250110134,clave,Nío
+21,google,locality,Gambino,Guasave,250110134,exacto,Nío
+21,nominatim,hamlet,Plan del Río,Guasave,250110985,exacto,Nío
+22,geoguasave,,Las Parritas,Guasave,250110191,clave,Benito Juárez
+22,google,locality,Las Parritas,Guasave,250110191,exacto,Benito Juárez
+22,nominatim,village,Las Parritas,Guasave,250110191,exacto,Benito Juárez
+23,geoguasave,,Javier Rojo Gómez,Guasave,250110475,clave,El Burrión
+23,google,locality,Javier Rojo Gómez,Guasave,250110475,exacto,El Burrión
+23,nominatim,village,El Rojo Gómez,Guasave,250110475,manual,El Burrión
+24,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+24,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+24,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+25,geoguasave,,La Brecha,Guasave,250110059,clave,La Brecha
+25,google,locality,La Brecha,Guasave,250110059,exacto,La Brecha
+25,nominatim,village,La Brecha,Guasave,250110059,exacto,La Brecha
+26,geoguasave,,El Cerro Cabezón,Guasave,250110065,clave,Adolfo Ruiz Cortines
+26,google,locality,El Cerro Cabezón,Juan José Ríos,250110065,exacto,Adolfo Ruiz Cortines
+26,nominatim,village,Cerro Cabezón,Guasave,250110065,manual,Adolfo Ruiz Cortines
+27,geoguasave,,San José de Guayparime,Guasave,250110759,clave,Alcaldía Central
+27,google,locality,San José de Guayparime,Guasave,250110759,exacto,Alcaldía Central
+27,nominatim,hamlet,Las Guásimas,Guasave,250110141,exacto,Alcaldía Central
+28,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+28,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+28,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+29,geoguasave,,Ejido Figueroa,Guasave,250110520,clave,Benito Juárez
+29,google,locality,Ejido Figueroa,Guasave,250110520,exacto,Benito Juárez
+29,nominatim,village,Ejido Figueroa,Guasave,250110520,exacto,Benito Juárez
+30,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+30,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+30,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+31,geoguasave,,Las Brisas (Emiliano Zapata),Guasave,250110060,clave,San Rafael
+31,google,locality,Las Brisas,Guasave,250110060,manual,San Rafael
+31,nominatim,village,Las Brisas,Guasave,250110060,manual,San Rafael
+32,geoguasave,,León Fonseca (Estación Verdura),Guasave,250110161,clave,León Fonseca
+32,google,locality,León Fonseca,Guasave,250110161,manual,León Fonseca
+32,nominatim,village,León Fonseca (Estación Verdura),Guasave,250110161,exacto,León Fonseca
+33,geoguasave,,Cinco de Mayo (Agua Blanca),Guasave,250110088,clave,Benito Juárez
+33,google,locality,Cinco de Mayo,Guasave,250110088,manual,Benito Juárez
+33,nominatim,village,Cinco de Mayo (Agua Blanca),Guasave,250110088,exacto,Benito Juárez
+34,geoguasave,,Buenavista,Guasave,250110062,clave,Tamazula
+34,google,locality,Buenavista,Guasave,250110062,exacto,Tamazula
+34,nominatim,village,Buenavista,Guasave,250110062,exacto,Tamazula
+35,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+35,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+35,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+36,geoguasave,,Estación Bamoa (Campo Wilson),Guasave,250110051,clave,Estación Bamoa
+36,google,locality,Estación Bamoa,Guasave,250110051,manual,Estación Bamoa
+36,nominatim,town,Estación Bamoa (Campo Wilson),Guasave,250110051,exacto,Estación Bamoa
+37,geoguasave,,Adolfo Ruiz Cortines,Guasave,250110035,clave,Adolfo Ruiz Cortines
+37,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+37,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+38,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+38,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+38,nominatim,hamlet,La Florida,Guasave,250111169,exacto,
+39,geoguasave,,Ejido Figueroa,Guasave,250110520,clave,Benito Juárez
+39,google,locality,Ejido Figueroa,Guasave,250110520,exacto,Benito Juárez
+39,nominatim,village,Ejido Figueroa,Guasave,250110520,exacto,Benito Juárez
+40,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+40,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+40,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+41,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+41,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+41,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+42,geoguasave,,Nío,Guasave,250110175,clave,Nío
+42,google,locality,Nío,Guasave,250110175,exacto,Nío
+42,nominatim,town,Nío,Guasave,250110175,exacto,Nío
+43,geoguasave,,La Brecha,Guasave,250110059,clave,La Brecha
+43,google,locality,La Brecha,Guasave,250110059,exacto,La Brecha
+43,nominatim,village,La Brecha,Guasave,250110059,exacto,La Brecha
+44,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+44,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+44,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+45,geoguasave,,San Pedro Guasave (El Ranchito),Guasave,250110249,clave,Alcaldía Central
+45,google,locality,San Pedro Guasave,Guasave,250110249,manual,Alcaldía Central
+45,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+46,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+46,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+46,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+47,geoguasave,,San Pedro Guasave (El Ranchito),Guasave,250110249,clave,Alcaldía Central
+47,google,locality,San Pedro Guasave,Guasave,250110249,manual,Alcaldía Central
+47,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+48,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+48,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+48,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+49,geoguasave,,San Rafael (General Miguel Valle Dávalos),Guasave,250110251,clave,San Rafael
+49,google,locality,San Rafael,Guasave,250110251,manual,San Rafael
+49,nominatim,village,San Rafael,Guasave,250110251,manual,San Rafael
+50,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+50,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+50,nominatim,hamlet,La Florida,Guasave,250111169,exacto,
+51,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+51,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+51,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+52,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+52,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+52,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+53,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+53,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+53,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+54,geoguasave,,San Rafael (General Miguel Valle Dávalos),Guasave,250110251,clave,San Rafael
+54,google,locality,San Rafael,Guasave,250110251,manual,San Rafael
+54,nominatim,village,San Rafael,Guasave,250110251,manual,San Rafael
+55,geoguasave,,El Burrión,Guasave,250110064,clave,El Burrión
+55,google,locality,El Burrión,Guasave,250110064,exacto,El Burrión
+55,nominatim,town,El Burrión,Guasave,250110064,exacto,El Burrión
+56,geoguasave,,Javier Rojo Gómez,Guasave,250110475,clave,El Burrión
+56,google,locality,Javier Rojo Gómez,Guasave,250110475,exacto,El Burrión
+56,nominatim,village,El Rojo Gómez,Guasave,250110475,manual,El Burrión
+57,geoguasave,,Las Brisas (Emiliano Zapata),Guasave,250110060,clave,San Rafael
+57,google,locality,Las Brisas,Guasave,250110060,manual,San Rafael
+57,nominatim,village,Las Brisas,Guasave,250110060,manual,San Rafael
+58,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+58,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+58,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+59,geoguasave,,El Pitahayal,Guasave,250110194,clave,El Burrión
+59,google,locality,El Pitahayal,Guasave,250110194,exacto,El Burrión
+59,nominatim,village,El Pitahayal,Guasave,250110194,exacto,El Burrión
+60,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+60,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+60,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+61,geoguasave,,Nío,Guasave,250110175,clave,Nío
+61,google,locality,Nío,Guasave,250110175,exacto,Nío
+61,nominatim,town,Nío,Guasave,250110175,exacto,Nío
+62,geoguasave,,Estación Capomas,Guasave,250110081,clave,Estación Bamoa
+62,google,locality,Estación Capomas,Guasave,250110081,exacto,Estación Bamoa
+62,nominatim,village,Estacion Capomas,Guasave,250110081,exacto,Estación Bamoa
+63,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+63,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+63,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+64,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+64,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+64,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+65,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+65,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+65,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+66,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+66,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+66,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+67,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+67,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+67,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+68,geoguasave,,Las Juntas de Chamicari,Guasave,250110153,clave,La Trinidad
+68,google,locality,Las Juntas de Chamicari,Guasave,250110153,exacto,La Trinidad
+68,nominatim,hamlet,Cabreritas,Guasave,250110673,exacto,Nío
+69,geoguasave,,Palos Verdes,Guasave,250110188,clave,Tamazula
+69,google,locality,Palos Verdes,Guasave,250110188,manual,Tamazula
+69,nominatim,hamlet,El Alto,Guasave,250110913,exacto,Tamazula
+70,geoguasave,,24 de Febrero,Guasave,250111020,clave,Benito Juárez
+70,google,locality,24 de Febrero,Guasave,250111020,exacto,Benito Juárez
+70,nominatim,village,Colonia 24 de Febrero,Guasave,250111020,manual,Benito Juárez
+71,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+71,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+71,nominatim,hamlet,La Florida,Guasave,250111169,exacto,
+72,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+72,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+72,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+73,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+73,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+73,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+74,geoguasave,,Javier Rojo Gómez,Guasave,250110475,clave,El Burrión
+74,google,locality,Javier Rojo Gómez,Guasave,250110475,exacto,El Burrión
+74,nominatim,village,El Rojo Gómez,Guasave,250110475,manual,El Burrión
+75,geoguasave,,Corerepe (El Gallo),Guasave,250110093,clave,Adolfo Ruiz Cortines
+75,google,locality,Corerepe,Guasave,250110093,manual,Adolfo Ruiz Cortines
+75,nominatim,town,Corerepe (El Gallo),Guasave,250110093,exacto,Adolfo Ruiz Cortines
+76,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+76,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+76,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+77,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+77,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+77,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+78,geoguasave,,Adolfo Ruiz Cortines,Guasave,250110035,clave,Adolfo Ruiz Cortines
+78,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+78,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+79,geoguasave,,Los Ángeles,Guasave,250110283,clave,Alcaldía Central
+79,google,locality,Los Ángeles,Guasave,250110283,exacto,Alcaldía Central
+79,nominatim,town,Los Ángeles,Guasave,250110283,exacto,Alcaldía Central
+80,geoguasave,,Corerepe (El Gallo),Guasave,250110093,clave,Adolfo Ruiz Cortines
+80,google,locality,Corerepe,Guasave,250110093,manual,Adolfo Ruiz Cortines
+80,nominatim,town,Corerepe (El Gallo),Guasave,250110093,exacto,Adolfo Ruiz Cortines
+81,geoguasave,,Estación Capomas,Guasave,250110081,clave,Estación Bamoa
+81,google,locality,Estación Capomas,Guasave,250110081,exacto,Estación Bamoa
+81,nominatim,village,Estacion Capomas,Guasave,250110081,exacto,Estación Bamoa
+82,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+82,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+82,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+83,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+83,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+83,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+84,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+84,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+84,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+85,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+85,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+85,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+86,geoguasave,,Las Flores,Guasave,250110562,clave,Tamazula
+86,google,locality,Las Flores,Guasave,250110562,exacto,Tamazula
+86,nominatim,village,Las Flores,Guasave,250110562,exacto,Tamazula
+87,geoguasave,,Adolfo Ruiz Cortines,Guasave,250110035,clave,Adolfo Ruiz Cortines
+87,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+87,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+88,geoguasave,,Corerepe (El Gallo),Guasave,250110093,clave,Adolfo Ruiz Cortines
+88,google,locality,Corerepe,Guasave,250110093,manual,Adolfo Ruiz Cortines
+88,nominatim,town,Corerepe (El Gallo),Guasave,250110093,exacto,Adolfo Ruiz Cortines
+89,geoguasave,,Ejido la Entrada (El Poblado),Guasave,250110124,clave,Benito Juárez
+89,google,locality,Ejido la Entrada,Guasave,250110124,manual,Benito Juárez
+89,nominatim,city,Ejido La Estrada (El Poblado),Guasave,250110124,manual,Benito Juárez
+90,geoguasave,,Cinco de Mayo (Agua Blanca),Guasave,250110088,clave,Benito Juárez
+90,google,locality,Cinco de Mayo,Guasave,250110088,manual,Benito Juárez
+90,nominatim,village,Cinco de Mayo (Agua Blanca),Guasave,250110088,exacto,Benito Juárez
+91,geoguasave,,Corerepe (El Gallo),Guasave,250110093,clave,Adolfo Ruiz Cortines
+91,google,locality,Corerepe,Guasave,250110093,manual,Adolfo Ruiz Cortines
+91,nominatim,town,Corerepe (El Gallo),Guasave,250110093,exacto,Adolfo Ruiz Cortines
+92,geoguasave,,Francisco R. Serrano,Guasave,250110131,clave,San Rafael
+92,google,locality,Francisco R. Serrano,Guasave,250110131,exacto,San Rafael
+92,nominatim,,,Guasave,,sin_nombre,
+93,geoguasave,,Caimanero,Guasave,250110066,clave,Nío
+93,google,locality,Caimanero,Guasave,250110066,manual,Nío
+93,nominatim,village,Caimanero,Guasave,250110066,manual,Nío
+94,geoguasave,,Estación Bamoa (Campo Wilson),Guasave,250110051,clave,Estación Bamoa
+94,google,locality,Estación Bamoa,Guasave,250110051,manual,Estación Bamoa
+94,nominatim,town,Estación Bamoa (Campo Wilson),Guasave,250110051,exacto,Estación Bamoa
+95,geoguasave,,San Pedro Guasave (El Ranchito),Guasave,250110249,clave,Alcaldía Central
+95,google,locality,San Pedro Guasave,Guasave,250110249,manual,Alcaldía Central
+95,nominatim,village,San Pedro Paredes,Guasave,250110250,exacto,El Burrión
+96,geoguasave,,Adolfo Ruiz Cortines,Guasave,250110035,clave,Adolfo Ruiz Cortines
+96,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+96,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+97,geoguasave,,El Burrión,Guasave,250110064,clave,El Burrión
+97,google,locality,El Burrión,Guasave,250110064,exacto,El Burrión
+97,nominatim,town,El Burrión,Guasave,250110064,exacto,El Burrión
+98,geoguasave,,Caimanero,Guasave,250110066,clave,Nío
+98,google,locality,Caimanero,Guasave,250110066,manual,Nío
+98,nominatim,village,Caimanero,Guasave,250110066,manual,Nío
+99,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+99,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+99,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+100,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+100,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+100,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+101,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+101,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+101,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+102,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+102,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+102,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+103,geoguasave,,Los Ángeles,Guasave,250110283,clave,Alcaldía Central
+103,google,locality,Los Ángeles,Guasave,250110283,exacto,Alcaldía Central
+103,nominatim,town,Los Ángeles,Guasave,250110283,exacto,Alcaldía Central
+104,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+104,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+104,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+105,geoguasave,,Adolfo Ruiz Cortines,Guasave,250110035,clave,Adolfo Ruiz Cortines
+105,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+105,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+106,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+106,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+106,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+107,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+107,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+107,nominatim,hamlet,La Florida,Guasave,250111169,exacto,
+108,geoguasave,,El Progreso,Guasave,250110209,clave,Tamazula
+108,google,locality,El Progreso,Guasave,250110209,exacto,Tamazula
+108,nominatim,village,El Progreso,Guasave,250110209,exacto,Tamazula
+109,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+109,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+109,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+110,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+110,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+110,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+111,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+111,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+111,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+112,geoguasave,,24 de Febrero,Guasave,250111020,clave,Benito Juárez
+112,google,locality,24 de Febrero,Guasave,250111020,exacto,Benito Juárez
+112,nominatim,village,Colonia 24 de Febrero,Guasave,250111020,manual,Benito Juárez
+113,geoguasave,,El Varal (San Sebastián Número Uno),Guasave,250110364,clave,Nío
+113,google,locality,El Varal,Guasave,250110364,manual,Nío
+113,nominatim,village,El Varal (San Sebastián Número Uno),Guasave,250110364,exacto,Nío
+114,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+114,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+114,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+115,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+115,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+115,nominatim,city,El Tajito,Guasave,,ninguna,
+116,geoguasave,,Estación Bamoa (Campo Wilson),Guasave,250110051,clave,Estación Bamoa
+116,google,locality,Estación Bamoa,Guasave,250110051,manual,Estación Bamoa
+116,nominatim,town,Estación Bamoa (Campo Wilson),Guasave,250110051,exacto,Estación Bamoa
+117,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+117,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+117,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+118,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+118,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+118,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+119,geoguasave,,El Pitahayal,Guasave,250110194,clave,El Burrión
+119,google,locality,El Pitahayal,Guasave,250110194,exacto,El Burrión
+119,nominatim,village,El Pitahayal,Guasave,250110194,exacto,El Burrión
+120,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+120,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+120,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+121,geoguasave,,Estación Capomas,Guasave,250110081,clave,Estación Bamoa
+121,google,locality,Estación Capomas,Guasave,250110081,exacto,Estación Bamoa
+121,nominatim,village,Estacion Capomas,Guasave,250110081,exacto,Estación Bamoa
+122,geoguasave,,El Pitahayal,Guasave,250110194,clave,El Burrión
+122,google,locality,El Pitahayal,Guasave,250110194,exacto,El Burrión
+122,nominatim,village,El Pitahayal,Guasave,250110194,exacto,El Burrión
+123,geoguasave,,Estación Bamoa (Campo Wilson),Guasave,250110051,clave,Estación Bamoa
+123,google,locality,Estación Bamoa,Guasave,250110051,manual,Estación Bamoa
+123,nominatim,town,Estación Bamoa (Campo Wilson),Guasave,250110051,exacto,Estación Bamoa
+124,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+124,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+124,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+125,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+125,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+125,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+126,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+126,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+126,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+127,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+127,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+127,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+128,geoguasave,,Bamoa,Guasave,250110052,clave,Bamoa
+128,google,locality,Bamoa,Guasave,250110052,exacto,Bamoa
+128,nominatim,village,Bamoa,Guasave,250110052,exacto,Bamoa
+129,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+129,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+129,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+130,geoguasave,,El Huitussi y Anexos (El Huitussito),Guasave,250110300,clave,Adolfo Ruiz Cortines
+130,google,locality,El Huitussi y Anexos,Guasave,250110300,manual,Adolfo Ruiz Cortines
+130,nominatim,village,El Huitussi y Anexos (El Huitussito),Guasave,250110300,exacto,Adolfo Ruiz Cortines
+131,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+131,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+131,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+132,geoguasave,,El Cubilete (El Cubilete Número Uno),Guasave,250110102,clave,Tamazula
+132,google,locality,El Cubilete,Guasave,250110102,manual,Tamazula
+132,nominatim,village,El Cubilete,Guasave,250110102,manual,Tamazula
+133,geoguasave,,Estación Bamoa (Campo Wilson),Guasave,250110051,clave,Estación Bamoa
+133,google,locality,Estación Bamoa,Guasave,250110051,manual,Estación Bamoa
+133,nominatim,town,Estación Bamoa (Campo Wilson),Guasave,250110051,exacto,Estación Bamoa
+134,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+134,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+134,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+135,geoguasave,,El Varal (San Sebastián Número Uno),Guasave,250110364,clave,Nío
+135,google,locality,El Varal,Guasave,250110364,manual,Nío
+135,nominatim,village,Poblado Lázaro Cárdenas del Río,Guasave,250111281,manual,Nío
+136,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+136,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+136,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+137,geoguasave,,Corerepe (El Gallo),Guasave,250110093,clave,Adolfo Ruiz Cortines
+137,google,locality,Corerepe,Guasave,250110093,manual,Adolfo Ruiz Cortines
+137,nominatim,town,Corerepe (El Gallo),Guasave,250110093,exacto,Adolfo Ruiz Cortines
+138,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+138,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+138,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+139,geoguasave,,El Burrión,Guasave,250110064,clave,El Burrión
+139,google,locality,El Burrión,Guasave,250110064,exacto,El Burrión
+139,nominatim,town,El Burrión,Guasave,250110064,exacto,El Burrión
+140,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+140,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+140,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+141,geoguasave,,Bachoco,Guasave,250110049,clave,Juan José Ríos
+141,google,locality,Bachoco,Juan José Ríos,250110049,exacto,Juan José Ríos
+141,nominatim,town,Bachoco,Guasave,250110049,exacto,Juan José Ríos
+142,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+142,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+142,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+143,geoguasave,,Utatave (Mautillos),Guasave,250110284,clave,Alcaldía Central
+143,google,locality,Utatave,Guasave,250110284,manual,Alcaldía Central
+143,nominatim,village,Utatave (Mautillos),Guasave,250110284,exacto,Alcaldía Central
+144,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+144,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+144,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+145,geoguasave,,El Platanito,Guasave,250110627,clave,El Burrión
+145,google,locality,El Platanito,Guasave,250110627,exacto,El Burrión
+145,nominatim,hamlet,La Curva,Guasave,250110725,manual,El Burrión
+146,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+146,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+146,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+147,geoguasave,,El Varal (San Sebastián Número Uno),Guasave,250110364,clave,Nío
+147,google,locality,El Varal,Guasave,250110364,manual,Nío
+147,nominatim,village,El Varal (San Sebastián Número Uno),Guasave,250110364,exacto,Nío
+148,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+148,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+148,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+149,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+149,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+149,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+150,geoguasave,,San Pedro Guasave (El Ranchito),Guasave,250110249,clave,Alcaldía Central
+150,google,locality,San Pedro Guasave,Guasave,250110249,manual,Alcaldía Central
+150,nominatim,village,San Pedro Paredes,Guasave,250110250,exacto,El Burrión
+151,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+151,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+151,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+152,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+152,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+152,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+153,geoguasave,,Los Ángeles,Guasave,250110283,clave,Alcaldía Central
+153,google,locality,Los Ángeles,Guasave,250110283,exacto,Alcaldía Central
+153,nominatim,town,Los Ángeles,Guasave,250110283,exacto,Alcaldía Central
+154,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+154,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+154,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+155,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+155,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+155,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+156,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+156,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+156,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+157,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+157,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+157,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+158,geoguasave,,Buen Retiro (El Retiro),Guasave,250110063,clave,Tamazula
+158,google,locality,Buen Retiro,Guasave,250110063,manual,Tamazula
+158,nominatim,village,Buen Retiro,Guasave,250110063,manual,Tamazula
+159,geoguasave,,Miguel Alemán,Guasave,250110168,clave,Adolfo Ruiz Cortines
+159,google,locality,Miguel Alemán,Guasave,250110168,exacto,Adolfo Ruiz Cortines
+159,nominatim,village,Miguel Alemán,Guasave,250110168,exacto,Adolfo Ruiz Cortines
+160,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+160,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+160,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+161,geoguasave,,El Pitahayal,Guasave,250110194,clave,El Burrión
+161,google,locality,El Pitahayal,Guasave,250110194,exacto,El Burrión
+161,nominatim,village,El Pitahayal,Guasave,250110194,exacto,El Burrión
+162,geoguasave,,Nío,Guasave,250110175,clave,Nío
+162,google,locality,Nío,Guasave,250110175,exacto,Nío
+162,nominatim,town,Nío,Guasave,250110175,exacto,Nío
+163,geoguasave,,El Caracol,Guasave,250110695,clave,Benito Juárez
+163,google,locality,El Caracol,Guasave,250110695,exacto,Benito Juárez
+163,nominatim,hamlet,El Caracol,Guasave,250110695,exacto,Benito Juárez
+164,geoguasave,,Portugués de Gálvez,Guasave,250110203,clave,León Fonseca
+164,google,locality,Portugués de Gálvez,Guasave,250110203,exacto,León Fonseca
+164,nominatim,town,Portugués de Gálvez,Guasave,250110203,exacto,León Fonseca
+165,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+165,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+165,nominatim,town,Callejones de Guasavito,Guasave,250110070,exacto,El Burrión
+166,geoguasave,,Adolfo Ruiz Cortines,Guasave,250110035,clave,Adolfo Ruiz Cortines
+166,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+166,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+167,geoguasave,,Bamoa,Guasave,250110052,clave,Bamoa
+167,google,locality,Bamoa,Guasave,250110052,exacto,Bamoa
+167,nominatim,village,Bamoa,Guasave,250110052,exacto,Bamoa
+168,geoguasave,,24 de Febrero,Guasave,250111020,clave,Benito Juárez
+168,google,locality,24 de Febrero,Guasave,250111020,exacto,Benito Juárez
+168,nominatim,village,Colonia 24 de Febrero,Guasave,250111020,manual,Benito Juárez
+169,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+169,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+169,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+170,geoguasave,,San Pedro Guasave (El Ranchito),Guasave,250110249,clave,Alcaldía Central
+170,google,locality,San Pedro Guasave,Guasave,250110249,manual,Alcaldía Central
+170,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+171,geoguasave,,Adolfo Ruiz Cortines,Guasave,250110035,clave,Adolfo Ruiz Cortines
+171,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+171,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+172,geoguasave,,El Cubilete (El Cubilete Número Uno),Guasave,250110102,clave,Tamazula
+172,google,locality,El Cubilete,Guasave,250110102,manual,Tamazula
+172,nominatim,village,El Cubilete,Guasave,250110102,manual,Tamazula
+173,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+173,google,locality,Centro,Guasave,,ninguna,
+173,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+174,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+174,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+174,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+175,geoguasave,,24 de Febrero,Guasave,250111020,clave,Benito Juárez
+175,google,locality,24 de Febrero,Guasave,250111020,exacto,Benito Juárez
+175,nominatim,village,Colonia 24 de Febrero,Guasave,250111020,manual,Benito Juárez
+176,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+176,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+176,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+177,geoguasave,,Cinco de Mayo (Agua Blanca),Guasave,250110088,clave,Benito Juárez
+177,google,locality,Cinco de Mayo,Guasave,250110088,manual,Benito Juárez
+177,nominatim,village,Cinco de Mayo (Agua Blanca),Guasave,250110088,exacto,Benito Juárez
+178,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+178,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+178,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+179,geoguasave,,San José de Guayparime,Guasave,250110759,clave,Alcaldía Central
+179,google,locality,San José de Guayparime,Guasave,250110759,exacto,Alcaldía Central
+179,nominatim,hamlet,Las Guásimas,Guasave,250110141,exacto,Alcaldía Central
+180,geoguasave,,El Coloradito,Guasave,250110707,clave,Benito Juárez
+180,google,locality,El Coloradito,Guasave,250110707,exacto,Benito Juárez
+180,nominatim,hamlet,El Coloradito,Guasave,250110707,exacto,Benito Juárez
+181,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+181,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+181,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+182,geoguasave,,Boca del Río,Guasave,250110386,clave,Tamazula
+182,google,locality,Boca del Río,Guasave,250110386,exacto,Tamazula
+182,nominatim,village,Playa Boca del Río,Guasave,250110386,manual,Tamazula
+183,geoguasave,,Ejido Figueroa,Guasave,250110520,clave,Benito Juárez
+183,google,locality,Ejido Figueroa,Guasave,250110520,exacto,Benito Juárez
+183,nominatim,village,Ejido Figueroa,Guasave,250110520,exacto,Benito Juárez
+184,geoguasave,,El Pitahayal,Guasave,250110194,clave,El Burrión
+184,google,locality,El Pitahayal,Guasave,250110194,exacto,El Burrión
+184,nominatim,hamlet,Las Compuertas,Guasave,250110443,manual,
+185,geoguasave,,Las Moras,Guasave,250110170,clave,La Trinidad
+185,google,locality,Las Moras,Guasave,250110170,exacto,La Trinidad
+185,nominatim,town,Las Moras,Guasave,250110170,exacto,La Trinidad
+186,geoguasave,,El Pitahayal,Guasave,250110194,clave,El Burrión
+186,google,locality,El Pitahayal,Guasave,250110194,exacto,El Burrión
+186,nominatim,village,El Pitahayal,Guasave,250110194,exacto,El Burrión
+187,geoguasave,,Corerepe (El Gallo),Guasave,250110093,clave,Adolfo Ruiz Cortines
+187,google,locality,Corerepe,Guasave,250110093,manual,Adolfo Ruiz Cortines
+187,nominatim,town,Corerepe (El Gallo),Guasave,250110093,exacto,Adolfo Ruiz Cortines
+188,geoguasave,,Ejido la Entrada (El Poblado),Guasave,250110124,clave,Benito Juárez
+188,google,locality,Ejido la Entrada,Guasave,250110124,manual,Benito Juárez
+188,nominatim,city,Ejido La Estrada (El Poblado),Guasave,250110124,manual,Benito Juárez
+189,geoguasave,,Ejido el Tecomate,Guasave,250110967,clave,El Burrión
+189,google,locality,Ejido el Tecomate,Guasave,250110967,exacto,El Burrión
+189,nominatim,village,Ejido El Tecomate,Guasave,250110967,exacto,El Burrión
+190,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+190,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+190,nominatim,hamlet,La Florida,Guasave,250111169,exacto,
+191,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+191,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+191,nominatim,hamlet,La Florida,Guasave,250111169,exacto,
+192,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+192,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+192,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+193,geoguasave,,San José de la Brecha,Guasave,250110239,clave,La Brecha
+193,google,locality,San José de la Brecha,Guasave,250110239,exacto,La Brecha
+193,nominatim,village,San José de la Brecha,Guasave,250110239,exacto,La Brecha
+194,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+194,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+194,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+195,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+195,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+195,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+196,geoguasave,,El Burrión,Guasave,250110064,clave,El Burrión
+196,google,locality,El Burrión,Guasave,250110064,exacto,El Burrión
+196,nominatim,town,El Burrión,Guasave,250110064,exacto,El Burrión
+197,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+197,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+197,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+198,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+198,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+198,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+199,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+199,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+199,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+200,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+200,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+200,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+201,geoguasave,,,Guasave,,clave,La Trinidad
+201,google,locality,Las Moras,Guasave,250110170,exacto,La Trinidad
+201,nominatim,town,Las Moras,Guasave,250110170,exacto,La Trinidad
+202,geoguasave,,,Guasave,,clave,Tamazula
+202,google,locality,El Tortugo,Guasave,250110280,exacto,Tamazula
+202,nominatim,,,Guasave,,sin_nombre,
+203,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+203,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+203,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+204,geoguasave,,,Guasave,,clave,La Trinidad
+204,google,locality,La Trinidad,Guasave,250110282,exacto,La Trinidad
+204,nominatim,village,El Palotal,Guasave,,ninguna,
+205,geoguasave,,,Guasave,,clave,Tamazula
+205,google,locality,Las Cañadas Número Uno,Guasave,250110080,exacto,Tamazula
+205,nominatim,hamlet,Campo Zazueta,Guasave,250111155,manual,Tamazula
+206,geoguasave,,Ninguno [José Alberto López Beltrán],Guasave,250111448,clave,Alcaldía Central
+206,google,locality,La Chuparrosa,Guasave,250110115,exacto,Alcaldía Central
+206,nominatim,village,El Progreso,Guasave,250110209,exacto,Tamazula
+207,geoguasave,,,Guasave,,clave,Tamazula
+207,google,locality,El Papachal,Guasave,250110981,exacto,Tamazula
+207,nominatim,hamlet,El Alto,Guasave,250110913,exacto,Tamazula
+208,geoguasave,,El Marcol,Guasave,250110777,clave,Tamazula
+208,google,locality,Huicho,Guasave,,ninguna,
+208,nominatim,village,El Marcol,Guasave,250110777,exacto,Tamazula
+209,geoguasave,,,Guasave,,clave,El Burrión
+209,google,locality,El Pochote,Guasave,250110201,exacto,El Burrión
+209,nominatim,village,El Pochote (Potrerillos),Guasave,250110202,exacto,San Rafael
+210,geoguasave,,,Guasave,,clave,Estación Bamoa
+210,google,locality,San Francisco de Capomos Viejos,Guasave,250111284,exacto,Estación Bamoa
+210,nominatim,village,San Francisco de Capomos,Guasave,250110594,manual,Estación Bamoa
+211,geoguasave,,,Guasave,,clave,Juan José Ríos
+211,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+211,nominatim,town,Bachoco,Guasave,250110049,exacto,Juan José Ríos
+212,geoguasave,,,Guasave,,clave,El Burrión
+212,google,locality,San José de Palos Blancos,Guasave,250110187,manual,El Burrión
+212,nominatim,village,San José de Palos Blancos (Palos Blancos),Guasave,250110187,exacto,El Burrión
+213,geoguasave,,,Guasave,,clave,Benito Juárez
+213,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+213,nominatim,village,Cinco de Mayo (Agua Blanca),Guasave,250110088,exacto,Benito Juárez
+214,geoguasave,,,Guasave,,clave,San Rafael
+214,google,locality,Los Tesitos,Guasave,250110391,exacto,San Rafael
+214,nominatim,village,Los Tesitos,Guasave,250110391,exacto,San Rafael
+215,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+215,google,locality,San Ignacio,Guasave,,ninguna,
+215,nominatim,,,Guasave,,sin_nombre,
+216,geoguasave,,,Guasave,,clave,Tamazula
+216,google,locality,El Progreso,Guasave,250110209,exacto,Tamazula
+216,nominatim,village,Cubilete Número Dos,Guasave,250110103,exacto,Tamazula
+217,geoguasave,,,Guasave,,clave,El Burrión
+217,google,locality,Cuatro Caminos,Guasave,250110906,manual,El Burrión
+217,nominatim,hamlet,Cuatro Caminos,Guasave,250110906,manual,El Burrión
+218,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+218,google,locality,San Ignacio,Guasave,,ninguna,
+218,nominatim,,,Guasave,,sin_nombre,
+219,geoguasave,,,Guasave,,clave,Tamazula
+219,google,locality,Carricitos,Guasave,250110700,exacto,Tamazula
+219,nominatim,,,Guasave,,sin_nombre,
+220,geoguasave,,,Guasave,,clave,La Trinidad
+220,google,locality,Las Juntas de Chamicari,Guasave,250110153,exacto,La Trinidad
+220,nominatim,village,Las Juntas de Chamicari,Guasave,250110153,exacto,La Trinidad
+221,geoguasave,,,Guasave,,clave,La Brecha
+221,google,,,Guasave,,sin_nombre,
+221,nominatim,village,Las Playas (La Palma),Guasave,250110199,exacto,La Brecha
+222,geoguasave,,,Guasave,,clave,Benito Juárez
+222,google,locality,El Coloradito,Guasave,250110707,exacto,Benito Juárez
+222,nominatim,,,Guasave,,sin_nombre,
+223,geoguasave,,,Guasave,,clave,Tamazula
+223,google,locality,Las Flores,Guasave,250110562,exacto,Tamazula
+223,nominatim,village,Las Flores,Guasave,250110562,exacto,Tamazula
+224,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+224,google,locality,Miguel Hidalgo,Guasave,250110623,exacto,Adolfo Ruiz Cortines
+224,nominatim,village,Dorado Número Tres (Doradito),Guasave,250110736,exacto,Tamazula
+225,geoguasave,,,Guasave,,clave,Benito Juárez
+225,google,locality,El Huitussi,Guasave,250110148,exacto,Benito Juárez
+225,nominatim,,,Guasave,,sin_nombre,
+226,geoguasave,,,Guasave,,clave,Benito Juárez
+226,google,locality,El Caracol,Guasave,250110695,exacto,Benito Juárez
+226,nominatim,,,Guasave,,sin_nombre,
+227,geoguasave,,El Toruno,Guasave,250110281,clave,La Trinidad
+227,google,locality,El Toruno,Guasave,250110281,exacto,La Trinidad
+227,nominatim,village,El Toruno,Guasave,250110281,exacto,La Trinidad
+228,geoguasave,,,Guasave,,clave,El Burrión
+228,google,locality,Casa Blanca,Guasave,250110085,exacto,La Brecha
+228,nominatim,village,Callejones de Tamazula,Guasave,250110069,exacto,La Brecha
+229,geoguasave,,Los Puentes Cuates,Guasave,250110630,clave,Benito Juárez
+229,google,locality,Roberto Barrios,Guasave,250110220,exacto,Benito Juárez
+229,nominatim,hamlet,Los Puentes Cuates,Guasave,250110630,exacto,
+230,geoguasave,,,Guasave,,clave,Tamazula
+230,google,locality,Las Flores,Guasave,250110562,exacto,Tamazula
+230,nominatim,village,Las Flores,Guasave,250110562,exacto,Tamazula
+231,geoguasave,,,Guasave,,clave,Benito Juárez
+231,google,locality,Navachiste,Guasave,,ninguna,
+231,nominatim,,,Guasave,,sin_nombre,
+232,geoguasave,,Ninguno [Juan Lugo],Guasave,250111391,clave,Benito Juárez
+232,google,locality,Roberto Barrios,Guasave,250110220,exacto,Benito Juárez
+232,nominatim,hamlet,Los Puentes Cuates,Guasave,250110630,exacto,
+233,geoguasave,,,Guasave,,clave,Tamazula
+233,google,locality,Las Cañadas,Guasave,250110703,manual,Tamazula
+233,nominatim,hamlet,El Ranchito,Guasave,250111181,manual,Tamazula
+234,geoguasave,,,Guasave,,clave,León Fonseca
+234,google,locality,Portugués de Gálvez,Guasave,250110203,exacto,León Fonseca
+234,nominatim,town,Portugués de Gálvez,Guasave,250110203,exacto,León Fonseca
+235,geoguasave,,,Guasave,,clave,Estación Bamoa
+235,google,locality,Alfredo V. Bonfil,Guasave,,ninguna,
+235,nominatim,village,Estacion Capomas,Guasave,250110081,exacto,Estación Bamoa
+236,geoguasave,,,Guasave,,clave,Alcaldía Central
+236,google,locality,La Chuparrosa,Guasave,250110115,exacto,Alcaldía Central
+236,nominatim,village,La Chuparrosa,Guasave,250110115,exacto,Alcaldía Central
+237,geoguasave,,,Guasave,,clave,La Brecha
+237,google,locality,San José de la Brecha,Guasave,250110239,exacto,La Brecha
+237,nominatim,,,Guasave,,sin_nombre,
+238,geoguasave,,,Guasave,,clave,Tamazula
+238,google,locality,Buenavista,Guasave,250110062,exacto,Tamazula
+238,nominatim,village,El Progreso,Guasave,250110209,exacto,Tamazula
+239,geoguasave,,,Guasave,,clave,Tamazula
+239,google,locality,Tierra y Libertad,Guasave,250110381,exacto,Tamazula
+239,nominatim,village,Tierra y Libertad,Guasave,250110381,exacto,Tamazula
+240,geoguasave,,,Guasave,,clave,Tamazula
+240,google,locality,Tierra y Libertad,Guasave,250110381,exacto,Tamazula
+240,nominatim,village,Tierra y Libertad,Guasave,250110381,exacto,Tamazula
+241,geoguasave,,Gustavo Perla,Guasave,250111526,clave,Alcaldía Central
+241,google,locality,Campo Preciado La Sabanilla,Guasave,250111386,manual,Alcaldía Central
+241,nominatim,village,Tapachula,Guasave,250110271,exacto,Alcaldía Central
+242,geoguasave,,Ninguno [Erik García],Guasave,250111214,clave,La Trinidad
+242,google,locality,El Dulce,Guasave,250110613,exacto,La Trinidad
+242,nominatim,village,Los Hornos Número Uno (Salsipuedes),Guasave,250110149,exacto,La Trinidad
+243,geoguasave,,Rancho San Antonio,Guasave,250111373,clave,La Trinidad
+243,google,locality,Las Quemazones,Guasave,250110213,exacto,La Trinidad
+243,nominatim,village,Las Quemazones,Guasave,250110213,exacto,La Trinidad
+244,geoguasave,,,Guasave,,clave,Benito Juárez
+244,google,locality,Bacahui,Guasave,,ninguna,
+244,nominatim,village,Flor de Mayo,Guasave,250110129,exacto,Benito Juárez
+245,geoguasave,,,Guasave,,clave,San Rafael
+245,google,locality,Ejido Charco Largo,Guasave,250110727,manual,San Rafael
+245,nominatim,village,Ejido Charco Largo,Guasave,250110727,manual,San Rafael
+246,geoguasave,,,Guasave,,clave,La Brecha
+246,google,locality,La Brecha,Guasave,250110059,exacto,La Brecha
+246,nominatim,,,Guasave,,sin_nombre,
+247,geoguasave,,,Guasave,,clave,León Fonseca
+247,google,locality,Campo Seis,Guasave,,ninguna,
+247,nominatim,village,El Toruno,Guasave,250110281,exacto,La Trinidad
+248,geoguasave,,,Guasave,,clave,Benito Juárez
+248,google,locality,General Emiliano Zapata,Guasave,250110741,exacto,Benito Juárez
+248,nominatim,,,Guasave,,sin_nombre,
+249,geoguasave,,,Guasave,,clave,Tamazula
+249,google,locality,Babaraza,Guasave,,ninguna,
+249,nominatim,village,Las Culebras,Guasave,250110723,exacto,Tamazula
+250,geoguasave,,,Guasave,,clave,Juan José Ríos
+250,google,locality,Guayparime,Juan José Ríos,250110430,exacto,Juan José Ríos
+250,nominatim,village,Babujaqui,Guasave,250110332,exacto,Juan José Ríos
+251,geoguasave,,,Guasave,,clave,El Burrión
+251,google,locality,El Varali,Guasave,250110891,exacto,El Burrión
+251,nominatim,hamlet,El Varali,Guasave,250110891,exacto,El Burrión
+252,geoguasave,,,Guasave,,clave,La Trinidad
+252,google,locality,Ejido Abelardo L. Rodríguez,Guasave,250110540,exacto,La Trinidad
+252,nominatim,town,La Trinidad,Guasave,250110282,exacto,La Trinidad
+253,geoguasave,,,Guasave,,clave,La Brecha
+253,google,locality,Las Colonias,Guasave,250110706,manual,La Brecha
+253,nominatim,village,Las Colonias (Colonia Ángel Flores),Guasave,250110706,exacto,La Brecha
+254,geoguasave,,,Guasave,,clave,León Fonseca
+254,google,locality,Carboneras,Guasave,250110083,exacto,León Fonseca
+254,nominatim,village,Carboneras,Guasave,250110083,exacto,León Fonseca
+255,geoguasave,,Cuesta de Arriba,Guasave,250110106,clave,El Burrión
+255,google,locality,Cuesta de Arriba,Guasave,250110106,exacto,El Burrión
+255,nominatim,hamlet,La Uva,Guasave,250110887,exacto,El Burrión
+256,geoguasave,,,Guasave,,clave,La Trinidad
+256,google,locality,La Escalera,Guasave,250110125,exacto,La Trinidad
+256,nominatim,village,La Escalera Pueblo Amigo,Guasave,250110125,manual,La Trinidad
+257,geoguasave,,,Guasave,,clave,La Brecha
+257,google,locality,San José de la Brecha,Guasave,250110239,exacto,La Brecha
+257,nominatim,village,San José de la Brecha,Guasave,250110239,exacto,La Brecha
+258,geoguasave,,,Guasave,,clave,Juan José Ríos
+258,google,locality,Ejido Bachoco Número Dos,Juan José Ríos,,ninguna,
+258,nominatim,,,Guasave,,sin_nombre,
+259,geoguasave,,,Guasave,,clave,Tamazula
+259,google,locality,El Sacrificio,Guasave,250110228,exacto,Tamazula
+259,nominatim,village,El Sacrificio,Guasave,250110228,exacto,Tamazula
+260,geoguasave,,,Guasave,,clave,La Brecha
+260,google,locality,Valle de Huyaqui,Guasave,250110287,manual,La Brecha
+260,nominatim,village,Valle de Huyaqui (Los Solares),Guasave,250110287,exacto,La Brecha
+261,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+261,google,locality,San Ignacio,Guasave,,ninguna,
+261,nominatim,,,Guasave,,sin_nombre,
+262,geoguasave,,Campo el Hermano,Guasave,250110930,clave,La Brecha
+262,google,locality,El Pochote,Guasave,250110201,exacto,El Burrión
+262,nominatim,village,Valle de Huyaqui (Los Solares),Guasave,250110287,exacto,La Brecha
+263,geoguasave,,,Guasave,,clave,Juan José Ríos
+263,google,locality,Bachoco,Juan José Ríos,250110049,exacto,Juan José Ríos
+263,nominatim,town,Bachoco,Guasave,250110049,exacto,Juan José Ríos
+264,geoguasave,,Tres de Mayo (Nombre Feo),Guasave,250110176,clave,Tamazula
+264,google,locality,Tres de Mayo,Guasave,250110176,manual,Tamazula
+264,nominatim,village,Tres de Mayo (Nombre Feo),Guasave,250110176,exacto,Tamazula
+265,geoguasave,,,Guasave,,clave,Tamazula
+265,google,locality,Las Culebras,Guasave,250110723,exacto,Tamazula
+265,nominatim,village,Las Culebras,Guasave,250110723,exacto,Tamazula
+266,geoguasave,,El Progreso,Guasave,250110209,clave,Tamazula
+266,google,locality,El Progreso,Guasave,250110209,exacto,Tamazula
+266,nominatim,village,El Progreso,Guasave,250110209,exacto,Tamazula
+267,geoguasave,,,Guasave,,clave,Tamazula
+267,google,locality,Alamito Caimanero,Guasave,250110042,exacto,Tamazula
+267,nominatim,,,Guasave,,sin_nombre,
+268,geoguasave,,,Guasave,,clave,Juan José Ríos
+268,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+268,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+269,geoguasave,,,Guasave,,clave,La Trinidad
+269,google,locality,La Presita,Guasave,,ninguna,
+269,nominatim,,,Guasave,,sin_nombre,
+270,geoguasave,,,Guasave,,clave,Alcaldía Central
+270,google,locality,Adolfo Ruiz Cortines,Juan José Ríos,250110035,exacto,Adolfo Ruiz Cortines
+270,nominatim,hamlet,Campo el Porvenir,Guasave,250110807,exacto,Alcaldía Central
+271,geoguasave,,,Guasave,,clave,Benito Juárez
+271,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+271,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+272,geoguasave,,,Guasave,,clave,Benito Juárez
+272,google,locality,Cangilones,Guasave,,ninguna,
+272,nominatim,,,Guasave,,sin_nombre,
+273,geoguasave,,,Guasave,,clave,Estación Bamoa
+273,google,locality,Estación Capomas,Guasave,250110081,exacto,Estación Bamoa
+273,nominatim,village,Estacion Capomas,Guasave,250110081,exacto,Estación Bamoa
+274,geoguasave,,,Guasave,,clave,Estación Bamoa
+274,google,locality,Estación Capomas,Guasave,250110081,exacto,Estación Bamoa
+274,nominatim,village,Estacion Capomas,Guasave,250110081,exacto,Estación Bamoa
+275,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+275,google,locality,El Campesino,Guasave,250110434,exacto,Adolfo Ruiz Cortines
+275,nominatim,village,El Campesino,Guasave,250110434,exacto,Adolfo Ruiz Cortines
+276,geoguasave,,,Guasave,,clave,Benito Juárez
+276,google,locality,Navachiste,Guasave,,ninguna,
+276,nominatim,,,Guasave,,sin_nombre,
+277,geoguasave,,,Guasave,,clave,Benito Juárez
+277,google,locality,El Huitussi,Juan José Ríos,250110148,exacto,Benito Juárez
+277,nominatim,,,Guasave,,sin_nombre,
+278,geoguasave,,,Guasave,,clave,Benito Juárez
+278,google,locality,Cangilones,Guasave,,ninguna,
+278,nominatim,,,Guasave,,sin_nombre,
+279,geoguasave,,,Guasave,,clave,El Burrión
+279,google,locality,La Uva,Guasave,250110887,exacto,El Burrión
+279,nominatim,hamlet,La Uva,Guasave,250110887,exacto,El Burrión
+280,geoguasave,,,Guasave,,clave,Benito Juárez
+280,google,locality,El Huitussi,Guasave,250110148,exacto,Benito Juárez
+280,nominatim,,,Guasave,,sin_nombre,
+281,geoguasave,,Ranchito de Inzunza,Guasave,250110816,clave,La Trinidad
+281,google,locality,Ranchito de Inzunza,Guasave,250110816,exacto,La Trinidad
+281,nominatim,village,Ranchito de Inzunza,Guasave,250110816,exacto,La Trinidad
+282,geoguasave,,,Guasave,,clave,El Burrión
+282,google,locality,El Pochote,Guasave,250110201,exacto,El Burrión
+282,nominatim,hamlet,El Pochote,Guasave,250110201,exacto,El Burrión
+283,geoguasave,,,Guasave,,clave,Benito Juárez
+283,google,locality,Navachiste,Guasave,,ninguna,
+283,nominatim,,,Guasave,,sin_nombre,
+284,geoguasave,,,Guasave,,clave,Bamoa
+284,google,locality,Norotillos,Guasave,250111031,exacto,Bamoa
+284,nominatim,town,Estación Bamoa (Campo Wilson),Guasave,250110051,exacto,Estación Bamoa
+285,geoguasave,,,Guasave,,clave,Alcaldía Central
+285,google,locality,La Guamuchilera,Guasave,250110755,exacto,Alcaldía Central
+285,nominatim,village,Buen Retiro,Guasave,250110063,manual,Tamazula
+286,geoguasave,,,Guasave,,clave,Estación Bamoa
+286,google,locality,San Marcial,Guasave,250110244,exacto,Estación Bamoa
+286,nominatim,village,San Marcial,Guasave,250110244,exacto,Estación Bamoa
+287,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+287,google,locality,El Cerro Cabezón,Juan José Ríos,250110065,exacto,Adolfo Ruiz Cortines
+287,nominatim,village,Ejido Cerro Cabezon,Guasave,250110065,manual,Adolfo Ruiz Cortines
+288,geoguasave,,,Guasave,,clave,Benito Juárez
+288,google,locality,24 de Febrero,Guasave,250111020,exacto,Benito Juárez
+288,nominatim,,,Guasave,,sin_nombre,
+289,geoguasave,,,Guasave,,clave,Tamazula
+289,google,locality,Las Flores,Guasave,250110562,exacto,Tamazula
+289,nominatim,hamlet,Campo Santa Rosa,Guasave,250110259,exacto,Tamazula
+290,geoguasave,,,Guasave,,clave,La Trinidad
+290,google,locality,Ejido los Pinitos,Guasave,250110869,exacto,La Trinidad
+290,nominatim,village,Los Hornos Número Uno (Salsipuedes),Guasave,250110149,exacto,La Trinidad
+291,geoguasave,,,Guasave,,clave,La Trinidad
+291,google,locality,El Toruno,Guasave,250110281,exacto,La Trinidad
+291,nominatim,village,El Toruno,Guasave,250110281,exacto,La Trinidad
+292,geoguasave,,La Diecisiete,Guasave,250111063,clave,Benito Juárez
+292,google,locality,Campo Cuatro Milpas,Guasave,250110101,manual,Benito Juárez
+292,nominatim,village,Cinco de Mayo (Agua Blanca),Guasave,250110088,exacto,Benito Juárez
+293,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+293,google,locality,Corerepe,Guasave,250110093,manual,Adolfo Ruiz Cortines
+293,nominatim,town,Corerepe (El Gallo),Guasave,250110093,exacto,Adolfo Ruiz Cortines
+294,geoguasave,,,Guasave,,clave,San Rafael
+294,google,locality,Las Brisas,Guasave,250110060,manual,San Rafael
+294,nominatim,village,El Pochote (Potrerillos),Guasave,250110202,exacto,San Rafael
+295,geoguasave,,,Guasave,,clave,La Trinidad
+295,google,locality,La Presita,Guasave,,ninguna,
+295,nominatim,village,La Presita,Municipio de Sinaloa,,ninguna,
+296,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+296,google,locality,Corerepe,Guasave,250110093,manual,Adolfo Ruiz Cortines
+296,nominatim,town,Corerepe (El Gallo),Guasave,250110093,exacto,Adolfo Ruiz Cortines
+297,geoguasave,,Tecomate,Guasave,250111396,clave,Alcaldía Central
+297,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+297,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+298,geoguasave,,,Guasave,,clave,El Burrión
+298,google,locality,Javier Rojo Gómez,Guasave,250110475,exacto,El Burrión
+298,nominatim,village,El Rojo Gómez,Guasave,250110475,manual,El Burrión
+299,geoguasave,,,Guasave,,clave,Benito Juárez
+299,google,locality,Chipotles Brunos,Guasave,250111358,exacto,Benito Juárez
+299,nominatim,hamlet,Campo Figueroa,Guasave,250110746,manual,Benito Juárez
+300,geoguasave,,,Guasave,,clave,Estación Bamoa
+300,google,locality,Sanaria,Guasave,,ninguna,
+300,nominatim,hamlet,Sanaria,Municipio de Sinaloa,,ninguna,
+301,geoguasave,,,Guasave,,clave,El Burrión
+301,google,locality,El Pitahayal,Guasave,250110194,exacto,El Burrión
+301,nominatim,hamlet,Las Compuertas,Guasave,250110443,manual,
+302,geoguasave,,,Guasave,,clave,Nío
+302,google,locality,El Cuitabón,Guasave,250110108,exacto,Nío
+302,nominatim,hamlet,Ranchito de Caimanero (Infiernito),Guasave,250110359,exacto,Nío
+303,geoguasave,,,Guasave,,clave,Benito Juárez
+303,google,locality,Roberto Barrios,Guasave,250110220,exacto,Benito Juárez
+303,nominatim,village,Roberto Barrios,Guasave,250110220,exacto,Benito Juárez
+304,geoguasave,,,Guasave,,clave,Tamazula
+304,google,locality,Maximiliano R. López,Guasave,250110780,manual,Tamazula
+304,nominatim,village,Maximiliano R. López (El Pochote),Guasave,250110780,exacto,Tamazula
+305,geoguasave,,,Guasave,,clave,Juan José Ríos
+305,google,locality,Adolfo Ruiz Cortines,Juan José Ríos,250110035,exacto,Adolfo Ruiz Cortines
+305,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+306,geoguasave,,,Guasave,,clave,Tamazula
+306,google,locality,El Tortugo,Guasave,250110280,exacto,Tamazula
+306,nominatim,,,Guasave,,sin_nombre,
+307,geoguasave,,,Guasave,,clave,León Fonseca
+307,google,locality,Carboneras,Guasave,250110083,exacto,León Fonseca
+307,nominatim,village,Carboneras,Guasave,250110083,exacto,León Fonseca
+308,geoguasave,,Tecomate,Guasave,250111396,clave,Alcaldía Central
+308,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+308,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+309,geoguasave,,,Guasave,,clave,Benito Juárez
+309,google,locality,Bacahui,Guasave,,ninguna,
+309,nominatim,village,San Fernando,Guasave,250110233,exacto,Benito Juárez
+310,geoguasave,,,Guasave,,clave,La Brecha
+310,google,locality,El Pochote,Guasave,250110201,exacto,El Burrión
+310,nominatim,village,Las Colonias (Colonia Ángel Flores),Guasave,250110706,exacto,La Brecha
+311,geoguasave,,,Guasave,,clave,Tamazula
+311,google,locality,Cangilones,Guasave,,ninguna,
+311,nominatim,,,Guasave,,sin_nombre,
+312,geoguasave,,,Guasave,,clave,Alcaldía Central
+312,google,locality,Utatave,Guasave,250110284,manual,Alcaldía Central
+312,nominatim,hamlet,La Entrada Vieja,Guasave,250110480,exacto,Benito Juárez
+313,geoguasave,,,Guasave,,clave,Benito Juárez
+313,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+313,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+314,geoguasave,,El Comodín,Guasave,250111493,clave,La Trinidad
+314,google,locality,Los Hornos Número Uno,Guasave,250110149,manual,La Trinidad
+314,nominatim,village,Los Hornos Número Uno (Salsipuedes),Guasave,250110149,exacto,La Trinidad
+315,geoguasave,,,Guasave,,clave,San Rafael
+315,google,locality,Los Tesitos,Guasave,250110391,exacto,San Rafael
+315,nominatim,village,Los Tesitos,Guasave,250110391,exacto,San Rafael
+316,geoguasave,,,Guasave,,clave,Tamazula
+316,google,locality,El Tortugo,Guasave,250110280,exacto,Tamazula
+316,nominatim,,,Guasave,,sin_nombre,
+317,geoguasave,,Nío Dos,Guasave,250110788,clave,El Burrión
+317,google,locality,Ejido el Tecomate,Guasave,250110967,exacto,El Burrión
+317,nominatim,village,Campo Sinaloa,Guasave,250110264,exacto,El Burrión
+318,geoguasave,,,Guasave,,clave,San Rafael
+318,google,locality,Palmarito de los Angulo,Guasave,250110184,exacto,San Rafael
+318,nominatim,village,El Serranito,Guasave,250110407,exacto,San Rafael
+319,geoguasave,,,Guasave,,clave,Benito Juárez
+319,google,locality,Flor de Mayo,Guasave,250110129,exacto,Benito Juárez
+319,nominatim,village,Flor de Mayo,Guasave,250110129,exacto,Benito Juárez
+320,geoguasave,,,Guasave,,clave,Benito Juárez
+320,google,locality,Navachiste,Guasave,,ninguna,
+320,nominatim,,,Guasave,,sin_nombre,
+321,geoguasave,,,Guasave,,clave,Benito Juárez
+321,google,locality,Campo Pesquero 22-15,Guasave,250110941,manual,Benito Juárez
+321,nominatim,,,Guasave,,sin_nombre,
+322,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+322,google,locality,El Cerro Cabezón,Guasave,250110065,exacto,Adolfo Ruiz Cortines
+322,nominatim,village,Ejido Cerro Cabezon,Guasave,250110065,manual,Adolfo Ruiz Cortines
+323,geoguasave,,,Guasave,,clave,El Burrión
+323,google,locality,San José de Palos Blancos,Guasave,250110187,manual,El Burrión
+323,nominatim,hamlet,Campo California,Guasave,250110067,manual,El Burrión
+324,geoguasave,,,Guasave,,clave,Bamoa
+324,google,locality,Orba,Guasave,250110181,manual,Bamoa
+324,nominatim,village,Carboneras,Guasave,250110083,exacto,León Fonseca
+325,geoguasave,,,Guasave,,clave,Tamazula
+325,google,locality,Cangilones,Guasave,,ninguna,
+325,nominatim,village,El Tortugo,Guasave,250110280,exacto,Tamazula
+326,geoguasave,,Campo Casa Blanca,Guasave,250110856,clave,El Burrión
+326,google,locality,San Rafael,Guasave,250110251,manual,San Rafael
+326,nominatim,hamlet,Cuatro Caminos,Guasave,250110906,manual,El Burrión
+327,geoguasave,,,Guasave,,clave,Alcaldía Central
+327,google,locality,La Chuparrosa,Guasave,250110115,exacto,Alcaldía Central
+327,nominatim,hamlet,Los Guayacanes,Guasave,250110143,exacto,Alcaldía Central
+328,geoguasave,,,Guasave,,clave,El Burrión
+328,google,locality,Las Pitahayitas,Guasave,250110196,exacto,El Burrión
+328,nominatim,village,Las Pitahayitas,Guasave,250110196,exacto,El Burrión
+329,geoguasave,,,Guasave,,clave,Tamazula
+329,google,locality,Las Glorias,Guasave,250110751,exacto,Tamazula
+329,nominatim,hamlet,Las Higueras (Las Flores),Guasave,250110130,exacto,Tamazula
+330,geoguasave,,,Guasave,,clave,El Burrión
+330,google,locality,Javier Rojo Gómez,Guasave,250110475,exacto,El Burrión
+330,nominatim,village,El Rojo Gómez,Guasave,250110475,manual,El Burrión
+331,geoguasave,,,Guasave,,clave,Benito Juárez
+331,google,locality,Ejido Chorohui,Guasave,250110114,manual,Benito Juárez
+331,nominatim,hamlet,Ejido Chorohui,Guasave,250110114,manual,Benito Juárez
+332,geoguasave,,,Guasave,,clave,Tamazula
+332,google,locality,Buenavista,Guasave,250110062,exacto,Tamazula
+332,nominatim,village,Las Cañadas Número Dos,Guasave,250110079,exacto,Tamazula
+333,geoguasave,,,Guasave,,clave,Juan José Ríos
+333,google,locality,Bachoco,Juan José Ríos,250110049,exacto,Juan José Ríos
+333,nominatim,town,Bachoco,Guasave,250110049,exacto,Juan José Ríos
+334,geoguasave,,,Guasave,,clave,Benito Juárez
+334,google,locality,Cangilones,Guasave,,ninguna,
+334,nominatim,,,Guasave,,sin_nombre,
+335,geoguasave,,,Guasave,,clave,La Trinidad
+335,google,locality,Ejido Batamote,Guasave,,ninguna,
+335,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+336,geoguasave,,,Guasave,,clave,Benito Juárez
+336,google,locality,Campo Chávez,Guasave,,ninguna,
+336,nominatim,village,Utatave (Mautillos),Guasave,250110284,exacto,Alcaldía Central
+337,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+337,google,locality,El Cerro Cabezón,Guasave,250110065,exacto,Adolfo Ruiz Cortines
+337,nominatim,village,Ejido Cerro Cabezon,Guasave,250110065,manual,Adolfo Ruiz Cortines
+338,geoguasave,,,Guasave,,clave,El Burrión
+338,google,locality,El Toro,Guasave,250110882,exacto,El Burrión
+338,nominatim,town,El Burrión,Guasave,250110064,exacto,El Burrión
+339,geoguasave,,,Guasave,,clave,Estación Bamoa
+339,google,locality,Estación Bamoa,Guasave,250110051,manual,Estación Bamoa
+339,nominatim,village,Bamoa,Guasave,250110052,exacto,Bamoa
+340,geoguasave,,,Guasave,,clave,Bamoa
+340,google,locality,Ranchito de Zavala,Guasave,250110216,exacto,Bamoa
+340,nominatim,town,Estación Bamoa (Campo Wilson),Guasave,250110051,exacto,Estación Bamoa
+341,geoguasave,,Ninguno [Juan Luis Camacho],Guasave,250111036,clave,Tamazula
+341,google,locality,Bellavista,Guasave,250110969,exacto,
+341,nominatim,,,Guasave,,sin_nombre,
+342,geoguasave,,,Guasave,,clave,Benito Juárez
+342,google,locality,Corerepe,Guasave,250110093,manual,Adolfo Ruiz Cortines
+342,nominatim,town,Corerepe (El Gallo),Guasave,250110093,exacto,Adolfo Ruiz Cortines
+343,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+343,google,locality,Jesús María,Guasave,250110362,manual,Adolfo Ruiz Cortines
+343,nominatim,village,Jesús María,Guasave,250110362,manual,Adolfo Ruiz Cortines
+344,geoguasave,,,Guasave,,clave,Nío
+344,google,locality,Ranchito de Castro,Guasave,250110214,exacto,Nío
+344,nominatim,village,Pueblo Viejo,Guasave,250110211,exacto,Nío
+345,geoguasave,,,Guasave,,clave,Tamazula
+345,google,locality,Alamito Caimanero,Guasave,250110042,exacto,Tamazula
+345,nominatim,hamlet,Las Higueras (Las Flores),Guasave,250110130,exacto,Tamazula
+346,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+346,google,locality,Las Lajitas,Guasave,,ninguna,
+346,nominatim,,,Guasave,,sin_nombre,
+347,geoguasave,,,Guasave,,clave,El Burrión
+347,google,,,Guasave,,sin_nombre,
+347,nominatim,village,Vicente Guerrero,Guasave,250110352,exacto,El Burrión
+348,geoguasave,,,Guasave,,clave,Alcaldía Central
+348,google,locality,Utatave,Guasave,250110284,manual,Alcaldía Central
+348,nominatim,village,Utatave (Mautillos),Guasave,250110284,exacto,Alcaldía Central
+349,geoguasave,,,Guasave,,clave,Benito Juárez
+349,google,locality,Ejido Callejón de Tamazula,Guasave,250111162,exacto,Benito Juárez
+349,nominatim,hamlet,Los Hornos Número Dos,Guasave,250110380,exacto,Benito Juárez
+350,geoguasave,,El Guayabo,Guasave,250110142,clave,Tamazula
+350,google,locality,Las Cañadas Número Uno,Guasave,250110080,exacto,Tamazula
+350,nominatim,hamlet,El Soto de los López,Guasave,250111316,exacto,Tamazula
+351,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+351,google,locality,El Cerro Cabezón,Guasave,250110065,exacto,Adolfo Ruiz Cortines
+351,nominatim,village,Cerro Cabezón,Guasave,250110065,manual,Adolfo Ruiz Cortines
+352,geoguasave,,Juan José Ríos,Guasave,250110138,clave,Juan José Ríos
+352,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+352,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+353,geoguasave,,,Guasave,,clave,Juan José Ríos
+353,google,locality,Juan José Ríos,Juan José Ríos,250110138,exacto,Juan José Ríos
+353,nominatim,town,Juan José Ríos,Guasave,250110138,exacto,Juan José Ríos
+354,geoguasave,,,Guasave,,clave,Juan José Ríos
+354,google,locality,Bachoco,Juan José Ríos,250110049,exacto,Juan José Ríos
+354,nominatim,town,Bachoco,Guasave,250110049,exacto,Juan José Ríos
+355,geoguasave,,Ranchito las Palmas,Guasave,250111502,clave,Adolfo Ruiz Cortines
+355,google,locality,Corerepe,Guasave,250110093,manual,Adolfo Ruiz Cortines
+355,nominatim,town,Corerepe (El Gallo),Guasave,250110093,exacto,Adolfo Ruiz Cortines
+356,geoguasave,,,Guasave,,clave,Adolfo Ruiz Cortines
+356,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+356,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+357,geoguasave,,Adolfo Ruiz Cortines,Guasave,250110035,clave,Adolfo Ruiz Cortines
+357,google,locality,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+357,nominatim,town,Adolfo Ruiz Cortines,Guasave,250110035,exacto,Adolfo Ruiz Cortines
+358,geoguasave,,,Guasave,,clave,Benito Juárez
+358,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+358,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+359,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+359,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+359,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+360,geoguasave,,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,clave,Benito Juárez
+360,google,locality,Gabriel Leyva Solano,Guasave,250110132,manual,Benito Juárez
+360,nominatim,town,Gabriel Leyva Solano (Benito Juárez),Guasave,250110132,exacto,Benito Juárez
+361,geoguasave,,Roberto Barrios,Guasave,250110220,clave,Benito Juárez
+361,google,locality,Roberto Barrios,Guasave,250110220,exacto,Benito Juárez
+361,nominatim,village,Roberto Barrios,Guasave,250110220,exacto,Benito Juárez
+362,geoguasave,,Cubilete Número Dos,Guasave,250110103,clave,Tamazula
+362,google,locality,Cubilete Número Dos,Guasave,250110103,exacto,Tamazula
+362,nominatim,village,Cubilete Número Dos,Guasave,250110103,exacto,Tamazula
+363,geoguasave,,Buenavista,Guasave,250110062,clave,Tamazula
+363,google,locality,Buenavista,Guasave,250110062,exacto,Tamazula
+363,nominatim,village,Buenavista,Guasave,250110062,exacto,Tamazula
+364,geoguasave,,,Guasave,,clave,Alcaldía Central
+364,google,locality,San Antonio,Guasave,250110229,manual,Alcaldía Central
+364,nominatim,village,San Antonio,Guasave,250110229,manual,Alcaldía Central
+365,geoguasave,,La Chuparrosa,Guasave,250110115,clave,Alcaldía Central
+365,google,locality,La Chuparrosa,Guasave,250110115,exacto,Alcaldía Central
+365,nominatim,village,San Antonio,Guasave,250110229,manual,Alcaldía Central
+366,geoguasave,,,Guasave,,clave,Tamazula
+366,google,locality,Las Glorias,Guasave,250110751,exacto,Tamazula
+366,nominatim,village,Las Glorias,Guasave,250110751,exacto,Tamazula
+367,geoguasave,,El Cubilete (El Cubilete Número Uno),Guasave,250110102,clave,Tamazula
+367,google,locality,El Cubilete,Guasave,250110102,manual,Tamazula
+367,nominatim,hamlet,Campo Treinta y Uno,Guasave,250110955,exacto,Tamazula
+368,geoguasave,,San José de Guayparime,Guasave,250110759,clave,Alcaldía Central
+368,google,locality,San José de Guayparime,Guasave,250110759,exacto,Alcaldía Central
+368,nominatim,hamlet,Las Guásimas,Guasave,250110141,exacto,Alcaldía Central
+369,geoguasave,,Rancho los López,Guasave,250111524,clave,Alcaldía Central
+369,google,locality,Campo Preciado La Sabanilla,Guasave,250111386,manual,Alcaldía Central
+369,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+370,geoguasave,,Palos Dulces,Guasave,250110320,clave,Alcaldía Central
+370,google,locality,Palos Dulces,Guasave,250110320,exacto,Alcaldía Central
+370,nominatim,village,Campo Crucero [Campo Díaz,Guasave,250110734,exacto,Alcaldía Central
+371,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+371,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+371,nominatim,town,Callejones de Guasavito,Guasave,250110070,exacto,El Burrión
+372,geoguasave,,Ladrilleras de Ocoro,Guasave,250110358,clave,Nío
+372,google,locality,Ladrilleras de Ocoro,Guasave,250110358,exacto,Nío
+372,nominatim,hamlet,Ranchito de Caimanero (Infiernito),Guasave,250110359,exacto,Nío
+373,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+373,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+373,nominatim,hamlet,La Florida,Guasave,250111169,exacto,
+374,geoguasave,,Las Crucecitas,Guasave,250110370,clave,El Burrión
+374,google,locality,Las Crucecitas,Guasave,250110370,exacto,El Burrión
+374,nominatim,hamlet,Plan del Río,Guasave,250110985,exacto,Nío
+375,geoguasave,,Plan del Río,Guasave,250110985,clave,Nío
+375,google,locality,Plan del Río,Guasave,250110985,exacto,Nío
+375,nominatim,hamlet,Plan del Río,Guasave,250110985,exacto,Nío
+376,geoguasave,,Guasave,Guasave,250110001,clave,Alcaldía Central
+376,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+376,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+377,geoguasave,,Los Olivas,Guasave,250111438,clave,El Burrión
+377,google,locality,San Pedro Paredes,Guasave,250110250,exacto,El Burrión
+377,nominatim,village,San Pedro Paredes,Guasave,250110250,exacto,El Burrión
+378,geoguasave,,El Cuitabón,Guasave,250110108,clave,Nío
+378,google,locality,El Cuitabón,Guasave,250110108,exacto,Nío
+378,nominatim,village,El Cuitabón,Guasave,250110108,exacto,Nío
+379,geoguasave,,Huerta Don Pepe,Guasave,250111527,clave,Alcaldía Central
+379,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+379,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+380,geoguasave,,El Colorado,Guasave,250110477,clave,El Burrión
+380,google,locality,El Colorado,Guasave,250110477,exacto,El Burrión
+380,nominatim,hamlet,La Uva,Guasave,250110887,exacto,El Burrión
+381,geoguasave,,Ninguno,Guasave,250111442,clave,Alcaldía Central
+381,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+381,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+382,geoguasave,,Guasavito,Guasave,250110140,clave,El Burrión
+382,google,locality,Guasavito,Guasave,250110140,exacto,El Burrión
+382,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+383,geoguasave,,Callejones de Guasavito,Guasave,250110070,clave,El Burrión
+383,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+383,nominatim,hamlet,Las Crucecitas,Guasave,250110370,exacto,El Burrión
+384,geoguasave,,San Pedro Guasave (El Ranchito),Guasave,250110249,clave,Alcaldía Central
+384,google,locality,San Pedro Guasave,Guasave,250110249,manual,Alcaldía Central
+384,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+385,geoguasave,,Campo Tajín,Guasave,250111082,clave,Alcaldía Central
+385,google,locality,Guasave,Guasave,250110001,exacto,Alcaldía Central
+385,nominatim,city,Guasave,Guasave,250110001,exacto,Alcaldía Central
+386,geoguasave,,Pueblo Viejo,Guasave,250110211,clave,Nío
+386,google,locality,Pueblo Viejo,Guasave,250110211,exacto,Nío
+386,nominatim,village,Pueblo Viejo,Guasave,250110211,exacto,Nío
+387,geoguasave,,Los Álamos,Guasave,250111441,clave,El Burrión
+387,google,locality,Callejones de Guasavito,Guasave,250110070,exacto,El Burrión
+387,nominatim,hamlet,Las Crucecitas,Guasave,250110370,exacto,El Burrión
+388,geoguasave,,Las Crucecitas,Guasave,250110370,clave,El Burrión
+388,google,locality,Las Crucecitas,Guasave,250110370,exacto,El Burrión
+388,nominatim,hamlet,Plan del Río,Guasave,250110985,exacto,Nío
+389,geoguasave,,Buen Retiro (El Retiro),Guasave,250110063,clave,Tamazula
+389,google,locality,Buen Retiro,Guasave,250110063,manual,Tamazula
+389,nominatim,village,Buen Retiro,Guasave,250110063,manual,Tamazula
+390,geoguasave,,La Trinidad,Guasave,250110282,clave,La Trinidad
+390,google,locality,La Trinidad,Guasave,250110282,exacto,La Trinidad
+390,nominatim,town,La Trinidad,Guasave,250110282,exacto,La Trinidad
+391,geoguasave,,Bellavista,Guasave,250110969,clave,Tamazula
+391,google,locality,Bellavista,Guasave,250110969,exacto,
+391,nominatim,,,Guasave,,sin_nombre,
+392,geoguasave,,El Dorado Número Uno,Guasave,250110120,clave,Alcaldía Central
+392,google,locality,El Dorado Número Uno,Guasave,250110120,exacto,Alcaldía Central
+392,nominatim,hamlet,El Dorado Número Uno,Guasave,250110120,exacto,Alcaldía Central
+393,geoguasave,,Ranchito de Inzunza,Guasave,250110816,clave,La Trinidad
+393,google,locality,Ranchito de Inzunza,Guasave,250110816,exacto,La Trinidad
+393,nominatim,village,Ranchito de Inzunza,Guasave,250110816,exacto,La Trinidad
+394,geoguasave,,Palos Verdes,Guasave,250110188,clave,Tamazula
+394,google,locality,Palos Verdes,Guasave,250110188,manual,Tamazula
+394,nominatim,hamlet,El Alto,Guasave,250110913,exacto,Tamazula
+395,geoguasave,,Tamazula,Guasave,250110269,clave,Tamazula
+395,google,locality,Tamazula,Guasave,250110269,exacto,Tamazula
+395,nominatim,town,Tamazula,Guasave,250110269,exacto,Tamazula
+396,geoguasave,,,Guasave,,clave,Alcaldía Central
+396,google,locality,Chorohui,Guasave,250110113,manual,Alcaldía Central
+396,nominatim,hamlet,El Dorado Número Uno,Guasave,250110120,exacto,Alcaldía Central
+397,geoguasave,,,Guasave,,clave,El Burrión
+397,google,locality,Cofradía de Tamazula,Guasave,250110089,manual,El Burrión
+397,nominatim,village,Cofradía de Tamazula (La Cofradía),Guasave,250110089,exacto,El Burrión
+398,geoguasave,,Las Moras,Guasave,250110170,clave,La Trinidad
+398,google,locality,Las Moras,Guasave,250110170,exacto,La Trinidad
+398,nominatim,town,Las Moras,Guasave,250110170,exacto,La Trinidad
+399,geoguasave,,Cuesta de Arriba,Guasave,250110106,clave,El Burrión
+399,google,locality,Cuesta de Arriba,Guasave,250110106,exacto,El Burrión
+399,nominatim,hamlet,La Mojonera,Guasave,250110568,exacto,El Burrión
+400,geoguasave,,Cubiri del Amole,Guasave,250110104,clave,Tamazula
+400,google,locality,El Amole,Guasave,250110044,exacto,Tamazula
+400,nominatim,village,Cubiri (Cubiri del Amole),Guasave,250110104,manual,Tamazula

@@ -366,3 +366,42 @@ De los 18 sin cobertura, 13 están en la zona costera del suroeste, la mayoría 
 La diferencia en IoU es de 0.0007, muy por debajo del rango que produce la georreferencia.
 
 **Alternativa descartada.** Conservar la digitalización propia de Bamoa: daba casi el mismo resultado, pero dejaba dos versiones del mismo polígono.
+
+## 2026-11-09 — Consulta de los 400 puntos (Instrumento 1, paso 1)
+
+**Resultado** (`python3 eval/muestra/consultar.py`): 400 respuestas de GeoGuasave, 400 de Nominatim (`format=jsonv2`, `accept-language=es`, una solicitud cada 1.1 s) y 400 de la Geocoding API de Google (`language=es`), todas con `status` `OK`. Las respuestas crudas, con su fecha de consulta, están en `data/eval_raw/` (no se suben a git). Consultas del 2026-11-09.
+
+## 2026-11-09 — Extracción de nombres de Google y Nominatim (Instrumento 1, paso 2)
+
+**Decisión.** En `eval/muestra/emparejar_respuestas.py`:
+- **Google:** la localidad es el componente `locality` del primer resultado (el más específico que devuelve la API); si no lo trae, `sublocality`. El municipio es el `administrative_area_level_2` del primer resultado que lo traiga (el primer resultado nunca lo trae).
+- **Nominatim:** la localidad es el primer campo que exista de `hamlet`, `village`, `town` y `city`, del más específico al menos; el municipio es `county`. En 48 respuestas hay dos campos (por ejemplo, `hamlet` y el `village` que lo contiene); se toma el más específico.
+- **Emparejamiento:** la normalización de `etl/emparejar_implan.py` (minúsculas, sin acentos ni puntuación, sin el prefijo "Ejido") contra las localidades de Guasave en `l` y `lpr`. Un solo candidato exacto se acepta; los homónimos (una fila por punto) y los nombres sin coincidencia exacta (una fila por nombre) van a `data/manual/revision_respuestas.csv`. Para ordenar los candidatos de revisión, el puntaje es el mayor entre el nombre completo y el nombre sin el texto entre paréntesis, y la distancia al punto desempata; esto solo ordena, no decide.
+- **Sindicatura** de Google y Nominatim: la de su localidad en la tabla del IMPLAN (`data/manual/localidad_sindicatura.csv`); vacía si la localidad no está en la tabla.
+
+**Motivo.** Es el criterio del plan (Fase 6a) y de la tesis (nombres normalizados, emparejados con el catálogo y revisión manual de los ambiguos); el campo más específico es el que cada servicio presenta como su respuesta.
+
+**Alternativa descartada.** Contar acierto si cualquiera de los nombres de la respuesta coincide (infla la tasa); usar todos los resultados de Google y no solo el primero; aceptar en automático la coincidencia sin paréntesis o el homónimo más cercano (la tesis pide revisión manual de los ambiguos).
+
+## 2026-11-09 — Revisión de las respuestas de Google y Nominatim (propuestas aceptadas por el usuario)
+
+**Decisión.** El usuario pidió que Claude llenara `data/manual/revision_respuestas.csv` con propuestas. Cada fila lleva su criterio en `nota`:
+- **Homónimos (20):** el candidato más cercano al punto.
+- **Mismo nombre sin el paréntesis del INEGI (24):** por ejemplo, "Gabriel Leyva Solano" → "Gabriel Leyva Solano (Benito Juárez)". 17 a menos de 1 km y 7 entre 1 y 3.1 km.
+- **Variante de prefijo, sufijo u ortografía (10)**, a 1.8 km o menos: por ejemplo, "Colonia 24 de Febrero" → "24 de Febrero" y "El Rojo Gómez" → "Javier Rojo Gómez".
+- **Dudosas (3), marcadas "PROPUESTA DUDOSA"** para que el usuario las confirme: "Campo Preciado La Sabanilla", "Las Cañadas" y "San Francisco de Capomos".
+- **`ninguna` (17):** el nombre no corresponde a ninguna localidad de Guasave; el mejor candidato tiene un nombre distinto y está a 3.8 km o más (por ejemplo, "Cangilones", "Navachiste" y "Centro"). Cuenta como fallo a nivel de localidad y de sindicatura.
+
+**Motivo.** Ahorrar la revisión de casos con una respuesta evidente, dejando el criterio a la vista en cada fila.
+
+**Alternativa descartada.** Revisar a mano los 73 casos.
+
+## 2026-11-09 — Puntos donde Google devuelve el municipio Juan José Ríos (decisión del usuario)
+
+**Hecho.** En 37 de los 400 puntos, Google devuelve `administrative_area_level_2` = "Juan José Ríos" en lugar de Guasave. En 34 de ellos la sindicatura de referencia es Juan José Ríos y en 3 es Adolfo Ruiz Cortines. Según el usuario, el Congreso del Estado de Sinaloa aprobó Juan José Ríos como municipio el 5 de marzo de 2021, y su ayuntamiento entró en funciones el 1 de noviembre de 2024. El Marco Geoestadístico 2022 del INEGI, que es la referencia, todavía lo incluye en Guasave. La cartografía de sindicaturas del IMPLAN es de 2020: así aparece en el menú "Banco de proyectos" de su página, "Cartografía De Sindicaturas (2020)" (https://guasave.gob.mx/implan/cartografia-de-sindicaturas/, consultada el 2026-11-09). Los PDF descargados tienen fecha de modificación del 14 y 15 de noviembre de 2023, que es la de exportación del archivo, no necesariamente la de los datos). Las dos referencias son anteriores a que el municipio entrara en funciones.
+
+**Decisión.** Estos 37 puntos se tratan aparte a nivel municipio. Salen de la tasa de acierto de municipio de los tres servicios, para que la comparación siga siendo pareada (n = 363), y se reportan en una tabla separada. A nivel de sindicatura y de localidad se evalúan igual que los demás. Los 2 puntos donde Nominatim devuelve "Municipio de Sinaloa" sí cuentan como error.
+
+**Motivo.** Google refleja una división municipal posterior a la referencia. Contarlo como error castigaría una respuesta que hoy es correcta, y contarlo como acierto contradiría la referencia oficial que usa el estudio.
+
+**Alternativa descartada.** Contarlos como error, que es lo literal según el INEGI 2022, o como acierto.
